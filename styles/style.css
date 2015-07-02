@@ -1,0 +1,250 @@
+body {
+    background-color: #ccc;
+    margin: 0;
+}
+
+.DocSite {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.DocSite-nav {
+    flex: initial;
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 15px;
+    background-color: #000;
+}
+
+.DocSiteNav-logo {
+    width: 28px;
+    height: 28px;
+    margin-right: 8px;
+}
+
+.DocSiteNav-title {
+    color: #fff;
+    font-size: 20px;
+}
+
+.DocSiteProduct-header {
+    flex: 1;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.DocSiteProduct-header:active,
+.DocSiteProduct-header:focus {
+    color: #fff;
+}
+
+.DocSiteProduct-header:visited {
+    color: #FFFFCC;
+}
+
+.DocSiteProduct-header--core {
+    background-color: #64c5c7;
+    border: 2px solid #64c6c7;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    color: #fff;
+}
+
+.DocSiteProduct-header--tower {
+    background-color: #ff5850;
+    border: 2px solid #ff5850;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    color: #fff;
+}
+
+.DocSiteProduct-headerAlign {
+    width: 100%;
+}
+
+.DocSiteProduct-logo {
+    width: 60px;
+    height: 60px;
+    margin-bottom: -9px;
+}
+
+.DocSiteProduct-logoText {
+    margin-top: 6px;
+    padding-left: 13px;
+}
+
+.DocSiteProduct-productName {
+    flex: 1 0 auto;
+    display: flex;
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    height: 80px;
+    max-height: 80px;
+    color: #000;
+}
+
+.DocSiteProduct-blurb {
+    font-size: 22px;
+    color: #e8e8e8;
+    text-align: center;
+    text-decoration: none;
+}
+
+.DocSiteProduct-linkContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #383838;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-self: flex-start;
+    background-color: #fff;
+    border: 2px solid #FFF;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top: 0px;
+}
+
+.DocSiteProduct-linkSpacer {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: #A2A2A2;
+}
+
+.DocSiteLink {
+    flex: 1 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.DocSiteLink--noPdf {
+    line-height: 56px;
+}
+
+.DocSiteLink,
+.DocSiteLink-html,
+.DocSiteLink-pdf {
+    text-decoration: none;
+    color: #383838;
+    font-size: 20px;
+}
+
+.DocSiteLink:hover,
+.DocSiteLink-html:hover,
+.DocSiteLink-pdf:hover,
+.DocSiteLink:focus,
+.DocSiteLink-html:focus,
+.DocSiteLink-pdf:focus {
+    color: #64c5c7;
+}
+
+.DocSiteLink:visited,
+.DocSiteLink-html:visited,
+.DocSiteLink-pdf:visited {
+    color: #ff5850;
+}
+
+.DocSiteLink--withPdf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.DocSiteLink-html {
+    flex: 1;
+}
+
+.DocSiteLink-pdf {
+    flex: initial;
+    text-align: right;
+}
+
+.DocSiteLink-pdf--html {
+    padding-right: 10px;
+}
+
+.DocSiteLink-downloadButton {
+    width: 35px;
+    height: 23px;
+    margin-left: 10px;
+}
+
+.DocSiteLink-htmlButton {
+    width: 35px;
+    height: 23px;
+    margin-right: 10px;
+}
+
+.DocSiteProduct-header--core,
+.DocSiteProduct-linkContainer--core {
+    margin-right: 10px;
+}
+
+.DocSiteProduct-header--tower,
+.DocSiteProduct-linkContainer--tower {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1184px) {
+    .DocSiteLink-pdf--html {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .DocSiteLink-pdf--html {
+        display: block;
+    }
+
+    .DocSiteProduct-header,
+    .DocSiteProduct-linkContainer {
+        min-width: calc(100% - 85px);
+    }
+
+    .DocSiteProduct-header--core,
+    .DocSiteProduct-linkContainer--core,
+    .DocSiteProduct-header--tower,
+    .DocSiteProduct-linkContainer--tower {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .DocSiteProduct-header--core {
+        order: 1;
+    }
+
+    .DocSiteProduct-header--tower {
+        order: 3;
+    }
+
+    .DocSiteProduct-linkContainer--core {
+        order: 2;
+    }
+
+    .DocSiteProduct-linkContainer--tower {
+        order: 4;
+    }
+}
