@@ -1,0 +1,47 @@
+body {
+    background-color: #fff;
+}
+
+.DocSite-nav {
+    margin-bottom: 0px;
+}
+.DocSiteProduct-header--tower {
+    border: 0;
+    border-radius: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.DocSiteProduct-linkContainer--tower {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+@media screen and (min-width: 800px) {
+    .DocSiteProduct-linkSpacer {
+        display: none;
+    }
+    
+    .DocSiteProduct-linkContainer--tower {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .DocSiteLinkContainer-section {
+        width: calc(50% - 50px);
+        padding: 25px;
+    }
+
+    .DocSiteLinkContainer-section--previous {
+        margin-top: -101px;
+        border-top: 2px solid #a2a2a2;
+        padding-top: 11px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
