@@ -14,7 +14,7 @@ body {
 .DocSite-nav {
     flex: initial;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -93,7 +93,7 @@ body {
     display: flex;
     font-size: 32px;
     font-weight: 400;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     height: 80px;
     max-height: 80px;
     color: #000;
@@ -214,6 +214,13 @@ body {
     }
 }
 
+.DocSite-footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
 @media screen and (max-width: 760px) {
     .DocSiteLink-pdf--html {
         display: block;
@@ -246,5 +253,9 @@ body {
 
     .DocSiteProduct-linkContainer--tower {
         order: 4;
+    }
+
+    .DocSite-footer {
+        order: 5;
     }
 }
