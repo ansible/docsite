@@ -20,6 +20,7 @@ body {
     justify-content: flex-start;
     padding: 15px;
     background-color: #000;
+    text-decoration: none;
 }
 
 .DocSiteNav-logo {
@@ -163,7 +164,7 @@ body {
 .DocSiteLink:visited,
 .DocSiteLink-html:visited,
 .DocSiteLink-pdf:visited {
-    color: #ff5850;
+    color: #0000CC;
 }
 
 .DocSiteLink--withPdf {

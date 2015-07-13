@@ -17,11 +17,30 @@ body {
     margin-right: 0;
 }
 
+.DocSiteLink--header {
+    font-size: 24px;
+    font-weight: 700;
+    display: none;
+}
+
 @media screen and (min-width: 800px) {
+    .DocSiteLink--header {
+        font-size: 24px;
+        font-weight: 700;
+        display: block;
+    }
+
+    .DocSiteLink--header:hover,
+    .DocSiteLink--header:active,
+    .DocSiteLink--header:focus,
+    .DocSiteLink--header:visited {
+        color: #000;
+    }
+
     .DocSiteProduct-linkSpacer {
         display: none;
     }
-    
+
     .DocSiteProduct-linkContainer--tower {
         flex-direction: row;
         flex-wrap: wrap;
