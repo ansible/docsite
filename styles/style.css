@@ -1,5 +1,5 @@
 body {
-    background-color: #ccc;
+    background-color: #848992;
     margin: 0;
 }
 
@@ -26,7 +26,7 @@ body {
     justify-content: flex-start;
     -webkit-justify-content: flex-start;
     padding: 15px;
-    background-color: #000;
+    background-color: #161b1f;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ body {
 }
 
 .DocSiteNav-title {
-    color: #fff;
+    color: #f2f2f2;
     font-size: 20px;
 }
 
@@ -67,12 +67,12 @@ body {
 }
 
 .DocSiteProduct-header:visited {
-    color: #FFFFCC;
+    color: #fff;
 }
 
 .DocSiteProduct-header--core {
-    background-color: #64c5c7;
-    border: 2px solid #64c6c7;
+    background-color: #5bbdbf;
+    border: 2px solid #5bbdbf;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     color: #fff;
@@ -111,12 +111,12 @@ body {
     padding-bottom: 0px;
     height: 80px;
     max-height: 80px;
-    color: #000;
+    color: #161b1f;
 }
 
 .DocSiteProduct-blurb {
     font-size: 22px;
-    color: #e8e8e8;
+    color: #f2f2f2;
     text-align: center;
     text-decoration: none;
 }
@@ -130,15 +130,15 @@ body {
     -webkit-flex-direction: column;
     justify-content: flex-start;
     -webkit-justify-content: flex-start;
-    color: #383838;
+    color: #848992;
     padding: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
     align-self: flex-start;
     -webkit-align-self: flex-start;
-    background-color: #fff;
-    border: 2px solid #FFF;
+    background-color: #f2f2f2;
+    border: 2px solid #f2f2f2;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
     border-top: 0px;
@@ -150,7 +150,7 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     border-style: solid;
-    border-color: #A2A2A2;
+    border-color: #161b1f;
 }
 
 .DocSiteLink {
@@ -168,7 +168,7 @@ body {
 .DocSiteLink-html,
 .DocSiteLink-pdf {
     text-decoration: none;
-    color: #383838;
+    color: #161b1f;
     font-size: 20px;
 }
 
@@ -178,13 +178,13 @@ body {
 .DocSiteLink:focus,
 .DocSiteLink-html:focus,
 .DocSiteLink-pdf:focus {
-    color: #64c5c7;
+    color: #5bbdbf;
 }
 
 .DocSiteLink:visited,
 .DocSiteLink-html:visited,
 .DocSiteLink-pdf:visited {
-    color: #0000CC;
+    color: #1678c4;
 }
 
 .DocSiteLink--withPdf {
