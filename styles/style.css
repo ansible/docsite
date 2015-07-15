@@ -119,6 +119,8 @@ body {
     color: #f2f2f2;
     text-align: center;
     text-decoration: none;
+    max-width: 100%;
+    word-wrap: break-word;
 }
 
 .DocSiteProduct-linkContainer {

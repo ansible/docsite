@@ -20,6 +20,11 @@ body {
 .DocSiteProduct-linkContainer--tower {
     margin-left: 0;
     margin-right: 0;
+    align-self: initial;
+    -webkit-align-self: initial;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .DocSiteLink--header {
@@ -51,17 +56,6 @@ body {
         display: none;
     }
 
-    .DocSiteProduct-linkContainer--tower {
-        flex-direction: row;
-        -webkit-flex-direction: row;
-        flex-wrap: wrap;
-        -webkit-flex-wrap: wrap;
-        align-items: flex-start;
-        -webkit-align-items: flex-start;
-        margin-left: 0;
-        margin-right: 0;
-    }
-
     .DocSiteLinkContainer-section {
         width: calc(50% - 50px);
         padding: 25px;
@@ -75,5 +69,17 @@ body {
         padding-right: 0px;
         margin-left: 25px;
         margin-right: 25px;
+    }
+
+    .DocSiteProduct-linkContainer--tower {
+        max-width: 1200px;
+        flex-direction: row;
+        -webkit-flex-direction: row;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        align-items: flex-start;
+        -webkit-align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
