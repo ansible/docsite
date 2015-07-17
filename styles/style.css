@@ -146,6 +146,15 @@ body {
     border-top: 0px;
 }
 
+.DocSiteProduct-linkContainer--core {
+    align-self: stretch;
+    -webkit-align-self: stretch;
+}
+
+.DocSiteProduct-linkContainer--tower {
+    padding-top: 30px;
+}
+
 .DocSiteProduct-linkSpacer {
     margin-left: 0px;
     margin-right: 0px;
@@ -162,6 +171,11 @@ body {
     padding-bottom: 10px;
 }
 
+.DocSiteLink--core {
+    max-height: 50px;
+    height: 50px;
+}
+
 .DocSiteLink--noPdf {
     line-height: 56px;
 }
@@ -172,6 +186,11 @@ body {
     text-decoration: none;
     color: #161b1f;
     font-size: 20px;
+}
+
+.DocSiteLink--header {
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .DocSiteLink:hover,
@@ -187,6 +206,13 @@ body {
 .DocSiteLink-html:visited,
 .DocSiteLink-pdf:visited {
     color: #1678c4;
+}
+
+.DocSiteLink--header:hover,
+.DocSiteLink--header:active,
+.DocSiteLink--header:focus,
+.DocSiteLink--header:visited {
+    color: #000;
 }
 
 .DocSiteLink--withPdf {
@@ -248,6 +274,20 @@ body {
     text-align: center;
     margin-top: 25px;
     margin-bottom: 40px;
+}
+
+@media screen and (min-width: 761px) {
+    .DocSite {
+        justify-content: center;
+        -webkit-justify-content: center;
+    }
+
+    .DocSiteProduct-header--core,
+    .DocSiteProduct-linkContainer--core,
+    .DocSiteProduct-header--tower,
+    .DocSiteProduct-linkContainer--tower {
+        max-width: 600px;
+    }
 }
 
 @media screen and (max-width: 760px) {
