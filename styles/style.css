@@ -278,7 +278,7 @@ body {
 
 @media screen and (min-width: 761px) {
     .DocSite {
-        justify-content: center;
+        justify-content: flex-start;
         -webkit-justify-content: center;
     }
 
@@ -291,6 +291,11 @@ body {
 }
 
 @media screen and (max-width: 760px) {
+    .DocSiteProduct-linkContainer,
+    .DocSiteProduct-header {
+        flex: 1 0 auto;
+    }
+
     .DocSite {
         flex-direction: column;
         -webkit-flex-direction: column;
@@ -301,7 +306,7 @@ body {
     }
 
     .DocSiteProduct-linkContainer {
-        align-self: initial;
+        align-self: stretch;
         -webkit-align-self: initial;
     }
 
