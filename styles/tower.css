@@ -15,6 +15,7 @@ body {
     border-radius: 0;
     margin-left: 0;
     margin-right: 0;
+    max-width: none;
 }
 
 .DocSiteProduct-linkContainer--tower {
