@@ -74,6 +74,8 @@ body {
 
     .DocSiteProduct-linkContainer--tower {
         max-width: 1200px;
+        width: 1200px;
+        flex: 1 1 auto;
         flex-direction: row;
         -webkit-flex-direction: row;
         flex-wrap: wrap;
