@@ -16,6 +16,15 @@ body {
     margin-left: 0;
     margin-right: 0;
     max-width: none;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+.DocSiteProduct-blurb {
+    font-size: 19px;
+    max-width: 600px;
+    text-align: center;
+    padding-bottom: 35px;
 }
 
 .DocSiteProduct-linkContainer--tower {
