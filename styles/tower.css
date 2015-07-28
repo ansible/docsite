@@ -10,6 +10,17 @@ body {
 .DocSite-nav {
     margin-bottom: 0px;
 }
+
+.DocSiteNav-homeGroup {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-wrap: nowrap;
+    -webkit-flex-direction: norap;
+    text-decoration: none;
+}
+
 .DocSiteProduct-header--tower {
     border: 0;
     border-radius: 0;
@@ -18,6 +29,10 @@ body {
     max-width: none;
     align-items: center;
     -webkit-align-items: center;
+}
+
+.DocSiteNav-title {
+    margin-top: 0px;
 }
 
 .DocSiteProduct-blurb {

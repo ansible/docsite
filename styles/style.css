@@ -25,6 +25,8 @@ body {
     -webkit-flex-direction: row;
     justify-content: flex-start;
     -webkit-justify-content: flex-start;
+    align-items: center;
+    -webkit-align-items: center;
     padding: 15px;
     background-color: #161b1f;
     text-decoration: none;
@@ -37,8 +39,20 @@ body {
 }
 
 .DocSiteNav-title {
-    color: #f2f2f2;
+    color: #fff;
     font-size: 20px;
+    margin-top: -1px;
+}
+
+.DocSiteNav-return {
+    color: #fff;
+    font-style: none;
+    margin-left: auto;
+    text-decoration: none;
+}
+
+.DocSiteNav-return:hover {
+    text-decoration: underline;
 }
 
 .DocSiteProduct-header {
