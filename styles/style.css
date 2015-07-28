@@ -296,7 +296,7 @@ body {
 @media screen and (min-width: 761px) {
     .DocSite {
         justify-content: flex-start;
-        -webkit-justify-content: center;
+        -webkit-justify-content: flex-start;
     }
 
     .DocSiteProduct-header--core,
@@ -305,10 +305,15 @@ body {
     .DocSiteProduct-linkContainer--tower {
         max-width: 600px;
     }
+
+    .DocSiteProduct-header--core,
+    .DocSiteProduct-linkContainer--core {
+        margin-left: calc(50% - 644px);
+    }
 }
 
 @media screen and (max-width: 760px) {
-    .DocSiteProduct-productName {
+    .DocSiteProduct-productName--tower {
         height: 120px;
         max-height: 120px;
     }
