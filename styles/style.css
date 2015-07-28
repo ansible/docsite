@@ -45,6 +45,7 @@ body {
 }
 
 .DocSiteNav-return {
+    font-size: 13px;
     color: #fff;
     font-style: none;
     margin-left: auto;
@@ -53,7 +54,7 @@ body {
 }
 
 .DocSiteNav-return:hover {
-    text-decoration: underline;
+    color: #5bbdbf;
 }
 
 .DocSiteProduct-header {
