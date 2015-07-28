@@ -293,13 +293,6 @@ body {
     margin-bottom: 40px;
 }
 
-@media screen and (min-width: 1288px) {
-    .DocSiteProduct-header--core,
-    .DocSiteProduct-linkContainer--core {
-        margin-left: calc(50% - 644px);
-    }
-}
-
 @media screen and (min-width: 761px) {
     .DocSite {
         justify-content: flex-start;
@@ -315,7 +308,14 @@ body {
 
     .DocSiteProduct-header--core,
     .DocSiteProduct-linkContainer--core {
-        margin-left: 0;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 1350px) {
+    .DocSiteProduct-header--core,
+    .DocSiteProduct-linkContainer--core {
+        margin-left: calc(50% - 654px);
     }
 }
 
