@@ -308,6 +308,11 @@ body {
 }
 
 @media screen and (max-width: 760px) {
+    .DocSiteProduct-productName {
+        height: 120px;
+        max-height: 120px;
+    }
+
     .DocSiteProduct-linkContainer,
     .DocSiteProduct-header {
         flex: 1 0 auto;
