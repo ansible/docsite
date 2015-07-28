@@ -119,6 +119,8 @@ body {
 }
 
 .DocSiteProduct-productName {
+    max-width: 100%;
+    word-break: normal;
     flex: 1 0 auto;
     -webkit-flex: 1 0 auto;
     display: flex;
@@ -126,8 +128,6 @@ body {
     font-size: 35px;
     font-weight: 700;
     padding-bottom: 0px;
-    height: 80px;
-    max-height: 80px;
     color: #161b1f;
 }
 
@@ -320,10 +320,6 @@ body {
 }
 
 @media screen and (max-width: 760px) {
-    .DocSiteProduct-productName--tower {
-        height: 120px;
-        max-height: 120px;
-    }
 
     .DocSiteProduct-linkContainer,
     .DocSiteProduct-header {
