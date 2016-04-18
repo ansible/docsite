@@ -180,11 +180,6 @@ body {
     padding-bottom: 10px;
 }
 
-.DocSiteLink--core {
-    max-height: 50px;
-    height: 50px;
-}
-
 .DocSiteLink--noPdf {
     line-height: 56px;
 }
