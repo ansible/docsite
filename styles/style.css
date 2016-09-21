@@ -348,6 +348,7 @@ body {
 		height: 45px;
 		width: 100%;
 		font-size: 13px;
+		padding: 0px 60px 0px 0px;
 	}
 
 	.ansibleNav ul {
