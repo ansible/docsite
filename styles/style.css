@@ -14,6 +14,52 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.DocSite-globalNav {
+    display: none;
+}
+
+
+.DocSite-footerNav {
+    display: block;
+	margin-bottom: 40px;
+}
+
+
+	
+.ansibleNav {
+	background: #000;
+	padding: 0px 60px;
+	width: auto;
+	border-bottom: 1px solid #444;
+	font-size: 14px;
+}
+
+.ansibleNav ul {
+	list-style: none;
+	padding-left: 0px;
+	margin-top: 0px;
+}
+
+	
+.ansibleNav ul li{
+	padding: 13px;
+	border-bottom: 1px solid #444;
+}
+
+.ansibleNav ul li:last-child{
+	border: none;
+}
+
+.ansibleNav ul li a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 8px 13px;
+}
+.ansibleNav ul li a:hover {
+	color: #5bbdbf;
+}
+
 .DocSite-nav {
     flex: initial;
     -webkit-flex: initial;
@@ -155,6 +201,12 @@ body {
     border-top: 0px;
 }
 
+.DocSiteProduct-linkContainer--tower {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+	margin-bottom: 0px;
+}
+
 .DocSiteProduct-linkContainer--core {
     align-self: stretch;
     -webkit-align-self: stretch;
@@ -274,10 +326,8 @@ body {
 }
 
 .DocSite-footer {
-    width: 100%;
     text-align: center;
-    margin-top: 25px;
-    margin-bottom: 40px;
+    margin: 0px 20px 40px;
 }
 
 @media screen and (min-width: 761px) {
@@ -285,6 +335,46 @@ body {
         justify-content: flex-start;
         -webkit-justify-content: flex-start;
     }
+	
+	.DocSite-globalNav{
+		display: block
+	}
+	
+	.DocSite-footerNav{
+		display: hidden;
+	}
+	
+	.ansibleNav{
+		height: 45px;
+		width: 100%;
+		font-size: 13px;
+	}
+
+	.ansibleNav ul {
+		float: right;
+		display: flex;
+		flex-wrap: nowrap;
+		margin-top: 13px;
+	}
+	
+		
+	.ansibleNav ul li{
+		padding: 0px;
+		border-bottom: none;
+	}
+	
+	.ansibleNav ul li a {
+		color: #fff;
+		text-decoration: none;
+		text-transform: uppercase;
+		padding: 8px 13px;
+	}
+
+	.DocSiteProduct-linkContainer--tower {
+		border-bottom-left-radius: 4px;
+		border-bottom-right-radius: 4px;
+		margin-bottom: 20px;
+	}
 
     .DocSiteProduct-header--core,
     .DocSiteProduct-linkContainer--core,
@@ -297,6 +387,20 @@ body {
     .DocSiteProduct-linkContainer--core {
         margin-left: 20px;
     }
+	
+	.DocSite-footer{
+		width: 100%;
+	}
+	
+	.DocSite-footerNav{
+		display: none;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.DocSite-globalNav {
+		font-size: 14px;
+	}
 }
 
 @media screen and (min-width: 1350px) {
@@ -359,7 +463,6 @@ body {
         order: 5;
         -webkit-order: 5;
     }
-
 
 
 }
