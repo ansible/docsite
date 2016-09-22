@@ -27,11 +27,12 @@ body {
 
 	
 .ansibleNav {
-	background: #000;
-	padding: 0px 60px;
-	width: auto;
-	border-bottom: 1px solid #444;
-	font-size: 14px;
+    background: #000;
+    padding: 0px 25px;
+    width: auto;
+    border-bottom: 1px solid #444;
+    font-size: 14px;
+    text-align: left;
 }
 
 .ansibleNav ul {
@@ -42,7 +43,7 @@ body {
 
 	
 .ansibleNav ul li{
-	padding: 13px;
+	padding: 13px 0px;
 	border-bottom: 1px solid #444;
 }
 
@@ -51,11 +52,12 @@ body {
 }
 
 .ansibleNav ul li a {
-	color: #fff;
-	text-decoration: none;
-	text-transform: uppercase;
-	padding: 8px 13px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px 0px;
 }
+
 .ansibleNav ul li a:hover {
 	color: #5bbdbf;
 }
