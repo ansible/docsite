@@ -5,6 +5,8 @@ body {
 .DocSite {
     flex-direction: column;
     -webkit-flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 .DocSite-globalNav {
