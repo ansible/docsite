@@ -24,6 +24,8 @@
     </script>
     <script type="text/javascript" src="//www.redhat.com/dtm.js"></script>
 </head>
+
+
 <body>
     <div class="DocSite">
 		
@@ -49,7 +51,7 @@
             href="ansible/index.html">
             <div class="DocSiteProduct-productName">
                 <div class="DocSiteProduct-logoText">
-                    ANSIBLE
+                    ANSIBLE CORE
                 </div>
             </div>
             <div class="DocSiteProduct-blurb">
@@ -116,8 +118,35 @@
             <a class="DocSiteLink DocSiteLink--core DocSiteLink--noPdf"
                 href="ansible-container/index.html">
                 Ansible-Container
-            </a>         
+            </a>
+
+            <hr class="DocSiteProduct-linkSpacer">
+
+          <div class="DocSiteList-PreviousVersions" id="coreversionselect">
+            <div class="DocSiteLink DocSiteLink--core DocSiteLink--noPdf DocSiteLink--header">
+                Previous Versions
+            </div>
+            <div class="DocSiteVersionsPara">
+                Not using the latest and greatest version of Ansible Core?
+                <br>Here are links to previous documentation versions:
+            </div>
+            </div>
+
+            <select name="menu0" id="menu0">
+            <option value="http://docs.ansible.com/ansible/latest/index.html">Ansible Core Latest Stable (v2.4)</option>
+            <option value="http://docs.ansible.com/ansible/2.3/index.html">Ansible Core v2.3</option>
+            <option value="http://docs.ansible.com/ansible/devel/index.html">Ansible Core Development</option>
+            </options> 
+
+            </select>
+            <script type="text/javascript">
+             var urlmenu = document.getElementById( 'menu0' );
+             urlmenu.onchange = function() {
+                  window.open( this.options[ this.selectedIndex ].value );
+             };
+            </script>
         </div>
+
         <div class="DocSiteProduct-linkContainer
             DocSiteProduct-linkContainer--tower">
             <div class="DocSiteLinkContainer-section
@@ -308,7 +337,7 @@
                 </div>
             </div>
             <hr class="DocSiteProduct-linkSpacer">
-          <div class="DocSiteList-PreviousVersions">
+          <div class="DocSiteList-PreviousVersions" id="towerversionselect">
             <div class="DocSiteLink DocSiteLink--core DocSiteLink--noPdf DocSiteLink--header">
                 Previous Versions
             </div>
