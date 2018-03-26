@@ -11,6 +11,9 @@ RedirectMatch permanent "^/ansible/(?!latest|devel|\d\.+)(.+)?.html$" "/ansible/
 
 # Redirects for renamed module reference directory
 RedirectMatch permanent "^/ansible/devel/module_docs/?(.+)?$" "/ansible/devel/modules/$1"
+RedirectMatch permanent "^/ansible/latest/module_docs/?(.+)?$" "/ansible/latest/modules/$1"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/(?!modules)(.+_module).html$" "/ansible/$1/modules/$2.html"
 
 # Redirects for refactored Ansible core docs
 
