@@ -19,7 +19,7 @@ RedirectMatch permanent "^/ansible/modules_by_category.html" "/ansible/latest/mo
 RedirectMatch permanent "^/ansible/(devel|latest)/modules_by_category.html" "/ansible/$1/modules/modules_by_category.html"
 
 RedirectMatch permanent "^/ansible/modules.html" "/ansible/latest/modules.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/modules.html" "/ansible/$1/modules/modules.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/modules.html" "/ansible/$1/user_guide/modules.html"
 
 # Redirects for moved community page
 
