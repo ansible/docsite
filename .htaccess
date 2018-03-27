@@ -15,11 +15,11 @@ RedirectMatch permanent "^/ansible/latest/module_docs/?(.+)?" "/ansible/latest/m
 
 RedirectMatch permanent "^/ansible/(devel|latest)/(?!modules)(.+_module).html" "/ansible/$1/modules/$2.html"
 
-RedirectMatch permanent "^/ansible/modules_by_category.html" "/ansible/modules/modules_by_category.html"
-RedirectMatch permanent "^/ansible/latest/modules_by_category.html" "/ansible/latest/modules/modules_by_category.html"
+RedirectMatch permanent "^/ansible/modules_by_category.html" "/ansible/latest/modules_by_category.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/modules_by_category.html" "/ansible/$1/modules/modules_by_category.html"
 
-RedirectMatch permanent "^/ansible/modules.html" "/ansible/modules/modules.html"
-RedirectMatch permanent "^/ansible/latest/modules.html" "/ansible/latest/modules/modules.html"
+RedirectMatch permanent "^/ansible/modules.html" "/ansible/latest/modules.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/modules.html" "/ansible/$1/modules/modules.html"
 
 # Redirects for moved community page
 
