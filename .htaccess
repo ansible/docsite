@@ -15,6 +15,12 @@ RedirectMatch permanent "^/ansible/latest/module_docs/?(.+)?$" "/ansible/latest/
 
 RedirectMatch permanent "^/ansible/(devel|latest)/(?!modules)(.+_module).html$" "/ansible/$1/modules/$2.html"
 
+RedirectMatch permanent "^/ansible/modules_by_category.html$" "/ansible/modules/modules_by_category.html"
+
+RedirectMatch permanent "^/ansible/modules.html$" "/ansible/modules/modules.html"
+
+RedirectMatch permanent "^/ansible/community.html$" "/ansible/latest/community/index.html"
+
 # Redirects for refactored Ansible core docs
 
 # CLI
