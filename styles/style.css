@@ -1,471 +1,189 @@
-body {
-    background-color: #848992;
-    margin: 0;
-}
-
-.DocSite {
-    display: flex;
-    display: -webkit-flex;
-    flex-direction: row;
-    -webkit-flex-direction: row;
-    flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
-    width: 100%;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.DocSite-globalNav {
-    display: none;
-}
-
-
-.DocSite-footerNav {
-    display: block;
-	margin-bottom: 40px;
-}
-
-
-	
-.ansibleNav {
-    background: #000;
-    padding: 0px 25px;
-    width: auto;
-    border-bottom: 1px solid #444;
-    font-size: 14px;
-    text-align: left;
-}
-
-.ansibleNav ul {
-	list-style: none;
-	padding-left: 0px;
-	margin-top: 0px;
-}
-
-	
-.ansibleNav ul li{
-	padding: 13px 0px;
-	border-bottom: 1px solid #444;
-}
-
-.ansibleNav ul li:last-child{
-	border: none;
-}
-
-.ansibleNav ul li a {
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 8px 0px;
-}
-
-.ansibleNav ul li a:hover {
-	color: #5bbdbf;
-}
-
-.DocSite-nav {
-    flex: initial;
-    -webkit-flex: initial;
-    width: calc(100% - 30px);
-    margin-bottom: 20px;
-    display: flex;
-    display: -webkit-flex;
-    flex-direction: row;
-    -webkit-flex-direction: row;
-    justify-content: flex-start;
-    -webkit-justify-content: flex-start;
-    align-items: center;
-    -webkit-align-items: center;
-    padding: 15px;
-    background-color: #161b1f;
-    text-decoration: none;
-}
-
-.DocSiteNav-logo {
-    width: 28px;
-    height: 28px;
-    margin-right: 8px;
-}
-
-.DocSiteNav-title {
-    color: #fff;
-    font-size: 20px;
-    margin-top: -1px;
-}
-
-.DocSiteNav-return {
-    font-size: 13px;
-    color: #fff;
-    font-style: none;
-    margin-left: auto;
-    text-align: right;
-    text-decoration: none;
-}
-
-.DocSiteNav-return:hover {
-    color: #5bbdbf;
-}
-
-.DocSiteProduct-header {
-    flex: 1;
-    -webkit-flex: 1;
-    padding: 20px;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    text-decoration: none;
+body, html{
+    color: #333;
+    font-family: 'Open Sans', helvetica, arial, sans-serif;
     font-weight: 300;
 }
 
-.DocSiteProduct-header:active,
-.DocSiteProduct-header:focus {
-    color: #fff;
-}
-
-.DocSiteProduct-header:visited {
-    color: #fff;
-}
-
-.DocSiteProduct-header--core {
-    background-color: #5bbdbf;
-    border: 2px solid #5bbdbf;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    color: #fff;
-}
-
-.DocSiteProduct-header--tower {
-    background-color: #ff5850;
-    border: 2px solid #ff5850;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    color: #fff;
-}
-
-.DocSiteProduct-headerAlign {
-    width: 100%;
-}
-
-.DocSiteProduct-logo {
-    width: 60px;
-    height: 60px;
-    margin-bottom: -9px;
-}
-
-.DocSiteProduct-logoText {
-    margin-top: 6px;
-    padding-bottom: 20px;
-    color: #fff;
-}
-
-.DocSiteProduct-productName {
-    max-width: 100%;
-    word-break: normal;
-    flex: 1 0 auto;
-    -webkit-flex: 1 0 auto;
-    display: flex;
-    display: -webkit-flex;
-    font-size: 35px;
-    font-weight: 700;
-    padding-bottom: 0px;
-    color: #161b1f;
-}
-
-.DocSiteProduct-blurb {
-    font-size: 18px;
-    padding-bottom: 20px;
-    color: #f2f2f2;
-    text-decoration: none;
-    max-width: 100%;
-    word-wrap: break-word;
-}
-
-.DocSiteProduct-linkContainer {
-    flex: 1;
-    -webkit-flex: 1;
-    display: flex;
-    display: -webkit-flex;
-    flex-direction: column;
-    -webkit-flex-direction: column;
-    justify-content: flex-start;
-    -webkit-justify-content: flex-start;
-    color: #848992;
-    padding: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    align-self: flex-start;
-    -webkit-align-self: flex-start;
-    background-color: #f2f2f2;
-    border: 2px solid #f2f2f2;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-    border-top: 0px;
-}
-
-.DocSiteProduct-linkContainer--tower {
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-	margin-bottom: 0px;
-}
-
-.DocSiteProduct-linkContainer--core {
-    align-self: stretch;
-    -webkit-align-self: stretch;
-}
-
-.DocSiteProduct-linkContainer--tower {
-    padding-top: 30px;
-}
-
-.DocSiteProduct-linkSpacer {
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-style: solid;
-    border-color: #161b1f;
-}
-
-.DocSiteLink {
-    flex: 1 0 auto;
-    -webkit-flex: 1 0 auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.DocSiteLink--noPdf {
-    line-height: 56px;
-}
-
-.DocSiteLink,
-.DocSiteLink-html,
-.DocSiteLink-pdf {
-    text-decoration: none;
-    color: #161b1f;
-    font-size: 20px;
-}
-
-.DocSiteLink--header {
-    font-size: 24px;
-    font-weight: 700;
-}
-
-.DocSiteLink:hover,
-.DocSiteLink-html:hover,
-.DocSiteLink-pdf:hover,
-.DocSiteLink:focus,
-.DocSiteLink-html:focus,
-.DocSiteLink-pdf:focus {
+a:hover{
     color: #5bbdbf;
 }
 
-.DocSiteLink:visited,
-.DocSiteLink-html:visited,
-.DocSiteLink-pdf:visited {
-    color: #1678c4;
+h1{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 40px;
 }
 
-.DocSiteLink--header:hover,
-.DocSiteLink--header:active,
-.DocSiteLink--header:focus,
-.DocSiteLink--header:visited {
-    color: #000;
+h4{
+    font-size: 1.1rem;
+    font-weight: 400;
 }
 
-.DocSiteLink--withPdf {
+section{
+    padding: 80px 0px;
+}
+
+.btn-grid .row [class*="col-"] {
     display: flex;
-    display: -webkit-flex;
-    flex-direction: row;
-    -webkit-flex-direction: row;
-    justify-content: space-between;
-    -webkit-justify-content: space-between;
-    align-items: center;
-    -webkit-align-items: center;
 }
 
-.DocSiteLink-html {
-    flex: 1;
-    -webkit-flex: 1;
+.btn-grid .btn {
+    width: 100%;
+    white-space: initial;
+    padding: 40px;
+    border-radius: 0px;
+    color: #fff;
+    margin-bottom: 20px;
+    position: relative;
 }
 
-.DocSiteLink-pdf {
-    flex: initial;
-    -webkit-flex: initial;
-    text-align: right;
+.btn-grid .btn-more:not(.collapsed):after {
+    border: 20px solid green;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    display: inline-block;
+    content: " ";
+    position: absolute;
+    transform: translate(-50%, 100%);
+    left: 50%;
+    bottom: 0px;
+    transition: all 150ms ease-in-out;
 }
 
-.DocSiteLink-pdf--html {
-    padding-right: 10px;
+.btn-project{
+    background-color: #48a0a2;
 }
 
-.DocSiteLink-downloadButton {
-    width: 35px;
-    height: 23px;
-    margin-left: 10px;
+.btn-project:hover {
+    background-color: #56b4b6;
 }
 
-.DocSiteLink-htmlButton {
-    width: 35px;
-    height: 23px;
-    margin-right: 10px;
+.btn:focus {
+    box-shadow: none;
 }
 
-.DocSiteProduct-header--core,
-.DocSiteProduct-linkContainer--core {
-    margin-right: 10px;
+.btn-grid .btn-project.btn-more:after {
+    border-top-color: #48a0a2;
 }
 
-.DocSiteProduct-header--tower,
-.DocSiteProduct-linkContainer--tower {
-    margin-left: 10px;
+.btn-grid .btn-project.btn-more:hover:after {
+    border-top-color: #56b4b6;
 }
 
-@media screen and (max-width: 1184px) {
-    .DocSiteLink-pdf--html {
-        display: none;
-    }
+
+.btn-grid .btn-engine{
+    background-color: #3c3c3c;
 }
 
-.DocSite-footer {
-    text-align: center;
-    margin: 0px 20px 40px;
+.btn-grid .btn-engine:hover{
+    background-color: #565656;
 }
 
-@media screen and (min-width: 761px) {
-    .DocSite {
-        justify-content: flex-start;
-        -webkit-justify-content: flex-start;
-    }
-	
-	.DocSite-globalNav{
-		display: block
-	}
-	
-	.DocSite-footerNav{
-		display: none;
-	}
-	
-	.ansibleNav{
-		height: 45px;
-		width: 100%;
-		font-size: 13px;
-		padding: 0px 60px 0px 0px;
-	}
 
-	.ansibleNav ul {
-		float: right;
-		display: flex;
-		flex-wrap: nowrap;
-		margin-top: 13px;
-	}
-	
-		
-	.ansibleNav ul li{
-		padding: 0px;
-		border-bottom: none;
-	}
-	
-	.ansibleNav ul li a {
-		color: #fff;
-		text-decoration: none;
-		text-transform: uppercase;
-		padding: 8px 13px;
-	}
-
-	.DocSiteProduct-linkContainer--tower {
-		border-bottom-left-radius: 4px;
-		border-bottom-right-radius: 4px;
-		margin-bottom: 20px;
-	}
-
-    .DocSiteProduct-header--core,
-    .DocSiteProduct-linkContainer--core,
-    .DocSiteProduct-header--tower,
-    .DocSiteProduct-linkContainer--tower {
-        max-width: 600px;
-    }
-
-    .DocSiteProduct-header--core,
-    .DocSiteProduct-linkContainer--core {
-        margin-left: 20px;
-    }
-	
-	.DocSite-footer{
-		width: 100%;
-	}
-	
-	.DocSite-footerNav{
-		display: none;
-	}
+.btn-grid .btn-tower{
+    background-color: #c20000;
 }
 
-@media screen and (min-width: 992px) {
-	.DocSite-globalNav {
-		font-size: 14px;
-	}
+.btn-grid .btn-tower:hover{
+    background-color: #dc0000;
 }
 
-@media screen and (min-width: 1350px) {
-    .DocSiteProduct-header--core,
-    .DocSiteProduct-linkContainer--core {
-        margin-left: calc(50% - 654px);
-    }
+.btn-grid .btn-tower.btn-more:after {
+    border-top-color: #c20000;
 }
 
-@media screen and (max-width: 760px) {
+.btn-grid .btn-tower.btn-more:hover:after {
+    border-top-color: #dc0000;
+}
 
-    .DocSiteProduct-linkContainer,
-    .DocSiteProduct-header {
-        flex: 1 0 auto;
+
+nav.main{
+    background: #000;
+    border-bottom: 1px solid #444;
+}
+
+nav.main .navbar-toggler{
+    color: #fff;
+    outline: none;
+}
+
+nav.main .navbar-toggler .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #fff;
+    transition: all 300ms ease-in-out;
+    transform: rotate(0);
+    opacity: 1;
+    margin-top: 5px;
+}
+
+nav.main .navbar-toggler .icon-bar.top {
+    margin-top: 10px;
+    transform: rotate(45deg);
+}
+
+nav.main .navbar-toggler .icon-bar.center {
+    opacity: 0;
+}
+
+nav.main .navbar-toggler .icon-bar.bottom {
+    margin-top: -8px;
+    transform: rotate(-45deg);
+}
+
+nav.main .navbar-toggler.collapsed .icon-bar {
+    transform: rotate(0);
+    opacity: 1;
+    margin-top: 5px;
+}
+
+nav.main .nav-link{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+header{
+    background: #161b1f;
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+header .col{
+    display: flex;
+}
+
+
+.nav.subnav a.nav-link {
+    color: #3d3d3d;
+    border-right: 1px solid #d2d2d2;
+    padding: 0px 20px;
+}
+
+.nav.subnav a.nav-link:hover {
+    color: #5bbdbf;
+}
+
+.nav.subnav .nav-item:last-child a.nav-link{
+    border-right: 0px;
+}
+
+
+section#ansible-footer iframe{
+    width: 100%;
+    height: 800px;
+    border: 0px;
+}
+
+
+
+@media (min-width: 768px){
+    nav.main .navbar-nav .nav-link {
+        padding-right: .75rem;
+        padding-left: .75rem;
     }
-
-    .DocSite {
-        flex-direction: column;
-        -webkit-flex-direction: column;
-    }
-
-    .DocSiteLink-pdf--html {
-        display: block;
-    }
-
-    .DocSiteProduct-linkContainer {
-        align-self: stretch;
-        -webkit-align-self: initial;
-    }
-
-    .DocSiteProduct-header--core,
-    .DocSiteProduct-linkContainer--core,
-    .DocSiteProduct-header--tower,
-    .DocSiteProduct-linkContainer--tower {
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-
-    .DocSiteProduct-header--core {
-        order: 1;
-        -webkit-order: 1;
-    }
-
-    .DocSiteProduct-header--tower {
-        order: 3;
-        -webkit-order: 3;
-    }
-
-    .DocSiteProduct-linkContainer--core {
-        order: 2;
-        -webkit-order: 2;
-    }
-
-    .DocSiteProduct-linkContainer--tower {
-        order: 4;
-        -webkit-order: 4;
-    }
-
-    .DocSite-footer {
-        order: 5;
-        -webkit-order: 5;
-    }
-
-
 }
