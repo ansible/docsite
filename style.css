@@ -98,6 +98,24 @@ section{
     border-top-color: #dc0000;
 }
 
+.btn-networking{
+    background-color: #48a0a2;
+}
+
+.btn-networking:hover {
+    background-color: #56b4b6;
+}
+
+
+.btn-grid .btn-networking.btn-more:after {
+    border-top-color: #48a0a2;
+}
+
+.btn-grid .btn-networking.btn-more:hover:after {
+    border-top-color: #56b4b6;
+}
+
+
 
 nav.main{
     background: #000;
