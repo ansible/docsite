@@ -98,6 +98,37 @@ section{
     border-top-color: #dc0000;
 }
 
+.btn-galaxy{
+    background-color: #3c3c3c;
+}
+
+.btn-galaxy:hover {
+    background-color: #565656;
+}
+
+.btn-grid .btn-galaxt.btn-more:after {
+    border-top-color: #3c3c3c;
+}
+
+.btn-grid .btn-galaxy.btn-more:hover:after {
+    border-top-color: #565656;
+}
+
+.btn-grid .btn-network{
+    background-color: #48a0a2;
+}
+
+.btn-grid .btn-network:hover{
+    background-color: #56b4b6;
+}
+
+.btn-grid .btn-network.btn-more:after {
+    border-top-color: #48a0a2;
+}
+
+.btn-grid .btn-network.btn-more:hover:after {
+    border-top-color: #56b4b6;
+}
 
 nav.main{
     background: #000;

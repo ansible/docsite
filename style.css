@@ -52,6 +52,7 @@ section{
     transition: all 150ms ease-in-out;
 }
 
+
 .btn-project{
     background-color: #48a0a2;
 }
@@ -98,23 +99,37 @@ section{
     border-top-color: #dc0000;
 }
 
-.btn-networking{
+.btn-galaxy{
+    background-color: #3c3c3c;
+}
+
+.btn-galaxy:hover {
+    background-color: #565656;
+}
+
+.btn-grid .btn-galaxt.btn-more:after {
+    border-top-color: #3c3c3c;
+}
+
+.btn-grid .btn-galaxy.btn-more:hover:after {
+    border-top-color: #565656;
+}
+
+.btn-grid .btn-network{
     background-color: #48a0a2;
 }
 
-.btn-networking:hover {
+.btn-grid .btn-network:hover{
     background-color: #56b4b6;
 }
 
-
-.btn-grid .btn-networking.btn-more:after {
+.btn-grid .btn-network.btn-more:after {
     border-top-color: #48a0a2;
 }
 
-.btn-grid .btn-networking.btn-more:hover:after {
+.btn-grid .btn-network.btn-more:hover:after {
     border-top-color: #56b4b6;
 }
-
 
 
 nav.main{
