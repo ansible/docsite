@@ -542,6 +542,8 @@
     <script>
         $(document).ready(function(){
 
+            $('iframe').iFrameResize( [{log:true}] );
+
             // make tower collapsibles work like an accordian
             $("section[id*='tower']").on('show.bs.collapse', function () {
                 var id = $(this).attr("id");
