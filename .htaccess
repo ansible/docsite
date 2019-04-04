@@ -184,7 +184,7 @@ RedirectMatch permanent "^/ansible/(devel|latest)/guides.html" "/ansible/$1/scen
 
 # Redirects for PR 54554, changes to Scenario Guides
 # when 2.8 is released, change "(devel)" to "(devel|latest)" in the sources
-RedirectMatch permanent "^/ansible/(devel)/scenario_guides/" "/ansible/$1/scenario_guides/guides.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/scenario_guides/" "/ansible/$1/scenario_guides/guides.html"
 RedirectMatch permanent "^/ansible/(devel)/scenario_guides/guide_rolling_upgrade.html" "/ansible/$1/user_guide/guide_rolling_upgrade.html"
 RedirectMatch permanent "^/ansible/(devel)/vmware/vmware_scenarios/?(.+)?" "/ansible/$1/scenario_guides/vmware_scenarios/$1"
 RedirectMatch permanent "^/ansible/(devel)/vmware/index.html" "/ansible/$1/scenario_guides/guide_vmware.html"
