@@ -183,10 +183,9 @@ RedirectMatch permanent "^/ansible/(devel|latest)/guide_vmware.html" "/ansible/$
 RedirectMatch permanent "^/ansible/(devel|latest)/guides.html" "/ansible/$1/scenario_guides/guides.html"
 
 # Redirects for PR 54554, changes to Scenario Guides
-# when 2.8 is released, change "(devel)" to "(devel|latest)" in the sources
-RedirectMatch permanent "^/ansible/(devel)/scenario_guides/guide_rolling_upgrade.html" "/ansible/$1/user_guide/guide_rolling_upgrade.html"
-RedirectMatch permanent "^/ansible/(devel)/vmware/scenario_?(.+)?" "/ansible/$1/scenario_guides/vmware_scenarios/vmware_scenarios.html"
-RedirectMatch permanent "^/ansible/(devel)/vmware/scenarios.html" "/ansible/$1/scenario_guides/vmware_scenarios/vmware_scenarios.html"
-RedirectMatch permanent "^/ansible/(devel)/vmware/faq.html" "/ansible/$1/scenario_guides/vmware_scenarios/faq.html"
-RedirectMatch permanent "^/ansible/(devel)/vmware/index.html" "/ansible/$1/scenario_guides/guide_vmware.html"
-RedirectMatch permanent "^/ansible/(devel)/vmware/vmware_?(.+)?" "/ansible/$1/scenario_guides/guide_vmware.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/scenario_guides/guide_rolling_upgrade.html" "/ansible/$1/user_guide/guide_rolling_upgrade.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/vmware/scenario_?(.+)?" "/ansible/$1/scenario_guides/vmware_scenarios/vmware_scenarios.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/vmware/scenarios.html" "/ansible/$1/scenario_guides/vmware_scenarios/vmware_scenarios.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/vmware/faq.html" "/ansible/$1/scenario_guides/vmware_scenarios/faq.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/vmware/index.html" "/ansible/$1/scenario_guides/guide_vmware.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/vmware/vmware_?(.+)?" "/ansible/$1/scenario_guides/guide_vmware.html"
