@@ -1,4 +1,4 @@
-ErrorDocument 404 /ansible/latest/404.html
+ErrorDocument 404 /ansible/2.9/404.html
 
 RewriteEngine On
 
