@@ -1,5 +1,3 @@
-ErrorDocument 404 /ansible/2.9/404.html
-
 RewriteEngine On
 
 # Redirect old ansible documentation into new sub-directory
