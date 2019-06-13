@@ -1,4 +1,4 @@
-ErrorDocument
+AllowOverride FileInfo
 
 RewriteEngine On
 
