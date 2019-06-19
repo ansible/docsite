@@ -1,7 +1,9 @@
+ErrorDocument 404 /404.html
+
 RewriteEngine On
 
 # Redirect old ansible documentation into new sub-directory
-RedirectMatch permanent "^/((?!index)[^/]+)\.html" "/ansible/$1.html"
+RedirectMatch permanent "^/((?!index|404)[^/]+)\.html" "/ansible/$1.html"
 
 # Redirect developer docs to new dir
 RedirectMatch permanent "^/ansible/(developing_[^/]+)\.html" "/ansible/latest/dev_guide/$1.html"
