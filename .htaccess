@@ -28,6 +28,10 @@ RedirectMatch permanent "^/ansible/(devel|latest)/modules.html" "/ansible/$1/use
 RedirectMatch permanent "^/ansible/community.html" "/ansible/latest/community.html"
 RedirectMatch permanent "^/ansible/(devel|latest)/community.html" "/ansible/$1/community/index.html"
 
+# Redirects for moved collections page
+
+RedirectMatch permanent "^/ansible/devel/dev_guide/collections_tech_preview.html" "/ansible/devel/user_guide/collections_using.html"
+
 # Redirects for refactored Ansible core docs
 
 # CLI
