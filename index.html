@@ -44,6 +44,14 @@
 
 <body>
 
+<script type="text/javascript">
+if (location.host == "docs.testing.ansible.com") {
+    var banner = document.createElement("div");
+    banner.style = 'position: relative; top: 0; width: 100%; height 30px; background-color: orange; color: white; text-align: center;'
+    banner.innerHTML = "<b>This is a testing site. For official docs go to docs.ansible.com</b>";
+    document.body.insertBefore(banner,document.body.childNodes[0]);
+    }
+</script>
 
     <nav class="main navbar navbar-expand-md w-100 justify-content-end">
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
