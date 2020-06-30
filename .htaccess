@@ -194,4 +194,4 @@ RedirectMatch permanent "^/ansible/(devel|latest)/vmware/index.html" "/ansible/$
 RedirectMatch permanent "^/ansible/(devel|latest)/vmware/vmware_?(.+)?" "/ansible/$1/scenario_guides/guide_vmware.html"
 
 # Redirect old support pages per request from product team
-RedirectMatch permanent "^/ansible-tower/(2|3\.[0-3]).*updates_support\.html$" "/ansible-tower/latest/html/installandreference/updates_support.html"
+RedirectMatch permanent "^\/ansible-tower\/((2\.\d\.\d)|3\.[0-3]\.\d)\/html(_\w+)?\/.*updates_support\.html$" "/ansible-tower/latest/html$3/installandreference/updates_support.html"
