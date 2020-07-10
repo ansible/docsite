@@ -44,6 +44,14 @@
 
 <body>
 
+<script type="text/javascript">
+if (location.host == "docs.testing.ansible.com") {
+    var banner = document.createElement("div");
+    banner.style = 'position: relative; top: 0; width: 100%; height 30px; background-color: orange; color: white; text-align: center;'
+    banner.innerHTML = "<b>This is a testing site. For official docs go to docs.ansible.com</b>";
+    document.body.insertBefore(banner,document.body.childNodes[0]);
+    }
+</script>
 
     <nav class="main navbar navbar-expand-md w-100 justify-content-end">
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
@@ -269,7 +277,10 @@
                     <a data-toggle="collapse" href="#tower-prev" class="btn btn-tower btn-more collapsed">Previous Versions</a>
                 </div>
                 <div class="col-md-4">
-                    <a data-toggle="collapse" href="#tower-translated" class="btn btn-tower btn-more collapsed">日本語ドキュメント  --  Japanese Translations </a>
+                    <a data-toggle="collapse" href="#tower-translated-ja" class="btn btn-tower btn-more collapsed">日本語ドキュメント  --  Japanese Translations </a>
+                </div>
+                <div class="col-md-4">
+                    <a data-toggle="collapse" href="#tower-translated-zh" class="btn btn-tower btn-more collapsed">Ansible Tower 中文文档 - Simplified Chinese Translations" </a>
                 </div>
             </div>
         </div>
@@ -279,8 +290,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3 text-center">
-                    <h4>Tower 3.6.3 and Earlier (Supported Releases)</h4>
+                    <h4>Tower 3.7.0 and Earlier (Supported Releases)</h4>
                     <ul class="nav d-block">
+                        <li class="nav-item">
+                          <a class="nav-link" href="/ansible-tower/3.7.0/html/">Tower 3.7.0</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="/ansible-tower/3.6.4/html/">Tower 3.6.4</a>
+                        </li>
                         <li class="nav-item">
                           <a class="nav-link" href="/ansible-tower/3.6.3/html/">Tower 3.6.3</a>
                         </li>
@@ -292,6 +309,9 @@
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="/ansible-tower/3.6.0/html/">Tower 3.6.0</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="/ansible-tower/3.5.6/html/">Tower 3.5.6</a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="/ansible-tower/3.5.5/html/">Tower 3.5.5</a>
@@ -474,9 +494,99 @@
         
     </section>
 
-    <section id="tower-translated" class="py-0 collapse">
+    <section id="tower-translated-ja" class="py-0 collapse">
         <div class="container">
             <div class="row justify-content-center">
+
+            <div class="col-md-3 text-center">    
+                    <h4>Tower 3.7.1</h4>
+                    <ul class="nav d-block">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/ansible-tower/3.7.1/html_ja/quickstart/">Japanese: Ansible Tower クイック設定ガイド v3.7.1</a>
+                        </li>
+                           <li class="nav-item">
+                            <a class="nav-link" href="/ansible-tower/3.7.1/html_ja/quickinstall/">Japanese: Ansible Tower インストールガイド v3.7.1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/ansible-tower/3.7.1/html_ja/installandreference/">Japanese: Ansible Tower インストールおよびリファレンスガイド v3.7.1</a>
+                        </li>
+                        <li class="nav-item">
+                               <a class="nav-link" href="/ansible-tower/3.7.1/html_ja/release-notes/">Japanese: Ansible Tower リリースノート v3.7.1</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="/ansible-tower/3.7.1/html_ja/towerapi/">Japanese: Ansible Tower API ガイド v3.7.1</a>
+                         </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="/ansible-tower/3.7.1/html_ja/administration//">Japanese: Ansible Tower  管理ガイド v3.7.1</a>
+                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/ansible-tower/3.7.1/html_ja/userguide/">Japanese: Ansible Tower ユーザーガイド v3.7.1</a>
+                        </li>
+                          <li class="nav-item">
+                             <a class="nav-link" href="/ansible-tower/3.7.1/html_ja/upgrade-migration-guide/">Japanese: Ansible Tower のアップグレードおよび移行ガイド v3.7.1</a>
+                           </li>
+                       </ul>
+                   </div>
+
+            <div class="col-md-3 text-center">    
+                    <h4>Tower 3.7.0</h4>
+                    <ul class="nav d-block">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/ansible-tower/3.7.0/html_ja/quickstart/">Japanese: Ansible Tower クイック設定ガイド v3.7.0</a>
+                        </li>
+                           <li class="nav-item">
+                            <a class="nav-link" href="/ansible-tower/3.7.0/html_ja/quickinstall/">Japanese: Ansible Tower インストールガイド v3.7.0</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/ansible-tower/3.7.0/html_ja/installandreference/">Japanese: Ansible Tower インストールおよびリファレンスガイド v3.7.0</a>
+                        </li>
+                        <li class="nav-item">
+                               <a class="nav-link" href="/ansible-tower/3.7.0/html_ja/release-notes/">Japanese: Ansible Tower リリースノート v3.7.0</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="/ansible-tower/3.7.0/html_ja/towerapi/">Japanese: Ansible Tower API ガイド v3.7.0</a>
+                         </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="/ansible-tower/3.7.0/html_ja/administration//">Japanese: Ansible Tower  管理ガイド v3.7.0</a>
+                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/ansible-tower/3.7.0/html_ja/userguide/">Japanese: Ansible Tower ユーザーガイド v3.7.0</a>
+                        </li>
+                          <li class="nav-item">
+                             <a class="nav-link" href="/ansible-tower/3.7.0/html_ja/upgrade-migration-guide/">Japanese: Ansible Tower のアップグレードおよび移行ガイド v3.7.0</a>
+                           </li>
+                       </ul>
+                   </div>
+
+        <div class="col-md-3 text-center">    
+                    <h4>Tower 3.6.4</h4>
+                    <ul class="nav d-block">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/ansible-tower/3.6.4/html_ja/quickstart/">Japanese: Ansible Tower クイック設定ガイド v3.6.4</a>
+                        </li>
+                           <li class="nav-item">
+                            <a class="nav-link" href="/ansible-tower/3.6.4/html_ja/quickinstall/">Japanese: Ansible Tower インストールガイド v3.6.4</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/ansible-tower/3.6.4/html_ja/installandreference/">Japanese: Ansible Tower インストールおよびリファレンスガイド v3.6.4</a>
+                        </li>
+                        <li class="nav-item">
+                               <a class="nav-link" href="/ansible-tower/3.6.4/html_ja/release-notes/">Japanese: Ansible Tower リリースノート v3.6.4</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="/ansible-tower/3.6.4/html_ja/towerapi/">Japanese: Ansible Tower API ガイド v3.6.3</a>
+                         </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="/ansible-tower/3.6.4/html_ja/administration//">Japanese: Ansible Tower  管理ガイド v3.6.4</a>
+                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/ansible-tower/3.6.4/html_ja/userguide/">Japanese: Ansible Tower ユーザーガイド v3.6.4</a>
+                        </li>
+                          <li class="nav-item">
+                             <a class="nav-link" href="/ansible-tower/3.6.4/html_ja/upgrade-migration-guide/">Japanese: Ansible Tower のアップグレードおよび移行ガイド v3.6.4</a>
+                           </li>
+                       </ul>
+                   </div>
 
                 <div class="col-md-3 text-center">    
                     <h4>Tower 3.6.3</h4>
@@ -805,6 +915,133 @@
         </div>
     </section>
 
+   <section id="tower-translated-zh" class="py-0 collapse">
+        <div class="container">
+            <div class="row justify-content-center">
+
+                <div class="col-md-3 text-center">    
+                    <h4>Tower 3.7.1</h4>
+                    <ul class="nav d-block">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/ansible-tower/3.7.1/html_zh/quickstart/">Simplified Chinese: Ansible Tower 快速入门指南 v3.7.1</a>
+                        </li>
+                           <li class="nav-item">
+                            <a class="nav-link" href="/ansible-tower/3.7.1/html_zh/quickinstall/">Simplified Chinese: Ansible Tower 快速安装指南 v3.7.1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/ansible-tower/3.7.1/html_zh/installandreference/">Simplified Chinese: Ansible Tower 安装和参考指南 v3.7.1</a>
+                        </li>
+                        <li class="nav-item">
+                               <a class="nav-link" href="/ansible-tower/3.7.1/html_zh/release-notes/">Simplified Chinese: Ansible Tower 发行注记 v3.7.1</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="/ansible-tower/3.7.1/html_zh/towerapi/">Simplified Chinese: Ansible Tower API 指南 v3.7.1</a>
+                         </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="/ansible-tower/3.7.1/html_zh/administration//">Simplified Chinese: Ansible Tower 管理指南 v3.7.1</a>
+                         </li>
+                        <li class="nav-item">
+                             <a class="nav-link" href="/ansible-tower/3.7.1/html_zh/userguide/">Simplified Chinese: Ansible Tower 用户指南 v3.7.1</a>
+                        </li>
+                          <li class="nav-item">
+                             <a class="nav-link" href="/ansible-tower/3.7.1/html_zh/upgrade-migration-guide/">Simplified Chinese: Ansible Tower 升级和迁移指南 v3.7.1</a>
+                           </li>
+                       </ul>
+                   </div>
+
+               <div class="col-md-3 text-center">    
+                    <h4>Tower 3.7.0</h4>
+                    <ul class="nav d-block">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/ansible-tower/3.7.0/html_zh/quickstart/">Simplified Chinese: Ansible Tower 快速入门指南 v3.7.0</a>
+                        </li>
+                           <li class="nav-item">
+                            <a class="nav-link" href="/ansible-tower/3.7.0/html_zh/quickinstall/">Simplified Chinese: Ansible Tower 快速安装指南 v3.7.0</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/ansible-tower/3.7.0/html_zh/installandreference/">Simplified Chinese: Ansible Tower 安装和参考指南 v3.7.0</a>
+                        </li>
+                        <li class="nav-item">
+                               <a class="nav-link" href="/ansible-tower/3.7.0/html_zh/release-notes/">Simplified Chinese: Ansible Tower 发行注记 v3.7.0</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="/ansible-tower/3.7.0/html_zh/towerapi/">Simplified Chinese: Ansible Tower API 指南 v3.7.0</a>
+                         </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="/ansible-tower/3.7.0/html_zh/administration//">Simplified Chinese: Ansible Tower 管理指南 v3.7.0</a>
+                         </li>
+                        <li class="nav-item">
+                             <a class="nav-link" href="/ansible-tower/3.7.0/html_zh/userguide/">Simplified Chinese: Ansible Tower 用户指南 v3.7.0</a>
+                        </li>
+                          <li class="nav-item">
+                             <a class="nav-link" href="/ansible-tower/3.7.0/html_zh/upgrade-migration-guide/">Simplified Chinese: Ansible Tower 升级和迁移指南 v3.7.0</a>
+                           </li>
+                       </ul>
+                   </div>
+
+                <div class="col-md-3 text-center">    
+                    <h4>Tower 3.6.4</h4>
+                    <ul class="nav d-block">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/ansible-tower/3.6.4/html_zh/quickstart/">Simplified Chinese: Ansible Tower 快速入门指南 v3.6.4</a>
+                        </li>
+                           <li class="nav-item">
+                            <a class="nav-link" href="/ansible-tower/3.6.4/html_zh/quickinstall/">Simplified Chinese: Ansible Tower 快速安装指南 v3.6.4</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/ansible-tower/3.6.4/html_zh/installandreference/">Simplified Chinese: Ansible Tower 安装和参考指南 v3.6.4</a>
+                        </li>
+                        <li class="nav-item">
+                               <a class="nav-link" href="/ansible-tower/3.6.4/html_zh/release-notes/">Simplified Chinese: Ansible Tower 发行注记 v3.6.4</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="/ansible-tower/3.6.4/html_zh/towerapi/">Simplified Chinese: Ansible Tower API 指南 v3.6.4</a>
+                         </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="/ansible-tower/3.6.4/html_zh/administration//">Simplified Chinese: Ansible Tower 管理指南 v3.6.4</a>
+                         </li>
+                        <li class="nav-item">
+                             <a class="nav-link" href="/ansible-tower/3.6.4/html_zh/userguide/">Simplified Chinese: Ansible Tower 用户指南 v3.6.4</a>
+                        </li>
+                          <li class="nav-item">
+                             <a class="nav-link" href="/ansible-tower/3.6.4/html_zh/upgrade-migration-guide/">Simplified Chinese: Ansible Tower 升级和迁移指南 v3.6.4</a>
+                           </li>
+                       </ul>
+                   </div>
+
+
+                <div class="col-md-3 text-center">    
+                    <h4>Tower 3.6.3</h4>
+                    <ul class="nav d-block">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/ansible-tower/3.6.3/html_zh/quickstart/">Simplified Chinese: Ansible Tower 快速入门指南 v3.6.3</a>
+                        </li>
+                           <li class="nav-item">
+                            <a class="nav-link" href="/ansible-tower/3.6.3/html_zh/quickinstall/">Simplified Chinese: Ansible Tower 快速安装指南 v3.6.3</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/ansible-tower/3.6.3/html_zh/installandreference/">Simplified Chinese: Ansible Tower 安装和参考指南 v3.6.3</a>
+                        </li>
+                        <li class="nav-item">
+                               <a class="nav-link" href="/ansible-tower/3.6.3/html_zh/release-notes/">Simplified Chinese: Ansible Tower 发行注记 v3.6.3</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="/ansible-tower/3.6.3/html_zh/towerapi/">Simplified Chinese: Ansible Tower API 指南 v3.6.3</a>
+                         </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="/ansible-tower/3.6.3/html_zh/administration//">Simplified Chinese: Ansible Tower 管理指南 v3.6.3</a>
+                         </li>
+                        <li class="nav-item">
+                             <a class="nav-link" href="/ansible-tower/3.6.3/html_zh/userguide/">Simplified Chinese: Ansible Tower 用户指南 v3.6.3</a>
+                        </li>
+                          <li class="nav-item">
+                             <a class="nav-link" href="/ansible-tower/3.6.3/html_zh/upgrade-migration-guide/">Simplified Chinese: Ansible Tower 升级和迁移指南 v3.6.3</a>
+                           </li>
+                       </ul>
+                   </div>
+               </div>
+           </div>
+       </section>
 
        <section id="network" class="btn-grid pt-0 pb-4">
 
