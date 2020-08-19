@@ -44,6 +44,14 @@
 
 <body>
 
+<script type="text/javascript">
+if (location.host == "docs.testing.ansible.com") {
+    var banner = document.createElement("div");
+    banner.style = 'position: relative; top: 0; width: 100%; height 30px; background-color: orange; color: white; text-align: center;'
+    banner.innerHTML = "<b>This is a testing site. For official docs go to docs.ansible.com</b>";
+    document.body.insertBefore(banner,document.body.childNodes[0]);
+    }
+</script>
 
     <nav class="main navbar navbar-expand-md w-100 justify-content-end">
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
@@ -128,7 +136,7 @@
                         <a class="nav-link" href="#galaxy">Ansible Galaxy Docs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#lint">Ansible Lint Docs</a>
+                        <a class="nav-link" href="https://ansible-lint.readthedocs.io/en/latest/">Ansible Lint Docs</a>
                     </li>
                      <!-- <li class="nav-item">
                         <a class="nav-link" href="#engine">Ansible Use Case Docs</a>
@@ -166,12 +174,9 @@
                 <div class="col-md-4">
                     <a href="http://docs.ansible.com/ansible/intro_inventory.html" class="btn btn-project">Inventory</a>
                 </div>
-                <div class="col-md-4">
+              <!--  <div class="col-md-4">
                     <a href="http://docs.ansible.com/ansible/modules_by_category.html" class="btn btn-project">Module Index</a>
-                </div>
-                <div class="col-md-4">
-                    <a href="http://docs.ansible.com/ansible/list_of_network_modules.html" class="btn btn-project">Network Modules</a>
-                </div>
+                </div> -->
                 <div class="col-md-4">
                     <a href="http://docs.ansible.com/ansible/latest/dev_guide/index.html" class="btn btn-project">Developer Guide</a>
                 </div>
@@ -181,9 +186,26 @@
                 <div class="col-md-4">
                     <a data-toggle="collapse" href="#project-prev"  class="btn btn-project btn-more collapsed">Documentation for Other Versions</a>
                 </div>
+                <div class="col-md-4">
+                    <a data-toggle="collapse" href="#project-translated-ja"  class="btn btn-project btn-more collapsed">>日本語ドキュメント - Japanese Translations</a>
+                </div>
             </div>
         </div>
 
+    </section>
+
+    <section id="project-translated-ja" class="py-0 collapse">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://docs.ansible.com/ansible/2.9_ja/index.html">Ansible ドキュメント 2.9</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="project-prev" class="py-0 collapse">
@@ -192,10 +214,10 @@
                 <div class="col-md-4">
                     <ul class="nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="http://docs.ansible.com/ansible/2.7/index.html">Ansible Project, version 2.7</a>
+                            <a class="nav-link" href="http://docs.ansible.com/ansible/2.8/index.html">Ansible Project, version 2.8</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="http://docs.ansible.com/ansible/2.8/index.html">Ansible Project, version 2.8</a>
+                            <a class="nav-link" href="http://docs.ansible.com/ansible/2.9/index.html">Ansible Project, version 2.9</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="http://docs.ansible.com/ansible/devel/index.html">Ansible Project, devel branch</a>
@@ -205,8 +227,6 @@
             </div>
         </div>
     </section>
-
-
 
     <!--section id="engine" class="btn-grid pb-0">
 
@@ -291,8 +311,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3 text-center">
-                    <h4>Tower 3.7.0 and Earlier (Supported Releases)</h4>
+                    <h4>Tower 3.7.1 and Earlier (Supported Releases)</h4>
                     <ul class="nav d-block">
+                        <li class="nav-item">
+                          <a class="nav-link" href="http://docs.ansible.com/ansible-tower/3.7.1/html/">Tower 3.7.1</a>
+                        </li>
                         <li class="nav-item">
                           <a class="nav-link" href="http://docs.ansible.com/ansible-tower/3.7.0/html/">Tower 3.7.0</a>
                         </li>
@@ -332,6 +355,11 @@
                         <li class="nav-item">
                           <a class="nav-link" href="http://docs.ansible.com/ansible-tower/3.5.0/html/">Tower 3.5.0</a>
                         </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 text-center">
+                    <h4>Tower 3.4.5 and Earlier (End of Maintenance Support - EOL)</h4>
+                    <ul class="nav d-block">
                         <li class="nav-item">
                           <a class="nav-link" href="http://docs.ansible.com/ansible-tower/3.4.5/html/">Tower 3.4.5</a>
                         </li>
@@ -350,11 +378,6 @@
                         <li class="nav-item">
                           <a class="nav-link" href="http://docs.ansible.com/ansible-tower/3.4.0/html/">Tower 3.4.0</a>
                         </li>
-                    </ul>
-                </div>
-                <div class="col-md-3 text-center">
-                    <h4>Tower 3.3.7 and Earlier (End of Maintenance Support - EOL)</h4>
-                    <ul class="nav d-block">                        
                         <li class="nav-item">
                           <a class="nav-link" href="http://docs.ansible.com/ansible-tower/3.3.7/html/">Tower 3.3.7</a>
                         </li>
@@ -492,14 +515,14 @@
                 </div>
             </div>
         </div>
-        
+
     </section>
 
     <section id="tower-translated-ja" class="py-0 collapse">
         <div class="container">
             <div class="row justify-content-center">
 
-            <div class="col-md-3 text-center">    
+            <div class="col-md-3 text-center">
                     <h4>Tower 3.7.1</h4>
                     <ul class="nav d-block">
                         <li class="nav-item">
@@ -529,7 +552,7 @@
                        </ul>
                    </div>
 
-            <div class="col-md-3 text-center">    
+            <div class="col-md-3 text-center">
                     <h4>Tower 3.7.0</h4>
                     <ul class="nav d-block">
                         <li class="nav-item">
@@ -559,7 +582,7 @@
                        </ul>
                    </div>
 
-        <div class="col-md-3 text-center">    
+        <div class="col-md-3 text-center">
                     <h4>Tower 3.6.4</h4>
                     <ul class="nav d-block">
                         <li class="nav-item">
@@ -589,7 +612,7 @@
                        </ul>
                    </div>
 
-                <div class="col-md-3 text-center">    
+                <div class="col-md-3 text-center">
                     <h4>Tower 3.6.3</h4>
                     <ul class="nav d-block">
                         <li class="nav-item">
@@ -619,7 +642,7 @@
                        </ul>
                    </div>
 
-                <div class="col-md-3 text-center">    
+                <div class="col-md-3 text-center">
                     <h4>Tower 3.6.2</h4>
                     <ul class="nav d-block">
                         <li class="nav-item">
@@ -649,7 +672,7 @@
                        </ul>
                    </div>
 
-                <div class="col-md-3 text-center">    
+                <div class="col-md-3 text-center">
                     <h4>Tower 3.6.0</h4>
                     <ul class="nav d-block">
                         <li class="nav-item">
@@ -920,7 +943,7 @@
         <div class="container">
             <div class="row justify-content-center">
 
-                <div class="col-md-3 text-center">    
+                <div class="col-md-3 text-center">
                     <h4>Tower 3.7.1</h4>
                     <ul class="nav d-block">
                         <li class="nav-item">
@@ -950,7 +973,7 @@
                        </ul>
                    </div>
 
-               <div class="col-md-3 text-center">    
+               <div class="col-md-3 text-center">
                     <h4>Tower 3.7.0</h4>
                     <ul class="nav d-block">
                         <li class="nav-item">
@@ -980,7 +1003,7 @@
                        </ul>
                    </div>
 
-                <div class="col-md-3 text-center">    
+                <div class="col-md-3 text-center">
                     <h4>Tower 3.6.4</h4>
                     <ul class="nav d-block">
                         <li class="nav-item">
@@ -1011,7 +1034,7 @@
                    </div>
 
 
-                <div class="col-md-3 text-center">    
+                <div class="col-md-3 text-center">
                     <h4>Tower 3.6.3</h4>
                     <ul class="nav d-block">
                         <li class="nav-item">
@@ -1064,7 +1087,7 @@
                     <a href="http://docs.ansible.com/ansible/intro_installation.html" class="btn btn-project">Installation</a>
                 </div>
                 <div class="col-md-4">
-                    <a href="http://docs.ansible.com/ansible/intro_getting_started.html" class="btn btn-project">Getting Started</a>
+                    <a href="https://docs.ansible.com/ansible/latest/network/getting_started/index.html" class="btn btn-project">Getting Started</a>
                 </div>
 </div></div></section>
 
@@ -1088,15 +1111,12 @@
                     <a href="https://galaxy.ansible.com/docs/contributing/index.html" class="btn btn-engine">Contributing Content</a>
                 </div>
                 <div class="col-md-4">
-                    <a href="https://galaxy.ansible.com/docs/mazer/index.html" class="btn btn-engine">Mazer</a>
-                </div>
-                <div class="col-md-4">
                     <a href="https://galaxy.ansible.com/docs/developers/index.html" class="btn btn-engine">Developer's Guide</a>
                 </div>
             </div></div></section>
 
 
-       <section id="lint" class="btn-grid pt-0 pb-4">
+<!--       <section id="lint" class="btn-grid pt-0 pb-4">
 
          <div class="container">
              <div class="row">
@@ -1121,7 +1141,7 @@
                  <div class="col-md-4">
                      <a href="https://docs.ansible.com/ansible-lint/rules/rules.html" class="btn btn-project">Rules</a>
                  </div>
-             </div></div></section>
+             </div></div></section> -->
 
 
     <section id="ansible-footer" class="pb-0">
