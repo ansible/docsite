@@ -15,7 +15,10 @@ RedirectMatch permanent "^/ansible/(?!latest|devel|\d\.+)(.+)?.html" "/ansible/l
 RedirectMatch permanent "^/ansible/devel/module_docs/?(.+)?" "/ansible/devel/modules/$1"
 RedirectMatch permanent "^/ansible/latest/module_docs/?(.+)?" "/ansible/latest/modules/$1"
 
-RedirectMatch permanent "^/ansible/(devel|latest)/(?!modules)(.+_module).html" "/ansible/$1/modules/$2.html"
+# with collections, modules go in /collections/namespace/collection_name/module_name with no /modules
+# changing this so it will not hit /devel
+# can we get rid of this redirect?
+RedirectMatch permanent "^/ansible/latest/(?!modules)(.+_module).html" "/ansible/$1/modules/$2.html"
 
 RedirectMatch permanent "^/ansible/modules_by_category.html" "/ansible/latest/modules_by_category.html"
 RedirectMatch permanent "^/ansible/(devel|latest)/modules_by_category.html" "/ansible/$1/modules/modules_by_category.html"
