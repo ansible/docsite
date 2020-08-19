@@ -195,3 +195,6 @@ RedirectMatch permanent "^/ansible/(devel|latest)/vmware/vmware_?(.+)?" "/ansibl
 
 # Redirect old support pages per request from product team
 RedirectMatch permanent "^\/ansible-tower\/((2\.\d\.\d)|3\.[0-3]\.\d)\/html(_\w+)?\/.*updates_support\.html$" "/ansible-tower/latest/html$3/installandreference/updates_support.html"
+
+# Redirect all ansible-lint pages to ReadTheDocs
+RedirectMatch permanent "^/ansible-lint/*" "https://ansible-lint.readthedocs.io"
