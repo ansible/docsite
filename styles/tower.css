@@ -1,0 +1,122 @@
+body {
+    background-color: #f2f2f2;
+}
+
+.DocSite {
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.DocSite-nav {
+    margin-bottom: 0px;
+}
+
+.DocSiteNav-homeGroup {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-wrap: nowrap;
+    -webkit-flex-direction: norap;
+    text-decoration: none;
+}
+
+.DocSiteProduct-header--tower {
+    border: 0;
+    border-radius: 0;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: none;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+}
+
+.DocSiteNav-title {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.DocSiteProduct-blurb {
+    font-size: 19px;
+    max-width: 600px;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.DocSiteProduct-linkContainer--tower {
+    margin-left: 0;
+    margin-right: 0;
+    align-self: initial;
+    -webkit-align-self: initial;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.DocSiteLink--header {
+    font-size: 24px;
+    font-weight: 700;
+    display: none;
+}
+
+@media screen and (min-width: 800px) {
+    .DocSite {
+        flex-direction: row;
+        -webkit-flex-direction: row;
+    }
+
+    .DocSiteLink--header {
+        font-size: 24px;
+        font-weight: 700;
+        display: block;
+    }
+
+    .DocSiteLink--header:hover,
+    .DocSiteLink--header:active,
+    .DocSiteLink--header:focus,
+    .DocSiteLink--header:visited {
+        color: #000;
+    }
+
+    .DocSiteProduct-linkSpacer {
+        display: none;
+    }
+
+    .DocSiteLinkContainer-section {
+        width: calc(50% - 50px);
+        padding: 25px;
+    }
+
+    .DocSiteLinkContainer-section--previous {
+        margin-top: -101px;
+        border-top: 2px solid #161b1f;
+        padding-top: 11px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .DocSiteProduct-linkContainer--tower {
+        max-width: 1200px;
+        width: 1200px;
+        flex: 1 1 auto;
+        flex-direction: row;
+        -webkit-flex-direction: row;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        align-items: flex-start;
+        -webkit-align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
