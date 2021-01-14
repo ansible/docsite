@@ -9,7 +9,9 @@ RedirectMatch permanent "^/((?!index|404)[^/]+)\.html" "/ansible/$1.html"
 RedirectMatch permanent "^/ansible/(developing_[^/]+)\.html" "/ansible/latest/dev_guide/$1.html"
 RedirectMatch permanent "^/ansible/developing.html" "/ansible/dev_guide/index.html"
 RedirectMatch permanent "^/ansible/dev_guide(\/)?" "/ansible/latest/dev_guide/index.html"
-RedirectMatch permanent "^/ansible/(?!latest|devel|\d\.+)(.+)?.html" "/ansible/latest/$1.html"
+# Commenting out the regex below; it redirected Ansible 3.0.0 docs (URLs like /ansible/3/*)
+# Can we remove it entirely?
+# RedirectMatch permanent "^/ansible/(?!latest|devel|\d\.+)(.+)?.html" "/ansible/latest/$1.html"
 
 # Redirects for renamed module reference directory
 RedirectMatch permanent "^/ansible/devel/module_docs/?(.+)?" "/ansible/devel/modules/$1"
