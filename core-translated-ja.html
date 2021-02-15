@@ -6,8 +6,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Ansible Documentation</title>
-    <meta name="description" content="Ansible Documentation">
+    <title>Ansible Core Documentation - Japanese translations- 日本語ドキュメント</title>
+    <meta name="description" content="Ansible Core Documentation - Japanese translations">
     <meta name="author" content="Ansible, Inc.">
     <link href="https://static.redhat.com/libs/redhat/redhat-font/2.0.0/webfonts/red-hat-font.css" rel="stylesheet">
     <link rel="stylesheet" href="https://www.ansible.com/hubfs/css/styles.min.css" />
@@ -24,23 +24,17 @@
     </script> -->
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
-    <script src="https://www.ansible.com/hubfs/js/scripts.min.js" crossorigin="anonymous"></script>
+    <script src="https://www.ansible.com/hubfs/js/scripts.min.js"></script>
     <script src="//www.redhat.com/dtm.js"></script>
 </head>
 
 <style>
-
-/* Promo Section: change "display: block" to "display: none" to hide */
-.promo-banner {
-    display: none;
-}
-
 /* Resources section: change "display: block" to "display: none" to hide */
 .resources {
     display: none;
 }
 
-body, html{
+body, html {
     color: #333;
     font-weight: 300;
     font-family: RedHatText,"Red Hat Text",Overpass,"Helvetica Neue",Arial,sans-serif;
@@ -50,6 +44,10 @@ nav {
     background: #151515;
     color: #fff;
     font-size: 1.25rem;
+}
+
+nav .main-logo-link {
+    color: #fff;
 }
 
 nav .navbar-toggler{
@@ -89,7 +87,7 @@ nav .navbar-toggler.collapsed .icon-bar {
     margin-top: 0.5rem;
 }
 
-nav .nav-link{
+nav .nav-link {
     color: #fff;
     font-size: 1rem;
 }
@@ -120,35 +118,32 @@ h4 {
     border-color: #d2d2d2 !important;
 }
 
-.cards .header {
-    background: url("assets/img/bg_dots.png") center center #D0D0D0;
-    background-size: cover;
-    min-height: 192px;
+.cards .row [class*="col-"] {
+    display: flex;
 }
 
-.cards img {
-    bottom: -1.25rem;
-    position: relative;
-    z-index: 1;
+.cards .card {
+    flex: 1;
 }
 
-.cards .card-body {
-    border-top: 4px solid #D0D0D0;
-    z-index: 2;
-    background: #fff;
-}
-
-.cards .card-body a {
+.cards a {
     color: #333;
+    display: flex;
+    flex: 1;
 }
 
-.cards .card-body a:hover {
+.cards a:hover .card {
+    background: #f2f2f2;
+    transition: all 300ms ease-in-out;
+}
+
+.cards a:hover h4 {
     text-decoration: underline;
-    color: #004080;
 }
 
 .cards .btn {
     cursor: pointer;
+    display: inline-block;
 }
 
 .cards .btn:hover {
@@ -179,60 +174,25 @@ h4 {
         padding-left: .75rem;
     }
 }
+
 </style>
 
 <body>
-    <!-- BEGIN PROMOTIONAL BANNER - SEE '.promo-banner' CSS RULE TO TOGGLE OFF -->
-    <section class="at py-0">
-        <div class="container-fluid bg-white position-relative" style="z-index:1000;">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-auto d-none d-md-block px-0">
-                    <img class="d-xl-none" alt="dot pattern" src="https://www.redhat.com/cms/managed-files/ansiblefest-alert-bar-left.png" width="152">
-                    <img class="d-none d-xl-inline" alt="dot pattern" src="https://www.redhat.com/cms/managed-files/ansiblefest-alert-bar-left-lg.png" width="255">
-                </div>
-
-                <div class="col">
-                    <div class="row justify-content-center align-items-center">
-                        <div class="col col-sm-auto col-md text-right pl-sm-0 pr-0 py-1">
-                            <img src="https://www.redhat.com/cms/managed-files/logo_ansiblefest.svg" alt="AnsibleFest logo" class="img-fluid" width="145">
-                        </div>
-
-                        <div class="col col-lg-auto text-center d-none d-md-block px-lg-3">
-                            <p class="font-size-16 mb-0">Relive the 2020 Virtual&nbsp;Experience</span></p>
-                        </div>
-
-                        <div class="col d-none d-md-block px-0">
-                            <pfe-cta class="PFElement">
-                                <a href="https://www.ansible.com/ansiblefest" class="ansiblefest-banner-cta">Watch on demand</a>
-                            </pfe-cta>
-                        </div>
-
-                        <div class="col col-sm-auto d-md-none">
-                            <p class="font-size-16 my-1"><a href="https://www.ansible.com/ansiblefest" class="ansiblefest-banner-cta">Relive the 2020 Virtual&nbsp;Experience</a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-auto d-none d-md-block px-0">
-                    <img class="d-xl-none" alt="dot pattern" src="https://www.redhat.com/cms/managed-files/ansiblefest-alert-bar-right.png" width="152">
-                    <img class="d-none d-xl-inline" alt="dot pattern" src="https://www.redhat.com/cms/managed-files/ansiblefest-alert-bar-right-lg.png" width="255">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- END PROMOTIONAL BANNER -->
 
     <!-- BEGIN NAVIGATION -->
     <nav class="navbar navbar-expand-md p-1">
         <div class="container">
-            <span class="navbar-brand d-flex justify-content-center">
-                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28" height="28" viewBox="0 0 28 28" style="enable-background:new 0 0 28 28;" xml:space="preserve" class="mr-1">
-                <style type="text/css"> .ansHeader{fill:#FFFFFF;} </style>
-                <circle class="ansHeader" cx="14" cy="14" r="13.5"/>
-                <path d="M20.4,19.3L15,6.4c-0.2-0.4-0.5-0.6-0.8-0.6c-0.4,0-0.7,0.2-0.9,0.6L7.5,20.6h2l2.3-5.8l7,5.6c0.3,0.2,0.5,0.3,0.7,0.3c0.5,0,1-0.4,1-1C20.5,19.6,20.4,19.5,20.4,19.3z M14.2,8.7l3.5,8.6l-5.3-4.1L14.2,8.7z"/>
-                </svg>
-                <p class="m-0">Documentation</p>
-            </span>
+            <a href="/" class="main-logo-link">
+                <span class="navbar-brand d-flex justify-content-center">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28" height="28" viewBox="0 0 28 28" style="enable-background:new 0 0 28 28;" xml:space="preserve" class="mr-1">
+                    <style type="text/css"> .ansHeader{fill:#FFFFFF;} </style>
+                    <circle class="ansHeader" cx="14" cy="14" r="13.5"/>
+                    <path d="M20.4,19.3L15,6.4c-0.2-0.4-0.5-0.6-0.8-0.6c-0.4,0-0.7,0.2-0.9,0.6L7.5,20.6h2l2.3-5.8l7,5.6c0.3,0.2,0.5,0.3,0.7,0.3c0.5,0,1-0.4,1-1C20.5,19.6,20.4,19.5,20.4,19.3z M14.2,8.7l3.5,8.6l-5.3-4.1L14.2,8.7z"/>
+                    </svg>
+                    <p class="m-0">Documentation</p>
+                </span>
+            </a>
+
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar top"></span>
@@ -264,12 +224,29 @@ h4 {
     <!-- END NAVIGATION -->
 
     <!-- BEGIN PAGE TITLE -->
-    <header class="headline py-8">
+    <header class="headline py-5">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col col-lg-9 col-xl-8 text-center">
-                    <h1 class="mb-2">Ansible Documentation</h1>
-                    <p class="subhead">An enterprise automation platform for the entire IT organization, no matter where you are in your automation&nbsp;journey</p>
+                <div class="col text-center">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.5px"
+                    height="98.5px" viewBox="0 0 98.5 98.5" style="overflow:visible;enable-background:new 0 0 98.5 98.5;" xml:space="preserve" class="mb-3">
+                    <style type="text/css">
+                    .ansLogo_st0{fill:#5BBDBF;}
+                    .ansLogo_st1{fill:#FFFFFF;}
+                    </style>
+                    <defs>
+                    </defs>
+                    <g id="Ansible-Mark-RGB_Pool_1_" transform="translate(-46.207 -46.127)">
+                    <path id="Path_13_1_" class="ansLogo_st0" d="M144.7,95.4c0,27.2-22,49.2-49.2,49.2s-49.2-22-49.2-49.2s22-49.2,49.2-49.2l0,0
+                    C122.6,46.1,144.7,68.2,144.7,95.4"/>
+                    <path id="Path_14_1_" class="ansLogo_st1" d="M96.3,76.9l12.7,31.4L89.8,93.2L96.3,76.9z M118.9,115.6L99.3,68.4c-0.5-1.3-1.7-2.1-3-2.1
+                    c-1.4,0-2.6,0.8-3.1,2.1l-21.5,51.7H79l8.5-21.3l25.4,20.5c0.7,0.7,1.7,1.2,2.7,1.2c1.9,0,3.6-1.5,3.6-3.4c0,0,0-0.1,0-0.1
+                    C119.2,116.5,119.1,116.1,118.9,115.6"/>
+                    </g>
+                    </svg>
+
+                    <h1 class="mb-2">日本語ドキュメント - Japanese Translations</h1>
+                    <p class="subhead">Access to the Japanese translated core documentation</p>
                 </div>
             </div>
         </div>
@@ -280,118 +257,25 @@ h4 {
     <section class="cards pt-0">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-lg-4 d-flex">
-                    <div class="card border">
-                        <a href="core.html">
-                            <div class="header d-flex justify-content-center card-img-top">
-                                <img src="assets/img/icon_core.svg" class="img-fluid align-self-end">
+                <div class="col-md-6 col-lg-4">
+                    <a href="https://docs.ansible.com/ansible/2.9_ja/index.html">
+                        <div class="card border">
+                            <div class="card-body">
+                                <h4 class="card-title">Ansible ドキュメント 2.9</h4>
+                                <p class="card-text"></p>
                             </div>
-                        </a>
-                        <div class="card-body">
-                            <a href="core.html">
-                                <h4 class="card-title">Ansible Core Documentation</h4>
-                            </a>
-                            <p class="card-text">Get started with Ansible using human-readable YAML language. Access the best of Ansible innovation with hardening and support from Red&nbsp;Hat.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="core.html" class="btn btn-outline-black">Learn more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 d-flex">
-                    <div class="card border">
-                        <a href="automation.html">
-                            <div class="header d-flex justify-content-center card-img-top">
-                                <img src="assets/img/icon_automation.svg" class="img-fluid align-self-end">
+                            <div class="card-footer">
+                                <a href="https://docs.ansible.com/ansible/2.9_ja/index.html" class="btn btn-outline-black">Learn more</a>
                             </div>
-                        </a>
-                        <div class="card-body">
-                            <a href="automation.html">
-                                <h4 class="card-title">Ansible Automation Platform Documentation</h4>
-                            </a>
-                            <p class="card-text">Learn how Red Hat Ansible Tower allows you to centralize and control your IT infrastructure with a visual dashboard, role-based access control, and&nbsp;more. Plus, learn how to configure Tower to use collections from your Private Autmation Hub as well as how to incorporate the Automation Services Catalog into your IT Service Management system toolchain.</p>
+
                         </div>
-                        <div class="card-footer">
-                            <a href="automation.html" class="btn btn-outline-black">Learn more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 d-flex">
-                    <div class="card border">
-                        <a href="collections.html">
-                            <div class="header d-flex justify-content-center align-items-end card-img-top">
-                                <img src="assets/img/icon_collections.svg" class="img-fluid align-self-end">
-                            </div>
-                        </a>
-                        <div class="card-body">
-                            <a href="collections.html">
-                                <h4 class="card-title">Ansible Collections Documentation</h4>
-                            </a>
-                            <p class="card-text">Ansible collections extend the benefits of simple, powerful, agentless automation for sysadmins, cloud, network, and security teams.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="collections.html" class="btn btn-outline-black">Learn more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 d-flex">
-                    <div class="card border">
-                        <a href="galaxy.html">
-                            <div class="header d-flex justify-content-center card-img-top">
-                                <img src="assets/img/icon_galaxy.svg" class="img-fluid align-self-end">
-                            </div>
-                        </a>
-                        <div class="card-body">
-                            <a href="galaxy.html">
-                                <h4 class="card-title">Ansible Galaxy Documentation</h4>
-                            </a>
-                            <p class="card-text">Ansible Galaxy refers to the Galaxy website where users can share roles, and to a command line tool for installing, creating and managing&nbsp;roles.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="galaxy.html" class="btn btn-outline-black">Learn more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 d-flex">
-                    <div class="card border">
-                        <a href="lint.html">
-                            <div class="header d-flex justify-content-center card-img-top">
-                                <img src="assets/img/icon_lint.svg" class="img-fluid align-self-end">
-                            </div>
-                        </a>
-                        <div class="card-body">
-                            <a href="lint.html">
-                                <h4 class="card-title">Ansible Lint Documentation</h4>
-                            </a>
-                            <p class="card-text">Ansible Lint is a commandline tool for linting playbooks. Use it to detect behaviors and practices that could potentially be&nbsp;improved.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="lint.html" class="btn btn-outline-black">Learn more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 d-flex">
-                    <div class="card border">
-                        <a href="community.html">
-                            <div class="header d-flex justify-content-center align-items-end card-img-top">
-                                <img src="assets/img/icon_community.svg" class="img-fluid align-self-end">
-                            </div>
-                        </a>
-                        <div class="card-body">
-                            <a href="community.html">
-                                <h4 class="card-title">Ansible Community Documentation</h4>
-                            </a>
-                            <p class="card-text">Everything you need to know about being a contributing member of the Ansible&nbsp;community.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="community.html" class="btn btn-outline-black">Learn more</a>
-                        </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
     <!-- END MAIN CARDS -->
+
 
     <!-- BEGIN RESOURCES SECTION - SEE .resources CSS RULE TO TOGGLE OFF -->
     <section class="resources pt-4">
