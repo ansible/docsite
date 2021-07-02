@@ -6,7 +6,7 @@
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/pdf/AnsibleTowerQuickInstall.pdf</loc>
+    <loc>http://docs.ansible.com/automation-controller/latest/pdf/AnsibleAutomationPlatformQuickInstall.pdf</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
@@ -14,7 +14,7 @@
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/pdf/AnsibleTowerQuickSetupGuide.pdf</loc>
+    <loc>http://docs.ansible.com/automation-controller/latest/pdf/AnsibleAutomationPlatformQuickSetup.pdf</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
@@ -26,11 +26,11 @@
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/pdf/AnsibleTowerInstallationandReferenceGuide.pdf</loc>
+    <loc>http://docs.ansible.com/automation-controller/latest/pdf/AnsibleAutomationPlatformInstallationandReferenceGuide.pdf</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/pdf/AnsibleTowerUserGuide.pdf</loc>
+    <loc>http://docs.ansible.com/automation-controller/latest/pdf/AutomationControllerUserGuide.pdf</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
@@ -38,7 +38,7 @@
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/pdf/AnsibleTowerAdministrationGuide.pdf</loc>
+    <loc>http://docs.ansible.com/automation-controller/latest/pdf/AutomationControllerAdministrationGuide.pdf</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
@@ -50,7 +50,7 @@
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/pdf/AnsibleTowerAPIGuide.pdf</loc>
+    <loc>http://docs.ansible.com/automation-controller/latest/pdf/AutomationControllerAPIGuide.pdf</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>

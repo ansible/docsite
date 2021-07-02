@@ -17,7 +17,7 @@
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://docs.ansible.com/automation-controller/latest/pdf/AnsibleTowerQuickInstall.pdf</loc>
+  <loc>http://docs.ansible.com/automation-controller/latest/pdf/AnsibleAutomationPlatformQuickInstall.pdf</loc>
   <lastmod>2015-07-17T01:33:56+00:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
@@ -27,7 +27,7 @@
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://docs.ansible.com/automation-controller/latest/pdf/AnsibleTowerQuickSetupGuide.pdf</loc>
+  <loc>http://docs.ansible.com/automation-controller/latest/pdf/AnsibleAutomationPlatformQuickSetup.pdf</loc>
   <lastmod>2015-07-17T01:33:56+00:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
@@ -37,7 +37,7 @@
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://docs.ansible.com/automation-controller/latest/pdf/AnsibleTowerInstallationandReferenceGuide.pdf</loc>
+  <loc>http://docs.ansible.com/automation-controller/latest/pdf/AnsibleAutomationPlatformInstallationandReferenceGuide.pdf</loc>
   <lastmod>2015-07-17T01:33:56+00:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
@@ -47,7 +47,7 @@
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://docs.ansible.com/automation-controller/latest/pdf/AnsibleTowerUserGuide.pdf</loc>
+  <loc>http://docs.ansible.com/automation-controller/latest/pdf/AutomationControllerUserGuide.pdf</loc>
   <lastmod>2015-07-17T01:33:56+00:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
@@ -57,7 +57,7 @@
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://docs.ansible.com/automation-controller/latest/pdf/AnsibleTowerAdministrationGuide.pdf</loc>
+  <loc>http://docs.ansible.com/automation-controller/latest/pdf/AutomationControllerAdministrationGuide.pdf</loc>
   <lastmod>2015-07-17T01:33:56+00:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
@@ -67,7 +67,7 @@
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://docs.ansible.com/automation-controller/latest/pdf/AnsibleTowerAPIGuide.pdf</loc>
+  <loc>http://docs.ansible.com/automation-controller/latest/pdf/AutomationControllerAPIGuide.pdf</loc>
   <lastmod>2015-07-17T01:33:56+00:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
