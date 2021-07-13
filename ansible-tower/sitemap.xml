@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/quickinstall/index.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/pdf/AnsibleTowerQuickInstall.pdf</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/quickstart/index.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/pdf/AnsibleTowerQuickSetupGuide.pdf</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/index.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/pdf/AnsibleTowerInstallationandReferenceGuide.pdf</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/index.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/pdf/AnsibleTowerUserGuide.pdf</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/administration/index.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/pdf/AnsibleTowerAdministrationGuide.pdf</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/index.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/pdf/AnsibleTowerAPIGuide.pdf</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/quickinstall/prepare.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/quickinstall/download_tower.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/quickinstall/install_wizard.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/quickinstall/install_script.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/quickinstall/congrats.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/quickinstall/genindex.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/quickstart/quick_start.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/quickstart/login_superuser.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/quickstart/import_license.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/quickstart/examine_dashboard.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/quickstart/setup.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/quickstart/create_organization.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/quickstart/create_user.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/quickstart/create_inventory.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/quickstart/create_credential.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/quickstart/create_project.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/quickstart/create_job.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/quickstart/launch.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/quickstart/genindex.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/updates_support.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/release_notes.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/known_issues.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/general_install_notes.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/platforms_requirements.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/platform_specific_notes.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/requirements_refguide.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/prerequisites_refguide.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/install_scenarios.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/tower_installer.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/tower_install_wizard.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/upgrade_tower.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/supported_locales.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/component_licenses.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/glossary.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/genindex.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/overview.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/logging_in.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/main_menu.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/organizations.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/users.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/teams.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/credentials.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/projects.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/inventories.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/job_templates.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/jobs.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/best_practices.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/security.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/genindex.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/administration/init_script.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/administration/custom_inventory_script.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/administration/management_jobs.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/administration/using_ldap.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/administration/high_availability.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/administration/proxy-support.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/administration/logfiles.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/administration/tower-manage.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/administration/backup_restore.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/administration/troubleshooting.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/administration/genindex.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/tools.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/browseable.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/conventions.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/sorting.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/filtering.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/pagination.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/read_only_fields.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/tower_cli.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/genindex.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/installandreference/index.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/installandreference/general_install_notes.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/installandreference/platforms_requirements.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/installandreference/platform_specific_notes.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/installandreference/requirements_refguide.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/installandreference/install_scenarios.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/installandreference/tower_install_wizard.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/administration/high_availability.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/quickstart/index.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/userguide/index.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/administration/index.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/towerapi/index.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/installandreference/updates_support.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/userguide/organizations.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/userguide/inventories.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/userguide/users.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/userguide/teams.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/userguide/job_templates.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/administration/management_jobs.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/administration/backup_restore.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/administration/custom_inventory_script.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/installandreference/known_issues.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/towerapi/tower_cli.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/userguide/security.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/installandreference/release_notes.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/installandreference/prerequisites_refguide.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/installandreference/tower_installer.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/installandreference/upgrade_tower.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/installandreference/supported_locales.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/installandreference/component_licenses.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/installandreference/glossary.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/installandreference/genindex.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/administration/init_script.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/administration/using_ldap.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/administration/proxy-support.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/administration/logfiles.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/administration/tower-manage.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/administration/troubleshooting.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/quickstart/quick_start.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/quickstart/login_superuser.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/quickstart/import_license.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/quickstart/examine_dashboard.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/quickstart/setup.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/quickstart/create_organization.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/quickstart/create_user.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/quickstart/create_inventory.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/quickstart/create_credential.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/quickstart/create_project.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/quickstart/create_job.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/quickstart/launch.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/quickstart/genindex.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/userguide/overview.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/userguide/logging_in.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/userguide/main_menu.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/userguide/credentials.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/userguide/projects.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/userguide/jobs.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/userguide/best_practices.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/userguide/genindex.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/administration/genindex.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/towerapi/tools.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/towerapi/browseable.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/towerapi/conventions.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/towerapi/sorting.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/towerapi/filtering.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/towerapi/pagination.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/towerapi/read_only_fields.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://docs.ansible.com/ansible-tower/2.2.0/html/towerapi/genindex.html</loc>
+  <lastmod>2015-07-17T01:33:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>

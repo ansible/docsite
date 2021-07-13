@@ -2,11 +2,11 @@
 <!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://docs.ansible.com/automation-controller/</loc>
+    <loc>http://docs.ansible.com/ansible-tower/</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/pdf/AnsibleAutomationPlatformQuickInstall.pdf</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/pdf/AnsibleTowerQuickInstall.pdf</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
@@ -14,51 +14,51 @@
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/pdf/AnsibleAutomationPlatformQuickSetup.pdf</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/pdf/AnsibleTowerQuickSetupGuide.pdf</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/quickinstall/index.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/quickinstall/index.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/quickstart/index.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/quickstart/index.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/pdf/AnsibleAutomationPlatformInstallationandReferenceGuide.pdf</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/pdf/AnsibleTowerInstallationandReferenceGuide.pdf</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/pdf/AutomationControllerUserGuide.pdf</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/pdf/AnsibleTowerUserGuide.pdf</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/installandreference/index.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/index.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/pdf/AutomationControllerAdministrationGuide.pdf</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/pdf/AnsibleTowerAdministrationGuide.pdf</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/userguide/index.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/index.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/administration/index.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/administration/index.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/pdf/AutomationControllerAPIGuide.pdf</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/pdf/AnsibleTowerAPIGuide.pdf</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/towerapi/index.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/index.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/index.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/index.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
@@ -90,343 +90,343 @@
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/quickinstall/prepare.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/quickinstall/prepare.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/quickinstall/download_tower.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/quickinstall/download_tower.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/quickinstall/install_wizard.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/quickinstall/install_wizard.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/quickinstall/congrats.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/quickinstall/congrats.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/quickinstall/install_script.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/quickinstall/install_script.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/quickinstall/genindex.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/quickinstall/genindex.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/quickstart/quick_start.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/quickstart/quick_start.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/quickstart/login_superuser.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/quickstart/login_superuser.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/quickstart/import_license.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/quickstart/import_license.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/quickstart/examine_dashboard.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/quickstart/examine_dashboard.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/quickstart/setup.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/quickstart/setup.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/quickstart/create_organization.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/quickstart/create_organization.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/quickstart/create_user.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/quickstart/create_user.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/quickstart/create_credential.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/quickstart/create_credential.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/quickstart/create_inventory.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/quickstart/create_inventory.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/quickstart/create_project.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/quickstart/create_project.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/quickstart/create_job.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/quickstart/create_job.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/quickstart/launch.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/quickstart/launch.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/quickstart/genindex.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/quickstart/genindex.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/installandreference/updates_support.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/updates_support.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/installandreference/release_notes.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/release_notes.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/installandreference/general_install_notes.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/general_install_notes.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/installandreference/known_issues.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/known_issues.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/installandreference/platforms_requirements.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/platforms_requirements.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/installandreference/platform_specific_notes.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/platform_specific_notes.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/installandreference/requirements_refguide.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/requirements_refguide.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/installandreference/prerequisites_refguide.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/prerequisites_refguide.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/installandreference/install_scenarios.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/install_scenarios.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/installandreference/tower_installer.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/tower_installer.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/installandreference/tower_install_wizard.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/tower_install_wizard.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/installandreference/upgrade_tower.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/upgrade_tower.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/installandreference/supported_locales.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/supported_locales.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/installandreference/glossary.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/glossary.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/installandreference/genindex.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/installandreference/genindex.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/userguide/overview.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/overview.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/userguide/logging_in.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/logging_in.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/userguide/main_menu.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/main_menu.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/userguide/organizations.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/organizations.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/userguide/users.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/users.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/userguide/teams.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/teams.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/userguide/credentials.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/credentials.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/userguide/projects.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/projects.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/userguide/job_templates.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/job_templates.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/userguide/inventories.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/inventories.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/userguide/jobs.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/jobs.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/userguide/best_practices.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/best_practices.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/userguide/security.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/security.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/userguide/genindex.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/userguide/genindex.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/administration/init_script.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/administration/init_script.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/administration/custom_inventory_script.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/administration/custom_inventory_script.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/administration/management_jobs.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/administration/management_jobs.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/administration/using_ldap.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/administration/using_ldap.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/administration/high_availability.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/administration/high_availability.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/administration/proxy-support.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/administration/proxy-support.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/administration/logfiles.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/administration/logfiles.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/administration/tower-manage.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/administration/tower-manage.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/administration/backup_restore.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/administration/backup_restore.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/administration/troubleshooting.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/administration/troubleshooting.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/administration/genindex.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/administration/genindex.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/towerapi/intro.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/intro.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/towerapi/auth_token.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/auth_token.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/towerapi/ping.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/ping.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/towerapi/configuration.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/configuration.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/towerapi/dashboard.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/dashboard.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/towerapi/me.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/me.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/towerapi/organizations.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/organizations.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/towerapi/users.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/users.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/towerapi/projects.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/projects.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/towerapi/teams.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/teams.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/towerapi/inventory_list.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/inventory_list.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/towerapi/credentials.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/credentials.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/towerapi/inventory_script.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/inventory_script.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/towerapi/group_list.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/group_list.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/towerapi/host_list.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/host_list.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/towerapi/inventory_source.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/inventory_source.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/towerapi/job_template.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/job_template.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/towerapi/job_list.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/job_list.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/towerapi/ad_hoc_command.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/ad_hoc_command.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/towerapi/system_job_template.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/system_job_template.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/towerapi/schedules.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/schedules.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/towerapi/system_job_list.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/system_job_list.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/towerapi/unified_job_template.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/unified_job_template.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/towerapi/unified_job_list.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/unified_job_list.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/towerapi/activity_stream.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/activity_stream.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/latest/html/towerapi/genindex.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/latest/html/towerapi/genindex.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
@@ -718,95 +718,95 @@
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/installandreference/general_install_notes.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/installandreference/general_install_notes.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/installandreference/index.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/installandreference/index.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/installandreference/platforms_requirements.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/installandreference/platforms_requirements.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/installandreference/platform_specific_notes.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/installandreference/platform_specific_notes.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/administration/management_jobs.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/administration/management_jobs.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/installandreference/install_scenarios.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/installandreference/install_scenarios.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/installandreference/tower_install_wizard.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/installandreference/tower_install_wizard.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/administration/high_availability.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/administration/high_availability.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/quickstart/index.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/quickstart/index.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/userguide/index.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/userguide/index.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/administration/index.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/administration/index.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/towerapi/index.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/towerapi/index.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/installandreference/updates_support.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/installandreference/updates_support.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/userguide/organizations.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/userguide/organizations.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/userguide/users.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/userguide/users.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/userguide/inventories.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/userguide/inventories.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/userguide/teams.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/userguide/teams.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/userguide/job_templates.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/userguide/job_templates.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/administration/backup_restore.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/administration/backup_restore.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/installandreference/known_issues.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/installandreference/known_issues.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/administration/custom_inventory_script.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/administration/custom_inventory_script.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/userguide/security.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/userguide/security.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/towerapi/intro.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/towerapi/intro.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
@@ -814,7 +814,7 @@
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/installandreference/requirements_refguide.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/installandreference/requirements_refguide.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
@@ -2558,243 +2558,243 @@
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/installandreference/release_notes.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/installandreference/release_notes.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/installandreference/prerequisites_refguide.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/installandreference/prerequisites_refguide.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/installandreference/tower_installer.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/installandreference/tower_installer.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/installandreference/upgrade_tower.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/installandreference/upgrade_tower.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/installandreference/supported_locales.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/installandreference/supported_locales.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/installandreference/glossary.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/installandreference/glossary.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/installandreference/genindex.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/installandreference/genindex.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/administration/init_script.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/administration/init_script.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/administration/using_ldap.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/administration/using_ldap.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/administration/proxy-support.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/administration/proxy-support.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/administration/logfiles.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/administration/logfiles.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/administration/tower-manage.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/administration/tower-manage.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/administration/troubleshooting.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/administration/troubleshooting.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/quickstart/quick_start.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/quickstart/quick_start.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/quickstart/login_superuser.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/quickstart/login_superuser.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/quickstart/import_license.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/quickstart/import_license.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/quickstart/examine_dashboard.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/quickstart/examine_dashboard.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/quickstart/setup.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/quickstart/setup.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/quickstart/create_organization.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/quickstart/create_organization.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/quickstart/create_user.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/quickstart/create_user.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/quickstart/create_credential.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/quickstart/create_credential.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/quickstart/create_inventory.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/quickstart/create_inventory.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/quickstart/create_project.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/quickstart/create_project.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/quickstart/create_job.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/quickstart/create_job.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/quickstart/launch.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/quickstart/launch.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/quickstart/genindex.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/quickstart/genindex.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/userguide/overview.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/userguide/overview.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/userguide/logging_in.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/userguide/logging_in.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/userguide/main_menu.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/userguide/main_menu.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/userguide/credentials.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/userguide/credentials.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/userguide/projects.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/userguide/projects.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/userguide/jobs.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/userguide/jobs.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/userguide/best_practices.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/userguide/best_practices.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/userguide/genindex.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/userguide/genindex.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/administration/genindex.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/administration/genindex.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/towerapi/auth_token.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/towerapi/auth_token.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/towerapi/ping.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/towerapi/ping.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/towerapi/configuration.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/towerapi/configuration.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/towerapi/me.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/towerapi/me.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/towerapi/dashboard.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/towerapi/dashboard.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/towerapi/organizations.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/towerapi/organizations.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/towerapi/users.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/towerapi/users.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/towerapi/projects.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/towerapi/projects.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/towerapi/teams.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/towerapi/teams.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/towerapi/credentials.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/towerapi/credentials.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/towerapi/inventory_script.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/towerapi/inventory_script.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/towerapi/inventory_list.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/towerapi/inventory_list.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/towerapi/group_list.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/towerapi/group_list.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/towerapi/host_list.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/towerapi/host_list.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/towerapi/inventory_source.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/towerapi/inventory_source.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/towerapi/job_template.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/towerapi/job_template.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/towerapi/job_list.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/towerapi/job_list.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/towerapi/ad_hoc_command.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/towerapi/ad_hoc_command.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/towerapi/system_job_template.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/towerapi/system_job_template.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/towerapi/system_job_list.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/towerapi/system_job_list.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/towerapi/schedules.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/towerapi/schedules.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/towerapi/unified_job_template.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/towerapi/unified_job_template.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/towerapi/unified_job_list.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/towerapi/unified_job_list.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/towerapi/activity_stream.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/towerapi/activity_stream.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
   <url>
-    <loc>http://docs.ansible.com/automation-controller/2.3.0/html/towerapi/genindex.html</loc>
+    <loc>http://docs.ansible.com/ansible-tower/2.3.0/html/towerapi/genindex.html</loc>
     <changefreq>Weekly</changefreq>
   </url>
 </urlset>
