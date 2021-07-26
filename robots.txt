@@ -1,0 +1,3 @@
+Sitemap: https://docs.ansible.com/ansible-core-sitemap.xml
+Sitemap: https://docs.ansible.com/ansible-controller-sitemap.xml
+Sitemap: https://docs.ansible.com/ansible-tower-sitemap.xml
