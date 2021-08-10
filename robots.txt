@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /ansible-core/
+Sitemap: https://docs.ansible.com/ansible-sitemap.xml
+Sitemap: https://docs.ansible.com/automation-controller-sitemap.xml
