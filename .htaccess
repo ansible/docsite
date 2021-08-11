@@ -199,8 +199,8 @@ RedirectMatch permanent "^/ansible/(devel|latest)/vmware/vmware_?(.+)?" "/ansibl
 RedirectMatch permanent "^\/ansible-tower\/((2\.\d\.\d)|3\.[0-3]\.\d)\/html(_\w+)?\/.*updates_support\.html$" "/ansible-tower/latest/html$3/installandreference/updates_support.html"
 
 # Redirects related to PR 74834, links that still exist in 2.9 error messages
-RedirectMatch permanent "^/ansible/playbooks_vault.html" "/ansible/latest/user_guide/playbooks_vault.html"
-RedirectMatch permanent "^/ansible/network_debug_troubleshooting.html#unable-to-open-shell" "/ansible/latest/network/user_guide/network_debug_troubleshooting.html#category-unable-to-open-shell"
+RedirectMatch permanent "^/ansible/playbooks_vault.html" "/ansible/latest/user_guide/vault.html"
+RedirectMatch permanent "^/ansible/network_debug_troubleshooting.html" "/ansible/latest/network/user_guide/network_debug_troubleshooting.html#category-unable-to-open-shell"
 
 
 # Redirect all ansible-lint pages to ReadTheDocs
