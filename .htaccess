@@ -6,8 +6,9 @@ RewriteEngine On
 # TEMP REMOVAL TO TEST RedirectMatch permanent "^/((?!index|404)[^/]+)\.html" "/ansible/$1.html"
 RedirectMatch permanent "^/((?!index|404|automation.*|ansible_community|collections|community|core.*|galaxy|lint)[^/]+)\.html" "/ansible/$1.html"
 
-# Redirect so docs.ansible.com/ansible-core/ doesn't show an Index of page anymore
+# Redirect so docs.ansible.com/ansible-core/ and docs.ansible.com/ansible/  dont show an Index of page anymore
 RedirectMatch permanent "^/ansible-core(|/|/index.html)$" "/ansible-core/devel/"
+RedirectMatch permanent "^/ansible(|/|/index.html)$" "/ansible/latest/"
 
 # Redirect developer docs to new dir
 RedirectMatch permanent "^/ansible/(developing_[^/]+)\.html" "/ansible/latest/dev_guide/$1.html"
