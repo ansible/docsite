@@ -1,5 +1,5 @@
 Options -MultiViews
-ErrorDocument 404 /ansible/r4/404.html
+ErrorDocument 404 /ansible/4/404.html
 
 RedirectMatch "^(/ansible/[^/]+)/plugins/become/doas.html" "$1/collections/community/general/doas_become.html"
 RedirectMatch "^(/ansible/[^/]+)/plugins/become/dzdo.html" "$1/collections/community/general/dzdo_become.html"
