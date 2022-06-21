@@ -96,7 +96,7 @@ RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_vault.html" "/ansibl
 RedirectMatch permanent "^/ansible/(devel|latest)/playbooks.html" "/ansible/$1/user_guide/playbooks.html"
 RedirectMatch permanent "^/ansible/(devel|latest)/plugin_filtering_config.html" "/ansible/$1/user_guide/plugin_filtering_config.html"
 RedirectMatch permanent "^/ansible/(devel|latest)/quickstart.html" "/ansible/$1/getting_started/index.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/quickstart.html" "/ansible/$1/getting_started/index.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/quickstart.html" "/ansible/$1/getting_started/index.html"
 RedirectMatch permanent "^/ansible/(devel|latest)/vault.html" "/ansible/$1/user_guide/vault.html"
 RedirectMatch permanent "^/ansible/(devel|latest)/windows_dsc.html" "/ansible/$1/user_guide/windows_dsc.html"
 RedirectMatch permanent "^/ansible/(devel|latest)/windows_faq.html" "/ansible/$1/user_guide/windows_faq.html"
