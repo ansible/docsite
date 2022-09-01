@@ -4,7 +4,7 @@ RewriteEngine On
 
 # Redirect old ansible documentation into new sub-directory
 # TEMP REMOVAL TO TEST RedirectMatch permanent "^/((?!index|404)[^/]+)\.html" "/ansible/$1.html"
-RedirectMatch permanent "^/((?!index|404|automation.*|ansible_community|collections|community|core.*|galaxy|lint)[^/]+)\.html" "/ansible/$1.html"
+RedirectMatch permanent "^/((?!index|404|automation.*|ansible_community|collections|community|core.*|galaxy|lint|ansible-prior*)[^/]+)\.html" "/ansible/$1.html"
 
 # Redirect so docs.ansible.com/ansible-core/ and docs.ansible.com/ansible/  dont show an Index of page anymore
 RedirectMatch permanent "^/ansible-core(|/|/index.html)$" "/ansible-core/devel/"
