@@ -10,6 +10,10 @@ RedirectMatch permanent "^/((?!index|404|automation.*|ansible_community|collecti
 RedirectMatch permanent "^/ansible-core(|/|/index.html)$" "/ansible-core/devel/"
 RedirectMatch permanent "^/ansible(|/|/index.html)$" "/ansible/latest/"
 
+# EOL Archive Redirects
+RedirectMatch permanent "^/ansible/2.3/?(.+)?.html" "/ansible/latest/$1.html"
+
+
 # Redirect developer docs to new dir
 RedirectMatch permanent "^/ansible/(developing_[^/]+)\.html" "/ansible/latest/dev_guide/$1.html"
 RedirectMatch permanent "^/ansible/developing.html" "/ansible/dev_guide/index.html"
