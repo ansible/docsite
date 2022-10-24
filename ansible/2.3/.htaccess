@@ -1,3 +1,10 @@
+# EOL Archive redirects for select guide pages that have moved:
+RedirectMatch "^(/ansible/[^/]+)/playbooks_roles.html" "/ansible/latest/user_guide/playbooks_reuse.html"
+RedirectMatch "^(/ansible/[^/]+)/playbooks_vault.html" "/ansible/latest/user_guide/vault.html"
+RedirectMatch "^(/ansible/[^/]+)/playbooks_directives.html" "/ansible/latest/reference_appendices/playbooks_keywords.html"
+RedirectMatch "^(/ansible/[^/]+)/dev_guide/developing_test_pr.html" "/ansible/latest/dev_guide/testing.html"
+
+
 
 # EOL Archive Redirects for all plugins. NOTE there is one final wider redirect at the end of this list
 RedirectMatch "^(/ansible/[^/]+)/doas_module.html" "/ansible/latest/collections/community/general/doas_become.html"
