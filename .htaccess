@@ -94,8 +94,6 @@ RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/intro_adhoc.html" "
 
 RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/complex_data_manipulation.html" "/ansible/$1/playbook_guide/complex_data_manipulation.html"
 
-RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_intro.html" "/ansible/$1/playbook_guide/playbooks_handlers.html"
-
 RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_module_defaults.html" "/ansible/$1/playbook_guide/playbooks_module_defaults.html"
 
 RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_vars_facts.html" "/ansible/$1/playbook_guide/playbooks_vars_facts.html"
@@ -216,8 +214,8 @@ RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/modules_intro.html"
 RedirectMatch permanent "^/ansible/(devel|latest)/modules_support.html" "/ansible/$1/module_plugin_guide/index.html"
 RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/modules_support.html" "/ansible/$1/module_plugin_guide/index.html"
 
-RedirectMatch permanent "^/ansible/(devel|latest)/plugin_filtering_config.html" "/ansible/$1/module_plugin_guide/index.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/plugin_filtering_config.html" "/ansible/$1/module_plugin_guide/index.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/plugin_filtering_config.html" "/ansible/$1/module_plugin_guide/plugin_filtering_config.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/plugin_filtering_config.html" "/ansible/$1/module_plugin_guide/plugin_filtering_config.html"
 
 # Collections
 
