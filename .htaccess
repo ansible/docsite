@@ -3,31 +3,37 @@ ErrorDocument 404 /404.html
 RewriteEngine On
 
 # Redirect old ansible documentation into new sub-directory
+
 # TEMP REMOVAL TO TEST RedirectMatch permanent "^/((?!index|404)[^/]+)\.html" "/ansible/$1.html"
+
 RedirectMatch permanent "^/((?!index|404|automation.*|ansible_community|collections|community|core.*|galaxy|lint|ansible-prior*)[^/]+)\.html" "/ansible/$1.html"
 
 # Redirect so docs.ansible.com/ansible-core/ and docs.ansible.com/ansible/  dont show an Index of page anymore
+
 RedirectMatch permanent "^/ansible-core(|/|/index.html)$" "/ansible-core/devel/"
 RedirectMatch permanent "^/ansible(|/|/index.html)$" "/ansible/latest/"
 
 # Redirect developer docs to new dir
+
 RedirectMatch permanent "^/ansible/(developing_[^/]+)\.html" "/ansible/latest/dev_guide/$1.html"
 RedirectMatch permanent "^/ansible/developing.html" "/ansible/dev_guide/index.html"
 RedirectMatch permanent "^/ansible/dev_guide(\/)?" "/ansible/latest/dev_guide/index.html"
+
 # Commenting out the regex below; it redirected Ansible 3.0.0 docs (URLs like /ansible/3/*)
-# Can we remove it entirely?
+
 # RedirectMatch permanent "^/ansible/(?!latest|devel|\d\.+)(.+)?.html" "/ansible/latest/$1.html"
 
 # Redirects for renamed module reference directory
+
 RedirectMatch permanent "^/ansible/devel/module_docs/?(.+)?" "/ansible/devel/modules/$1"
 RedirectMatch permanent "^/ansible/latest/module_docs/?(.+)?" "/ansible/latest/modules/$1"
 
+RedirectMatch permanent "^/ansible/modules_by_category.html" "/ansible/latest/module_plugin_guide/index.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/modules_by_category.html" "/ansible/$1/module_plugin_guide/index.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/modules/modules_by_category.html" "/ansible/$1/module_plugin_guide/index.html"
 
-RedirectMatch permanent "^/ansible/modules_by_category.html" "/ansible/latest/modules_by_category.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/modules_by_category.html" "/ansible/$1/modules/modules_by_category.html"
-
-RedirectMatch permanent "^/ansible/modules.html" "/ansible/latest/modules.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/modules.html" "/ansible/$1/user_guide/modules.html"
+RedirectMatch permanent "^/ansible/modules.html" "/ansible/latest/module_plugin_guide/index.html"
+RedirectMatch permanent "/ansible/latest/modules.html" "/ansible/latest/module_plugin_guide/index.html"
 
 # Redirects for moved community page
 
@@ -48,69 +54,209 @@ RedirectMatch permanent "^/ansible/(devel|latest)/ansible-doc.html" "/ansible/$1
 RedirectMatch permanent "^/ansible/(devel|latest)/ansible-console.html" "/ansible/$1/cli/ansible-console.html"
 RedirectMatch permanent "^/ansible/(devel|latest)/ansible-config.html" "/ansible/$1/cli/ansible-config.html"
 
-# User Guide
+# Getting Started
 
-RedirectMatch permanent "^/ansible/(devel|latest)/become.html" "/ansible/$1/user_guide/become.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/command_line_tools.html" "/ansible/$1/user_guide/command_line_tools.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/intro_adhoc.html" "/ansible/$1/user_guide/intro_adhoc.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/intro_bsd.html" "/ansible/$1/user_guide/intro_bsd.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/intro_dynamic_inventory.html" "/ansible/$1/user_guide/intro_dynamic_inventory.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/basic_concepts.html" "/ansible/$1/getting_started/basic_concepts.html"
+
 RedirectMatch permanent "^/ansible/(devel|latest)/intro_getting_started.html" "/ansible/$1/getting_started/index.html"
 RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/intro_getting_started.html" "/ansible/$1/getting_started/index.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/intro_inventory.html" "/ansible/$1/user_guide/intro_inventory.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/intro_patterns.html" "/ansible/$1/user_guide/intro_patterns.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/intro_windows.html" "/ansible/$1/user_guide/intro_windows.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/intro.html" "/ansible/$1/user_guide/intro.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/modules_intro.html" "/ansible/$1/user_guide/modules_intro.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/modules_support.html" "/ansible/$1/user_guide/modules_support.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbook_pathing.html" "/ansible/$1/user_guide/playbook_pathing.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_advanced_syntax.html" "/ansible/$1/user_guide/playbooks_advanced_syntax.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_async.html" "/ansible/$1/user_guide/playbooks_async.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_best_practices.html" "/ansible/$1/user_guide/playbooks_best_practices.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_blocks.html" "/ansible/$1/user_guide/playbooks_blocks.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_checkmode.html" "/ansible/$1/user_guide/playbooks_checkmode.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_conditionals.html" "/ansible/$1/user_guide/playbooks_conditionals.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_debugger.html" "/ansible/$1/user_guide/playbooks_debugger.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_delegation.html" "/ansible/$1/user_guide/playbooks_delegation.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_environment.html" "/ansible/$1/user_guide/playbooks_environment.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_error_handling.html" "/ansible/$1/user_guide/playbooks_error_handling.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_filters_ipaddr.html" "/ansible/$1/user_guide/playbooks_filters_ipaddr.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_filters.html" "/ansible/$1/user_guide/playbooks_filters.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_intro.html" "/ansible/$1/user_guide/playbooks_intro.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_lookups.html" "/ansible/$1/user_guide/playbooks_lookups.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_loops.html" "/ansible/$1/user_guide/playbooks_loops.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_prompts.html" "/ansible/$1/user_guide/playbooks_prompts.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_python_version.html" "/ansible/$1/user_guide/playbooks_python_version.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_reuse_includes.html" "/ansible/$1/user_guide/playbooks_reuse_includes.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_reuse_roles.html" "/ansible/$1/user_guide/playbooks_reuse_roles.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_reuse.html" "/ansible/$1/user_guide/playbooks_reuse.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_roles.html" "/ansible/$1/user_guide/playbooks_roles.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_special_topics.html" "/ansible/$1/user_guide/playbooks_special_topics.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_startnstep.html" "/ansible/$1/user_guide/playbooks_startnstep.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_strategies.html" "/ansible/$1/user_guide/playbooks_strategies.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_tags.html" "/ansible/$1/user_guide/playbooks_tags.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_templating.html" "/ansible/$1/user_guide/playbooks_templating.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_tests.html" "/ansible/$1/user_guide/playbooks_tests.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_variables.html" "/ansible/$1/user_guide/playbooks_variables.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_vault.html" "/ansible/$1/user_guide/playbooks_vault.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/playbooks.html" "/ansible/$1/user_guide/playbooks.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/plugin_filtering_config.html" "/ansible/$1/user_guide/plugin_filtering_config.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/intro.html" "/ansible/$1/getting_started/index.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/intro.html" "/ansible/$1/getting_started/index.html"
+
 RedirectMatch permanent "^/ansible/(devel|latest)/quickstart.html" "/ansible/$1/getting_started/index.html"
 RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/quickstart.html" "/ansible/$1/getting_started/index.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/vault.html" "/ansible/$1/user_guide/vault.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/windows_dsc.html" "/ansible/$1/user_guide/windows_dsc.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/windows_faq.html" "/ansible/$1/user_guide/windows_faq.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/windows_setup.html" "/ansible/$1/user_guide/windows_setup.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/windows_usage.html" "/ansible/$1/user_guide/windows_usage.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/windows_winrm.html" "/ansible/$1/user_guide/windows_winrm.html"
-RedirectMatch permanent "^/ansible/(devel|latest)/windows.html" "/ansible/$1/user_guide/windows.html"
 
+# Inventory Guide
+
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/connection_details.html" "/ansible/$1/inventory_guide/connection_details.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/intro_inventory.html" "/ansible/$1/inventory_guide/intro_inventory.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/intro_inventory.html" "/ansible/$1/inventory_guide/intro_inventory.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/intro_patterns.html" "/ansible/$1/inventory_guide/intro_patterns.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/intro_patterns.html" "/ansible/$1/inventory_guide/intro_patterns.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/intro_dynamic_inventory.html" "/ansible/$1/inventory_guide/intro_dynamic_inventory.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/intro_dynamic_inventory.html" "/ansible/$1/inventory_guide/intro_dynamic_inventory.html"
+
+# Command Line Tools
+
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/cheatsheet.html" "/ansible/$1/command_guide/cheatsheet.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/command_line_tools.html" "/ansible/$1/command_guide/command_line_tools.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/command_line_tools.html" "/ansible/$1/command_guide/command_line_tools.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/intro_adhoc.html" "/ansible/$1/command_guide/intro_adhoc.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/intro_adhoc.html" "/ansible/$1/command_guide/intro_adhoc.html"
+
+# Playbook Guide
+
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/complex_data_manipulation.html" "/ansible/$1/playbook_guide/complex_data_manipulation.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_module_defaults.html" "/ansible/$1/playbook_guide/playbooks_module_defaults.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_vars_facts.html" "/ansible/$1/playbook_guide/playbooks_vars_facts.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks.html" "/ansible/$1/playbook_guide/playbooks.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks.html" "/ansible/$1/playbook_guide/playbooks.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/become.html" "/ansible/$1/playbook_guide/playbooks_privilege_escalation.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/become.html" "/ansible/$1/playbook_guide/playbooks_privilege_escalation.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_advanced_syntax.html" "/ansible/$1/playbook_guide/playbooks_advanced_syntax.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_advanced_syntax.html" "/ansible/$1/playbook_guide/playbooks_advanced_syntax.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_async.html" "/ansible/$1/playbook_guide/playbooks_async.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_async.html" "/ansible/$1/playbook_guide/playbooks_async.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_best_practices.html" "/ansible/$1/tips_tricks/ansible_tips_tricks.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_best_practices.html" "/ansible/$1/tips_tricks/ansible_tips_tricks.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_blocks.html" "/ansible/$1/playbook_guide/playbooks_blocks.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_blocks.html" "/ansible/$1/playbook_guide/playbooks_blocks.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_checkmode.html" "/ansible/$1/playbook_guide/playbooks_checkmode.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_checkmode.html" "/ansible/$1/playbook_guide/playbooks_checkmode.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_conditionals.html" "/ansible/$1/playbook_guide/playbooks_conditionals.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_conditionals.html" "/ansible/$1/playbook_guide/playbooks_conditionals.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_debugger.html" "/ansible/$1/playbook_guide/playbooks_debugger.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_debugger.html" "/ansible/$1/playbook_guide/playbooks_debugger.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_delegation.html" "/ansible/$1/playbook_guide/playbooks_delegation.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_delegation.html" "/ansible/$1/playbook_guide/playbooks_delegation.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_environment.html" "/ansible/$1/playbook_guide/playbooks_environment.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_environment.html" "/ansible/$1/playbook_guide/playbooks_environment.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_error_handling.html" "/ansible/$1/playbook_guide/playbooks_error_handling.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_error_handling.html" "/ansible/$1/playbook_guide/playbooks_error_handling.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_filters_ipaddr.html" "/ansible/$1/collections/ansible/utils/index.html#plugins-in-ansible-utils"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_filters_ipaddr.html" "/ansible/$1/collections/ansible/utils/index.html#plugins-in-ansible-utils"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_filters.html" "/ansible/$1/playbook_guide/playbooks_filters.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_filters.html" "/ansible/$1/playbook_guide/playbooks_filters.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_intro.html" "/ansible/$1/playbook_guide/playbooks_intro.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_intro.html" "/ansible/$1/playbook_guide/playbooks_intro.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_lookups.html" "/ansible/$1/playbook_guide/playbooks_lookups.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_lookups.html" "/ansible/$1/playbook_guide/playbooks_lookups.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_loops.html" "/ansible/$1/playbook_guide/playbooks_loops.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_loops.html" "/ansible/$1/playbook_guide/playbooks_loops.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_prompts.html" "/ansible/$1/playbook_guide/playbooks_prompts.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_prompts.html" "/ansible/$1/playbook_guide/playbooks_prompts.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_reuse_includes.html" "/ansible/$1/playbook_guide/playbooks_reuse.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_reuse_includes.html" "/ansible/$1/playbook_guide/playbooks_reuse.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_reuse_roles.html" "/ansible/$1/playbook_guide/playbooks_reuse_roles.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_reuse_roles.html" "/ansible/$1/playbook_guide/playbooks_reuse_roles.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_reuse.html" "/ansible/$1/playbook_guide/playbooks_reuse.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_reuse.html" "/ansible/$1/playbook_guide/playbooks_reuse.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_startnstep.html" "/ansible/$1/playbook_guide/playbooks_startnstep.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_startnstep.html" "/ansible/$1/playbook_guide/playbooks_startnstep.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_strategies.html" "/ansible/$1/playbook_guide/playbooks_strategies.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_strategies.html" "/ansible/$1/playbook_guide/playbooks_strategies.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_tags.html" "/ansible/$1/playbook_guide/playbooks_tags.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_tags.html" "/ansible/$1/playbook_guide/playbooks_tags.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_tests.html" "/ansible/$1/playbook_guide/playbooks_tests.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_tests.html" "/ansible/$1/playbook_guide/playbooks_tests.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_variables.html" "/ansible/$1/playbook_guide/playbooks_variables.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_variables.html" "/ansible/$1/playbook_guide/playbooks_variables.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbook_pathing.html" "/ansible/$1/playbook_guide/playbook_pathing.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbook_pathing.html" "/ansible/$1/playbook_guide/playbook_pathing.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_python_version.html" "/ansible/$1/playbook_guide/playbooks_python_version.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_python_version.html" "/ansible/$1/playbook_guide/playbooks_python_version.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_roles.html" "/ansible/$1/playbook_guide/playbooks_roles.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_roles.html" "/ansible/$1/playbook_guide/playbooks_roles.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_special_topics.html" "/ansible/$1/playbook_guide/index.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_special_topics.html" "/ansible/$1/playbook_guide/index.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_templating.html" "/ansible/$1/playbook_guide/playbooks_templating.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_templating.html" "/ansible/$1/playbook_guide/playbooks_templating.html"
+
+# Vault
+
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_vault.html" "/ansible/$1/vault_guide/index.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/vault.html" "/ansible/$1/vault_guide/index.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/vault.html" "/ansible/$1/vault_guide/index.html"
+
+# Next two redirects are related to PR 74834 (link still exists in 2.9 error messages)
+
+RedirectMatch permanent "^/ansible/playbooks_vault.html" "/ansible/latest/vault_guide/index.html"
+RedirectMatch permanent "^/ansible/network_debug_troubleshooting.html" "/ansible/latest/network/user_guide/network_debug_troubleshooting.html#category-unable-to-open-shell"
+
+# Modules and plugins
+
+RedirectMatch permanent "^/ansible/(devel|latest)/modules.html" "/ansible/$1/module_plugin_guide/index.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/modules.html" "/ansible/$1/module_plugin_guide/index.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/modules_intro.html" "/ansible/$1/module_plugin_guide/index.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/modules_intro.html" "/ansible/$1/module_plugin_guide/index.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/modules_support.html" "/ansible/$1/module_plugin_guide/index.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/modules_support.html" "/ansible/$1/module_plugin_guide/index.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/plugin_filtering_config.html" "/ansible/$1/module_plugin_guide/plugin_filtering_config.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/plugin_filtering_config.html" "/ansible/$1/module_plugin_guide/plugin_filtering_config.html"
+
+# Collections
+
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/collections_using.html" "/ansible/$1/collections_guide/index.html"
+
+# Windows and BSD Guide
+
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/windows_performance.html" "/ansible/$1/os_guide/windows_performance.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/windows.html" "/ansible/$1/os_guide/index.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/windows.html" "/ansible/$1/os_guide/index.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/intro_bsd.html" "/ansible/$1/os_guide/intro_bsd.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/intro_bsd.html" "/ansible/$1/os_guide/intro_bsd.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/intro_windows.html" "/ansible/$1/os_guide/index.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/intro_windows.html" "/ansible/$1/os_guide/index.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/windows_dsc.html" "/ansible/$1/os_guide/windows_dsc.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/windows_dsc.html" "/ansible/$1/os_guide/windows_dsc.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/windows_faq.html" "/ansible/$1/os_guide/windows_faq.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/windows_faq.html" "/ansible/$1/os_guide/windows_faq.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/windows_setup.html" "/ansible/$1/os_guide/windows_setup.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/windows_setup.html" "/ansible/$1/os_guide/windows_setup.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/windows_usage.html" "/ansible/$1/os_guide/windows_usage.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/windows_usage.html" "/ansible/$1/os_guide/windows_usage.html"
+
+RedirectMatch permanent "^/ansible/(devel|latest)/windows_winrm.html" "/ansible/$1/os_guide/windows_winrm.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/windows_winrm.html" "/ansible/$1/os_guide/windows_winrm.html"
+
+# Tips and tricks
+
+RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/sample_setup.html" "/ansible/$1/tips_tricks/sample_setup.html"
 
 # Installation Guide
 
 RedirectMatch permanent "^/ansible/(devel|latest)/intro_configuration.html" "/ansible/$1/installation_guide/intro_configuration.html"
 RedirectMatch permanent "^/ansible/(devel|latest)/intro_installation.html" "/ansible/$1/installation_guide/intro_installation.html"
-
 
 # Module list landing topics
 
@@ -148,7 +294,6 @@ RedirectMatch permanent "^/ansible/(devel|latest)/network_debug_troubleshooting.
 RedirectMatch permanent "^/ansible/(devel|latest)/network_working_with_command_output.html" "/ansible/$1/network/user_guide/network_working_with_command_output.html"
 RedirectMatch permanent "^/ansible/(devel|latest)/network.html" "/ansible/$1/network/index.html"
 RedirectMatch permanent "^/ansible/(devel|latest)/intro_networking.html" "/ansible/$1/network/index.html"
-
 
 # Plugins list
 
@@ -194,6 +339,7 @@ RedirectMatch permanent "^/ansible/(devel|latest)/guide_vmware.html" "/ansible/$
 RedirectMatch permanent "^/ansible/(devel|latest)/guides.html" "/ansible/$1/scenario_guides/guides.html"
 
 # Redirects for PR 54554, changes to Scenario Guides
+
 RedirectMatch permanent "^/ansible/(devel|latest)/scenario_guides/guide_rolling_upgrade.html" "/ansible/$1/user_guide/guide_rolling_upgrade.html"
 RedirectMatch permanent "^/ansible/(devel|latest)/vmware/scenario_?(.+)?" "/ansible/$1/scenario_guides/vmware_scenarios/vmware_scenarios.html"
 RedirectMatch permanent "^/ansible/(devel|latest)/vmware/scenarios.html" "/ansible/$1/scenario_guides/vmware_scenarios/vmware_scenarios.html"
@@ -202,12 +348,9 @@ RedirectMatch permanent "^/ansible/(devel|latest)/vmware/index.html" "/ansible/$
 RedirectMatch permanent "^/ansible/(devel|latest)/vmware/vmware_?(.+)?" "/ansible/$1/scenario_guides/guide_vmware.html"
 
 # Redirect old support pages per request from product team
+
 RedirectMatch permanent "^\/ansible-tower\/((2\.\d\.\d)|3\.[0-3]\.\d)\/html(_\w+)?\/.*updates_support\.html$" "/ansible-tower/latest/html$3/installandreference/updates_support.html"
 
-# Redirects related to PR 74834, links that still exist in 2.9 error messages
-RedirectMatch permanent "^/ansible/playbooks_vault.html" "/ansible/latest/user_guide/vault.html"
-RedirectMatch permanent "^/ansible/network_debug_troubleshooting.html" "/ansible/latest/network/user_guide/network_debug_troubleshooting.html#category-unable-to-open-shell"
-
-
 # Redirect all ansible-lint pages to ReadTheDocs
+
 RedirectMatch permanent "^/ansible-lint/*" "https://ansible-lint.readthedocs.io"
