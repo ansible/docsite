@@ -5,8 +5,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Ansible Lint Documentation</title>
-    <meta name="description" content="Ansible Lint Documentation" />
+    <title>Ansible Ecosystem</title>
+    <meta name="description" content="Ansible Ecosystem Documentation" />
     <meta name="author" content="Ansible, Inc." />
     <link
       href="https://static.redhat.com/libs/redhat/redhat-font/2.0.0/webfonts/red-hat-font.css"
@@ -326,9 +326,9 @@
               </g>
             </svg>
 
-            <h1 class="mb-2">Ansible Project Documentation</h1>
+            <h1 class="mb-2">Ansible Ecosystem</h1>
             <p class="subhead">
-              Find documentation for projects in the Ansible ecosystem.
+              Find documentation for projects across the Ansible ecosystem.
             </p>
           </div>
         </div>
@@ -341,14 +341,31 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-lg-4">
+            <a href="core.html">
+              <div class="card border">
+                <div class="card-body">
+                  <h4 class="card-title">Ansible Core</h4>
+                  <p class="card-text">
+                    Ansible Core is the language and runtime that powers
+                    automation.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <a href="core.html" class="btn btn-outline-black"
+                    >Visit the documentation</a
+                  >
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
             <a href="https://ansible-navigator.readthedocs.io/en/latest/">
               <div class="card border">
                 <div class="card-body">
-                  <h4 class="card-title">Ansible Navigator</h4>
+                  <h4 class="card-title">Navigator</h4>
                   <p class="card-text">
-                    Ansible Navigator is a command based tool for creating,
-                    reviewing, and troubleshooting Ansible content, including
-                    inventories, playbooks, and collections.
+                    Navigator is a command-line tool for creating, reviewing,
+                    and troubleshooting Ansible content.
                   </p>
                 </div>
                 <div class="card-footer">
@@ -362,18 +379,17 @@
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
-            <a href="https://galaxyng.netlify.app/">
+            <a href="https://molecule.readthedocs.io/en/latest/">
               <div class="card border">
                 <div class="card-body">
-                  <h4 class="card-title">Ansible Galaxy NG</h4>
+                  <h4 class="card-title">Molecule</h4>
                   <p class="card-text">
-                    Ansible Galaxy NG helps you jump-start your automation
-                    project with great content from the Ansible community.
+                    Molecule helps you develop and test Ansible roles.
                   </p>
                 </div>
                 <div class="card-footer">
                   <a
-                    href="https://galaxyng.netlify.app/"
+                    href="https://molecule.readthedocs.io/en/latest/"
                     class="btn btn-outline-black"
                     >Visit the documentation</a
                   >
@@ -381,6 +397,9 @@
               </div>
             </a>
           </div>
+        </div>
+        <!-- Row: Content creator -->
+        <div class="row">
           <div class="col-md-6 col-lg-4">
             <a href="https://ansible-lint.readthedocs.io/en/latest/">
               <div class="card border">
@@ -402,61 +421,45 @@
               </div>
             </a>
           </div>
-        </div>
-        <div class="row">
+
           <div class="col-md-6 col-lg-4">
-            <a href="https://molecule.readthedocs.io/en/latest/">
+            <a
+              href="https://marketplace.visualstudio.com/items?itemName=redhat.ansible"
+            >
               <div class="card border">
                 <div class="card-body">
-                  <h4 class="card-title">Ansible Molecule</h4>
+                  <h4 class="card-title">Ansible VSCode Extension</h4>
                   <p class="card-text">
-                    Ansible Molecule helps you develop and test Ansible roles.
+                    This extension adds language support for Ansible to Visual
+                    Studio Code and OpenVSX compatible editors.
                   </p>
                 </div>
                 <div class="card-footer">
                   <a
-                    href="https://molecule.readthedocs.io/en/latest/"
+                    href="https://marketplace.visualstudio.com/items?itemName=redhat.ansible"
                     class="btn btn-outline-black"
-                    >Visit the documentation</a
+                    >Go to the VSCode marketplace</a
                   >
                 </div>
               </div>
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
-            <a href="https://github.com/ansible/awx">
+            <a href="https://als.readthedocs.io/en/latest/">
               <div class="card border">
                 <div class="card-body">
-                  <h4 class="card-title">AWX</h4>
+                  <h4 class="card-title">Ansible Language Server</h4>
                   <p class="card-text">
-                    AWX provides a web-based user interface, REST API, and task
-                    engine built on top of Ansible.
+                    Ansible Language Server implements language server protocol
+                    (LSP), which is an open, JSON-RPC based protocol that is
+                    used between source code editors, integrated development
+                    environments (IDEs) and servers that provide programming
+                    language-specific features.
                   </p>
                 </div>
                 <div class="card-footer">
                   <a
-                    href="https://github.com/ansible/awx"
-                    class="btn btn-outline-black"
-                    >Visit the documentation</a
-                  >
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a href="https://github.com/ansible/pinakes">
-              <div class="card border">
-                <div class="card-body">
-                  <h4 class="card-title">Pinakes</h4>
-                  <p class="card-text">
-                    Pinakes allows customers to expose their Ansible Job
-                    Templates and Workflows to business users with an added
-                    layer of governance.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <a
-                    href="https://github.com/ansible/pinakes"
+                    href="https://als.readthedocs.io/en/latest/"
                     class="btn btn-outline-black"
                     >Visit the documentation</a
                   >
@@ -508,10 +511,32 @@
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
+            <a href="https://ansible-builder.readthedocs.io/en/latest/">
+              <div class="card border">
+                <div class="card-body">
+                  <h4 class="card-title">Builder</h4>
+                  <p class="card-text">
+                    Builder creates Execution Environments, which are container
+                    images that act as Ansible control nodes.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <a
+                    href="https://ansible-builder.readthedocs.io/en/latest/"
+                    class="btn btn-outline-black"
+                    >Visit the documentation</a
+                  >
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
             <a href="https://receptor.readthedocs.io/en/latest/index.html">
               <div class="card border">
                 <div class="card-body">
-                  <h4 class="card-title">Ansible Receptor</h4>
+                  <h4 class="card-title">Receptor</h4>
                   <p class="card-text">
                     Ansible Receptor is an overlay network intended to ease the
                     distribution of work across a large and dispersed collection
@@ -528,21 +553,18 @@
               </div>
             </a>
           </div>
-        </div>
-        <div class="row">
           <div class="col-md-6 col-lg-4">
-            <a href="https://ansible-builder.readthedocs.io/en/latest/">
+            <a href="https://ansible.github.io/ansible-sign/">
               <div class="card border">
                 <div class="card-body">
-                  <h4 class="card-title">Ansible Builder</h4>
+                  <h4 class="card-title">Sign</h4>
                   <p class="card-text">
-                    Ansible Builder creates Execution Environments, which are
-                    container images that act as Ansible control nodes.
+                    Sign is a utility for signing and verifying Ansible content.
                   </p>
                 </div>
                 <div class="card-footer">
                   <a
-                    href="https://ansible-builder.readthedocs.io/en/latest/"
+                    href="https://ansible.github.io/ansible-sign/"
                     class="btn btn-outline-black"
                     >Visit the documentation</a
                   >
@@ -551,43 +573,18 @@
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
-            <a href="https://als.readthedocs.io/en/latest/">
+            <a href="https://galaxyng.netlify.app/">
               <div class="card border">
                 <div class="card-body">
-                  <h4 class="card-title">Ansible Language Server</h4>
+                  <h4 class="card-title">Galaxy NG</h4>
                   <p class="card-text">
-                    Ansible Language Server implements language server protocol
-                    (LSP), which is an open, JSON-RPC based protocol that is
-                    used between source code editors, integrated development
-                    environments (IDEs) and servers that provide programming
-                    language-specific features.
+                    Ansible Galaxy NG helps you jump-start your automation
+                    project with great content from the Ansible community.
                   </p>
                 </div>
                 <div class="card-footer">
                   <a
-                    href="https://als.readthedocs.io/en/latest/"
-                    class="btn btn-outline-black"
-                    >Visit the documentation</a
-                  >
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a
-              href="https://marketplace.visualstudio.com/items?itemName=redhat.ansible"
-            >
-              <div class="card border">
-                <div class="card-body">
-                  <h4 class="card-title">Ansible VSCode Extension</h4>
-                  <p class="card-text">
-                    This extension adds language support for Ansible to Visual
-                    Studio Code and OpenVSX compatible editors.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <a
-                    href="https://marketplace.visualstudio.com/items?itemName=redhat.ansible"
+                    href="https://galaxyng.netlify.app/"
                     class="btn btn-outline-black"
                     >Visit the documentation</a
                   >
@@ -601,9 +598,9 @@
             <a href="https://ansible-rulebook.readthedocs.io/en/latest/">
               <div class="card border">
                 <div class="card-body">
-                  <h4 class="card-title">Ansible Rulebook</h4>
+                  <h4 class="card-title">Rulebook</h4>
                   <p class="card-text">
-                    Ansible Rulebook a command line tool that allows you to
+                    Ansible Rulebook is a command-line tool that allows you to
                     recognize events that you care about and react to them by
                     running a playbook or other actions.
                   </p>
@@ -639,53 +636,13 @@
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
-            <a href="https://github.com/ansible/awx-operator">
-              <div class="card border">
-                <div class="card-body">
-                  <h4 class="card-title">Ansible AWX Operator</h4>
-                  <p class="card-text">
-                    Ansible AWX Operator for Kubernetes built with the Operator
-                    SDK and Ansible.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <a
-                    href="https://github.com/ansible/awx-operator"
-                    class="btn btn-outline-black"
-                    >Visit the documentation</a
-                  >
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-lg-4">
-            <a href="https://ansible.github.io/ansible-sign/">
-              <div class="card border">
-                <div class="card-body">
-                  <h4 class="card-title">Ansible Sign</h4>
-                  <p class="card-text">
-                    Ansible Sign is a utility for signing and verifying Ansible content.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <a
-                    href="https://ansible.github.io/ansible-sign/"
-                    class="btn btn-outline-black"
-                    >Visit the documentation</a
-                  >
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
             <a href="https://ansible-pylibssh.readthedocs.io/en/latest/">
               <div class="card border">
                 <div class="card-body">
-                  <h4 class="card-title">Ansible Pylibssh</h4>
+                  <h4 class="card-title">Pylibssh</h4>
                   <p class="card-text">
-                    Ansible Pylibssh provides Python bindings for Ansible use cases with the libssh project.
+                    Pylibssh provides Python bindings for Ansible use cases with
+                    the libssh project.
                   </p>
                 </div>
                 <div class="card-footer">
@@ -698,25 +655,68 @@
               </div>
             </a>
           </div>
-          <!--div class="col-md-6 col-lg-4">
-            <a href="insert-url-here">
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <a href="https://github.com/ansible/pinakes">
               <div class="card border">
                 <div class="card-body">
-                  <h4 class="card-title">Project Name</h4>
+                  <h4 class="card-title">Pinakes</h4>
                   <p class="card-text">
-                    Lorem ipsum description.
+                    Pinakes makes Ansible job templates and workflows governable
+                    for business use cases.
                   </p>
                 </div>
                 <div class="card-footer">
                   <a
-                    href="insert-url-here"
+                    href="https://github.com/ansible/pinakes"
                     class="btn btn-outline-black"
                     >Visit the documentation</a
                   >
                 </div>
               </div>
             </a>
-          </div-->
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a href="https://github.com/ansible/awx">
+              <div class="card border">
+                <div class="card-body">
+                  <h4 class="card-title">AWX</h4>
+                  <p class="card-text">
+                    AWX provides a web-based user interface, REST API, and task
+                    engine built on top of Ansible.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <a
+                    href="https://github.com/ansible/awx"
+                    class="btn btn-outline-black"
+                    >Go to GitHub</a
+                  >
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a href="https://github.com/ansible/awx-operator">
+              <div class="card border">
+                <div class="card-body">
+                  <h4 class="card-title">AWX Operator</h4>
+                  <p class="card-text">
+                    Ansible AWX Operator for Kubernetes built with the Operator
+                    SDK and Ansible.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <a
+                    href="https://github.com/ansible/awx-operator"
+                    class="btn btn-outline-black"
+                    >Go to GitHub</a
+                  >
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </section>
