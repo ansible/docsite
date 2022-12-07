@@ -8,7 +8,12 @@ RewriteEngine On
 
 RedirectMatch permanent "^/((?!index|404|automation.*|ansible_community|collections|community|core.*|galaxy|lint|ecosystem|ansible-prior*)[^/]+)\.html" "/ansible/$1.html"
 
-# Redirect so docs.ansible.com/ansible-core/ and docs.ansible.com/ansible/  dont show an Index of page anymore
+# Redirect the lint and galaxy pages to the ecosystem page
+
+RedirectMatch permanent "/galaxy.html" "/ecosystem.html"
+RedirectMatch permanent "/lint.html" "/ecosystem.html"
+
+# Redirect so docs.ansible.com/ansible-core/ and docs.ansible.com/ansible/ dont show an Index of page anymore
 
 RedirectMatch permanent "^/ansible-core(|/|/index.html)$" "/ansible-core/devel/"
 RedirectMatch permanent "^/ansible(|/|/index.html)$" "/ansible/latest/"
