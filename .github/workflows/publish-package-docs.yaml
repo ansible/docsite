@@ -34,7 +34,7 @@ on:
         - '2.10'
       latest_symlink:
         type: boolean
-        description: 'Add latest symlink?'
+        description: 'Add latest symlink'
         required: true
 
 jobs:
@@ -91,4 +91,11 @@ jobs:
         run: |
           pushd build-directory/docs/docsite
           make webdocs ANSIBLE_VERSION="${COLLECTION_LIST}"
+          popd
+
+      - name: Create latest symlink
+        if: ${{ github.event.inputs.latest_symlink == 'true' }}
+        run: |
+          pushd build-directory/docs/docsite
+          ln -s ${VERSION} _build/latest
           popd
