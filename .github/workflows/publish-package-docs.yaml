@@ -39,7 +39,7 @@ on:
 
 jobs:
   build-package-docs:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     env:
       PACKAGE_VERSION: "${{ github.event.inputs.package_version }}"
       LANGUAGE: ${{ github.event.inputs.language}}
