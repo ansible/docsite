@@ -201,7 +201,6 @@ RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_templatin
 RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_vault.html" "/ansible/$1/vault_guide/index.html"
 
 RedirectMatch permanent "^/ansible/(devel|latest)/vault.html" "/ansible/$1/vault_guide/index.html"
-
 RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/vault.html" "/ansible/$1/vault_guide/index.html"
 
 # Next two redirects are related to PR 74834 (link still exists in 2.9 error messages)
