@@ -198,8 +198,8 @@ RedirectMatch permanent "^/ansible/(devel|latest)/user_guide/playbooks_templatin
 
 # Vault
 
-#RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_vault.html" "/ansible/$1/vault_guide/index.html"
-RedirectMatch permanent "^/ansible/([^/]+)/user_guide/playbooks_vault.html" "/ansible/latest/vault_guide/index.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/playbooks_vault.html" "/ansible/$1/vault_guide/index.html"
+#RedirectMatch permanent "^/ansible/([^/]+)/user_guide/playbooks_vault.html" "/ansible/latest/vault_guide/index.html"
 
 RedirectMatch permanent "^/ansible/(devel|latest)/vault.html" "/ansible/$1/vault_guide/index.html"
 

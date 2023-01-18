@@ -1,7 +1,6 @@
 # EOL Archive redirects for select guide pages that have moved:
-RedirectMatch permanent "^/ansible/2.5/user_guide/playbooks_vault.html" "/ansible/latest/vault_guide/index.html"
+RedirectMatch permanent "^/ansible/([^/]+)/user_guide/playbooks_vault.html" "/ansible/latest/vault_guide/index.html"
 
-#RedirectMatch "^(/ansible/[^/]+)/dev_guide/developing_test_pr.html" "/ansible/latest/dev_guide/testing.html"
 
 
 
