@@ -66,7 +66,7 @@ jobs:
           python -m pip install -r docs/docsite/requirements.txt
           popd
 
-      - name: Set the COLLECTION_LIST variable
+      - name: Set collection list
         run: |
           if [ ${PACKAGE_VERSION} == "devel" ]; then
             echo COLLECTION_LIST="" >> $GITHUB_ENV
@@ -74,7 +74,7 @@ jobs:
             echo COLLECTION_LIST="${PACKAGE_VERSION}" >> $GITHUB_ENV
           fi
 
-      - name: Set the VERSION variable
+      - name: Set version
         run: |
           if [ ${LANGUAGE} == "english" ]; then
             echo VERSION="${PACKAGE_VERSION}" >> $GITHUB_ENV
@@ -82,7 +82,7 @@ jobs:
             echo VERSION="${PACKAGE_VERSION}_ja" >> $GITHUB_ENV
           fi
 
-      - name: Build the docs
+      - name: Build docs
         run: |
           pushd build-directory/docs/docsite
           make webdocs ANSIBLE_VERSION="${COLLECTION_LIST}"
@@ -93,4 +93,11 @@ jobs:
         run: |
           pushd build-directory/docs/docsite
           ln -s ${VERSION} _build/latest
+          popd
+
+      - name: Deploy docs build
+        run: |
+          rm -rf /var/www/html/ansible-package-docs
+          pushd build-directory/docs/docsite/_build/html
+          rsync -avz . /var/www/html/ansible-package-docs
           popd
