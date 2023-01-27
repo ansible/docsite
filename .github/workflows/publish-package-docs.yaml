@@ -83,20 +83,14 @@ jobs:
           fi
 
       - name: Build docs
-        run: |
-          pushd build-directory/docs/docsite
-          make webdocs ANSIBLE_VERSION="${COLLECTION_LIST}"
-          popd
+        run: make webdocs ANSIBLE_VERSION="${COLLECTION_LIST}"
+        working-directory: build-directory/docs/docsite
 
       - name: Create latest symlink
         if: ${{ github.event.inputs.latest_symlink == 'true' }}
-        run: |
-          pushd build-directory/docs/docsite
-          ln -s ${VERSION} _build/latest
-          popd
+        run: ln -s ${VERSION} _build/latest
+        working-directory: build-directory/docs/docsite
 
       - name: Deploy docs build
-        run: |
-          rm -rf /var/www/html/ansible-package-docs
-          rsync -avz . /var/www/html/ansible-package-docs
+        run: rsync -avz . /var/www/html/ansible-package-docs
         working-directory: build-directory/docs/docsite/_build/html
