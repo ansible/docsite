@@ -98,6 +98,5 @@ jobs:
       - name: Deploy docs build
         run: |
           rm -rf /var/www/html/ansible-package-docs
-          pushd build-directory/docs/docsite/_build/html
           rsync -avz . /var/www/html/ansible-package-docs
-          popd
+        working-directory: build-directory/docs/docsite/_build/html
