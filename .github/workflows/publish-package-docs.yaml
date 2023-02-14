@@ -64,7 +64,7 @@ jobs:
         working-directory: build-directory
 
       - name: Install docsite requirements
-        run: python -m pip install -r docs/docsite/requirements.txt
+        run: python -m pip install -r test/sanity/code-smell/docs-build.requirements.txt
         working-directory: build-directory
 
       - name: Set collection list
