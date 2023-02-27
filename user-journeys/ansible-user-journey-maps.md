@@ -54,7 +54,6 @@ Milestone: Learn how to contribute code
   Review code of conduct and contributor guidelines
   Review PRs in an Ansible project
   Fix issues in an Ansible project, collection, or module
-Milestone: Create module or plugin
 Milestone: Add to existing collection
   Include a new module
   Deprecate a module
