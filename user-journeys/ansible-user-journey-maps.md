@@ -35,7 +35,7 @@ Milestone: Share automation
   Contribute to a collection.
   Create a collection.
   Allow others to run the playbook.
-  Creates AWX job templates.
+  Create AWX job templates.
 ```
 
 ## Operations
