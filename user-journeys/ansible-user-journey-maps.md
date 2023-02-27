@@ -42,8 +42,10 @@ journey
 
 ### Beginner tasks
 
-- Sets up Ansible environment with vsCode plugins
+- Creates an Ansible development environment
+- Installs Ansible VS Code plugin
 - Installs and/or updates ansible or ansible-core
+- Installs Ansible Lint and developer tooling
 - Installs or updates individual collections
 - Creates and tests playbooks
 - Creates inventories
