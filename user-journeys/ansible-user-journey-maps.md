@@ -1,121 +1,96 @@
 # Ansible user journey maps
 
-This document extends Ansible personas by identifying and describing their major steps on user automation journeys.
+This document extends Ansible personas by identifying and describing their automation journey milestones.
 
-Ansible community personas: https://hackmd.io/pZb5w5JFRQW3RJ73n23tlw?both#/
+Ansible community personas: https://github.com/ansible/docsite/blob/personas/personas/ansible-docsite-personas.md
 
 ## Novice
 
-```mermaid
-journey
-    title Novice journeys
-    section Learn the basics
-      Understand the fundamentals of Ansible automation: 5: Novice
-      Install the Ansible package and run a hello world playbook: 5:
-    section Explore the Ansible package
-      Create a virtual environment: 5: Novice
-      Install additional Ansible dev tools: 5: Novice
+```yaml
+Milestone: Learn the basics
+  Understand the fundamentals of Ansible automation
+  Install the Ansible package and run a hello world playbook
+Milestone: Set up an automation project
+  Create a Python virtual environment
+  Install additional Ansible dev tools
+  Create an inventory of managed nodes
 ```
 
 ## User
 
-```mermaid
-journey
-    title User journeys
-    section Write playbooks
-      How do I make my automation consistent?: 5:
-      How do I make things reusable?: 5:
-      How do I organize my project as my automation grows?: 5:
-        How do I use roles to structure my project?: 3:
-    section Run playbooks
-      How do I use an execution environment?: 5:
-      How do I use the AWX REST API?: 5:
-      How do I use the AWX Web UI?: 5:
-    section Share automation
-      How do I create a collection?: 5:
-      How do I allow others to run my playbook?: 5:
-    section Have something to automate
-      SRE process: 5:
-      Raspberry pi cluster: 5:
-      Network devices: 5:
+```yaml
+Milestone: Start writing playbooks
+  Learn about recommended tools for playbook quality (ansible-lint, handlers, etc)
+  Start validating playbooks
+Milestone: Make playbooks reusable
+  Organize the automation project as it grows.
+  Use roles to structure the automation project.
+  Use Ansible Molecule to improve role quality.
+Milestone: Create execution environment
+Milestone: Execute playbooks remotely
+  Use the AWX REST API.
+  Use the AWX Web UI.
+  Run playbooks on a cron.
+Milestone: Share automation
+  Contribute to a collection.
+  Create a collection.
+  Allow others to run the playbook.
+  Create AWX job templates.
 ```
-
-### Beginner tasks
-
-- Creates an Ansible development environment
-- Installs Ansible VS Code plugin
-- Installs and/or updates ansible or ansible-core
-- Installs Ansible Lint and developer tooling
-- Installs or updates individual collections
-- Creates and tests playbooks
-- Creates inventories
-- Tests, publishes, and maintains all of these 
-
-### Intermediate tasks
-
-- Improves playbook quality (ansible-lint, handlers, etc)
-- Creates roles
-- Creates job templates (for AWX users)
-- Uses event-driven automation (ansible-rulebook - new)
-- Contributes to collections (bugfixes, modules etc)
-- Tests, publishes, and maintains all of these
-
-### Advanced tasks
-- Manages multiple playbooks, inventories, and jobs with AWX
-- Improves role quality with ansible molecule
-- Creates execution environments with ansible-builder and ansible-navigator
-
 
 ## Operations
 
+```yaml
+Milestone: Perform updates in production environments
+  Check the porting guides.
+Milestone: Manage multiple playbooks, inventories, and jobs with AWX
+Milestone: Stand up private Galaxy instance
+```
+
 ## Developer
 
-### Beginner tasks
- - Reviews code of conduct and contributor guidelines for project of interest
- - Sets up development environment with vsCode plugin(s)
- - Fixes issues in existing project, collection, or module
- - Reviews PRs for project of interest
- - Creates module or plugin for local use
-
-### Intermediate tasks
-- Adds new feature to an existing project
-- Develops a dynamic inventory plugin
-- Adds a new module to an existing collection
-- Converts a role into a collection
-- Deprecates a module within a collection
-
-### Advanced tasks
-- Creates new Ansible project to provide new functionality to the ecosystem
-- Creates collections (reusable plugins, roles, and playbooks)
-- Troubleshoots collections with ansible-navigator
-- Requests a collection be added to the Ansible package
-- Creates execution environments (collections, libraries, and ansible-core version)
-- Tests, publishes, and maintains all of these
-
+```yaml
+Milestone: Learn how to contribute code
+  Review code of conduct and contributor guidelines
+  Review PRs in an Ansible project
+  Fix issues in an Ansible project, collection, or module
+Milestone: Add to existing collection
+  Include a new module
+  Deprecate a module
+Milestone: Convert role to collection
+Milestone: Create a new collection
+  Troubleshoot collections with ansible-navigator
+  Request a collection be added to the Ansible package
+Milestone: Use event-driven automation
+```
 
 ## Community maintainer
-- Follows all community-related discussions in their area and participates in decisions
-- Maintains repository, including CI tests, PR reviews and merges
-- Ensures important issues are fixed
-- Releases project/collections regularly
-- Actively acts to build a growing and welcoming community of contributors
 
-## Community member/evangelist
+```yaml
+Milestone: Actively participate in the Ansible community
+  Follow community-related discussions and participate in decisions
+Milestone: Manage the Ansible project
+  Ensure important issues are fixed
+  Release project/collections regularly
+  Oversee CI workflows, PR reviews and merges
+Milestone: Foster community of contributors
+```
 
-## Novice
-- Learns about  the community and reviews the code of conduct
-- Joins community discussions for areas of interest (matrix, forum)
-- Participates in a meetup or other local event
-- Contributes to Ansible projects in GitHub (code, documentation, reviews etc)
+## Community member
 
-
-## Intermediate
-- Presents at a meetup 
-- Writes and shares blog post/video etc
-- Contributes a feature/collection etc to an Ansible project
-
-
-## Advanced
-- Hosts a meetup
-- Becomes maintainer of an Ansible project or collection
-- Becomes member of Ansible steering committee
+```yaml
+Milestone: Become interested in joining the community
+  Learn about the Ansible community and its purpose
+  Review and agree to the code of conduct
+  Join or initiate a discussion
+  Participate in a meetup or other local event
+  Contribute to an Ansible project
+Milestone: Expand Ansible community activities
+  Present at a meetup
+  Write and share blog post/video etc
+  Contribute a feature/collection etc to an Ansible project
+Milestone: Become an Ansible community evangelist
+  Host Ansible meetups
+  Become a maintainer of an Ansible project or collection
+  Become a member of Ansible steering committee
+```
