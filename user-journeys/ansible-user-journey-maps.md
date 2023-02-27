@@ -88,7 +88,7 @@ Milestone: Become interested in joining the community
   Contribute to an Ansible project
 Milestone: Expand Ansible community activities
   Present at a meetup
-  Writes and shares blog post/video etc
+  Write and share blog post/video etc
   Contributes a feature/collection etc to an Ansible project
 Milestone: Become an Ansible community evangelist
   Host Ansible meetups
