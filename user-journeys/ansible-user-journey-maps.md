@@ -1,41 +1,75 @@
 # Ansible user journey maps
 
-This document extends Ansible personas by identifying and describing their automation journey milestones.
+This document extends Ansible docsite personas by identifying and describing their automation journeys.
 
-Ansible community personas: https://github.com/ansible/docsite/blob/personas/personas/ansible-docsite-personas.md
+[Ansible docsite personas](https://github.com/ansible/docsite/blob/personas/personas/ansible-docsite-personas.md)
+
+## Intro
+
+Each persona has specific milestones in their automation journey.
+And each milestone has specific major actions that the persona achieves.
+
+```yaml
+Milestone: Become aware
+  Major action
+  Major action
+  ...
+Milestone: Evaluate
+  Major action
+  Major action
+  ...
+Milestone: Adopt
+  Major action
+  Major action
+  ...
+Milestone: Scale
+  Major action
+  Major action
+  ...
+```
 
 ## Novice
 
 ```yaml
 Milestone: Learn the basics
+  Understand the challenges of modern infrastructure management [content gap]
   Understand the fundamentals of Ansible automation
-  Install the Ansible package and run a hello world playbook
 Milestone: Set up an automation project
-  Create a Python virtual environment
-  Install additional Ansible dev tools
-  Create an inventory of managed nodes
+  Install the Ansible package
+  Create a basic inventory file
+  Run an ad-hoc command
+Milestone: Write first playbook
+  Create a hello world playbook
+  Run the playbook with the ansible-playbook command
 ```
 
 ## User
 
 ```yaml
-Milestone: Start writing playbooks
-  Learn about recommended tools for playbook quality (ansible-lint, handlers, etc)
-  Start validating playbooks
-Milestone: Make playbooks reusable
-  Organize the automation project as it grows.
-  Use roles to structure the automation project.
-  Use Ansible Molecule to improve role quality.
-Milestone: Create execution environment
-Milestone: Execute playbooks remotely
-  Use the AWX REST API.
-  Use the AWX Web UI.
-  Run playbooks on a cron.
-Milestone: Share automation
-  Contribute to a collection.
-  Create a collection.
-  Allow others to run the playbook.
-  Create AWX job templates.
+Milestone: Have something to automate
+  Start writing playbooks
+  Evaluate plugins to see if results of execution meet needs
+Milestone: Learn inventories
+  Create an inventory file to manage multiple hosts
+  Use dynamic inventories
+Milestone: Organize the automation project as it starts to grow
+  Use roles to structure the automation project
+Milestone: Improve automation content
+  Install developer tools (ansible-lint, vscode extension, molecule)
+Milestone: Re-use existing automation content
+  Start exploring Ansible Galaxy
+  Install and use roles and/or collections
+  Customize automation content
+Milestone: Share automation content
+  Submit roles to an existing collection
+  Create a collection and upload to Galaxy
+Milestone: Use AWX for more convenient automation
+  Execute automation jobs on demand with the REST API or Web UI
+  Schedule automation jobs
+  Create AWX job templates
+Milestone: Use Ansible Runner as an interface for automation
+  Build execution environment with specific dependencies
+  Use execution environments with AWX jobs
 ```
 
 ## Operations
@@ -43,8 +77,9 @@ Milestone: Share automation
 ```yaml
 Milestone: Perform updates in production environments
   Check the porting guides.
-Milestone: Manage multiple playbooks, inventories, and jobs with AWX
-Milestone: Stand up private Galaxy instance
+Milestone: Administer Galaxy instance
+Milestone: Administer AWX
+  Control which EEs to use with automation jobs, where they run, and who can execute them
 ```
 
 ## Developer
