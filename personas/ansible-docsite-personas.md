@@ -4,7 +4,7 @@ Personas represent various humans who are all on different automation journeys w
 
 We use personas to ensure Ansible community users can find help when and where they need it. If the right support is there, users are much more likely to succeed with their goals. This leads to higher levels of adoption and a more vibrant, stronger community.
 
-The practical goal of this document is to define a layout for a new `docs.ansible.com` homepage based on the following docsite personas.
+The practical goal of defining these personas is to improve the navigation and layout of the `docs.ansible.com` page.
 
 ## Novice
 
@@ -30,7 +30,7 @@ I write automation content like playbooks and roles. When writing playbooks and 
 
 <img src="https://i.imgur.com/QufXcjw.png" alt="Person using a computer" width="100"/>
 
-I write or want to get started writing Ansible plugins and modules in Python or other programming languages.
+I write, or want to start writing, Ansible plugins and modules in Python or other programming languages. I might also want to write code for Ansible projects such as Lint, Molecule, or Event-driven Ansible.
 
 * **Needs:** Understand programmatic options and their expected behaviour.
 * **Attitude:** Technically curious and prefers verbosity.
@@ -40,7 +40,7 @@ I write or want to get started writing Ansible plugins and modules in Python or 
 
 <img src="https://i.imgur.com/GY18SFy.png" alt="Person using a computer" width="100"/>
 
-I work with the community to maintain one or more collections as part of the Ansible package or I want to create my own collection, set everything up and running and maintain it. I might also be interested in working on community tooling such as Antsibull or other projects.
+I work with the community to maintain one or more collections as part of the Ansible package. Alternatively I might want to create my own collection and set everything up so I can run and maintain my collection. I might also be interested in working on community tooling such as Antsibull or other projects.
 
 * **Needs:** Clear path for creating collections from scratch and optionally getting them included in the Ansible package. Guidance on lifecycles and maintenance guidelines.
 * **Attitude:** Often busy with another more primary role.
@@ -55,7 +55,3 @@ I participate in the Ansible ecosystem community to learn and share my Ansible k
 * **Needs:** Guidance on where and how I can contribute as a non-coder for Ansible projects.
 * **Attitude:** Enthusiastic about Ansible.
 * **Knowledge:** Intermediate or above expertise in one or more parts of Ansible.
-
-## Other links on the top page
-
-* A quick link for advanced readers so that they can get a page that lists everything which is similar to the current ecosystem page but not with those big spacy boxes as they take up too much room.
