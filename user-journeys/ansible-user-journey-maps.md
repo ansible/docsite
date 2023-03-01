@@ -8,9 +8,10 @@ This document extends Ansible docsite personas by identifying and describing the
 
 Each persona has specific milestones in their automation journey.
 And each milestone has specific major actions that the persona achieves.
+The first milestone of each journey starts with human motivation.
 
 ```yaml
-Milestone: Become aware
+Milestone: Aware
   Major action
   Major action
   ...
@@ -31,7 +32,7 @@ Milestone: Scale
 ## Novice
 
 ```yaml
-Milestone: Learn the basics
+Milestone: Need to learn the basics
   Understand the challenges of modern infrastructure management [content gap]
   Understand the fundamentals of Ansible automation
 Milestone: Set up an automation project
@@ -67,48 +68,49 @@ Milestone: Use AWX for more convenient automation
   Execute automation jobs on demand with the REST API or Web UI
   Schedule automation jobs
   Create AWX job templates
-Milestone: Use Ansible Runner as an interface for automation
+Milestone: Use Ansible Runner / Ansible SDK as an interface for automation
   Build execution environment with specific dependencies
   Use execution environments with AWX jobs
-```
-
-## Operations
-
-```yaml
-Milestone: Perform updates in production environments
-  Check the porting guides.
-Milestone: Administer Galaxy instance
-Milestone: Administer AWX
-  Control which EEs to use with automation jobs, where they run, and who can execute them
 ```
 
 ## Developer
 
 ```yaml
-Milestone: Learn how to contribute code
+Milestone: Become interested in writing code for Ansible
+  Set up development environment
   Review code of conduct and contributor guidelines
-  Review PRs in an Ansible project
-  Fix issues in an Ansible project, collection, or module
-Milestone: Add to existing collection
-  Include a new module
-  Deprecate a module
-Milestone: Convert role to collection
+Milestone: Contribute to an Ansible project
+  Review issues and PRs in an Ansible project
+  Fix issues and implement new features in an Ansible project, collection, or module
+Milestone: Test changes to plugins and modules
+  Understand testing in Ansible
+  Run sanity tests
+  Write integration tests
+  Write unit tests
 Milestone: Create a new collection
+  Use the collection skeleton
+  Use GitHub actions to set up testing workflows
   Troubleshoot collections with ansible-navigator
   Request a collection be added to the Ansible package
-Milestone: Use event-driven automation
 ```
 
 ## Community maintainer
 
 ```yaml
-Milestone: Actively participate in the Ansible community
-  Follow community-related discussions and participate in decisions
-Milestone: Manage the Ansible project
-  Ensure important issues are fixed
-  Release project/collections regularly
-  Oversee CI workflows, PR reviews and merges
-Milestone: Foster community of contributors
+Milestone: Oversee the regular maintenance and updates to a collection
+  Overview of what maintenance means in general
+Milestone: Learn maintainer responsibilities
+  Use existing communication channels, create new channels
+  Ensure CI is working and relevant
+  Review, merge and backport changes
+  Release the project
+  Maintain good collection documentation
+Milestone: Expand community around a collection
+Milestone: Get collection included in the Ansible package
+  Understand the inclusion process
+  Go through inclusion review cycles
+Milestone: Participate in higher-level cross-project governance
+  Join the Ansible steering committee
 ```
 
 ## Community member
@@ -118,14 +120,14 @@ Milestone: Become interested in joining the community
   Learn about the Ansible community and its purpose
   Review and agree to the code of conduct
   Join or initiate a discussion
+Milestone: Start actively participating in the Ansible community
   Participate in a meetup or other local event
   Contribute to an Ansible project
 Milestone: Expand Ansible community activities
   Present at a meetup
-  Write and share blog post/video etc
-  Contribute a feature/collection etc to an Ansible project
+  Write and share blog post or YouTube video, etc.
 Milestone: Become an Ansible community evangelist
-  Host Ansible meetups
+  Host an Ansible meetup
   Become a maintainer of an Ansible project or collection
-  Become a member of Ansible steering committee
+  Join the Ansible steering committee
 ```
