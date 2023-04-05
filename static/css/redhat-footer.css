@@ -1,0 +1,52 @@
+.redhat-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #000000;
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
+  text-align: center;
+  padding: 0.5rem 0; }
+  .redhat-footer .licence {
+    grid-column: 5/9;
+    align-self: center;
+    justify-self: center; }
+    .redhat-footer .licence a {
+      color: #ffffff;
+      font-size: 0.75rem;
+      font-weight: normal; }
+    @media screen and (max-width: 1024px) {
+      .redhat-footer .licence {
+        grid-column: 1/5;
+        justify-self: left; } }
+    @media screen and (max-width: 480px) {
+      .redhat-footer .licence {
+        grid-column: 1/13;
+        justify-self: center;
+        order: 3; } }
+  .redhat-footer .redhat {
+    grid-column: 9/12;
+    align-self: center;
+    justify-self: end;
+    font-size: 0.75rem;
+    font-weight: normal;
+    color: #ffffff; }
+    @media screen and (max-width: 1024px) {
+      .redhat-footer .redhat {
+        grid-column: 5/12;
+        justify-self: right; } }
+    @media screen and (max-width: 480px) {
+      .redhat-footer .redhat {
+        grid-column: 1/13;
+        justify-self: center;
+        order: 2; } }
+  .redhat-footer .redhat-logo {
+    grid-column: 12/13;
+    justify-self: end;
+    align-self: center; }
+    .redhat-footer .redhat-logo img {
+      width: 6rem; }
+    @media screen and (max-width: 480px) {
+      .redhat-footer .redhat-logo {
+        grid-column: 1/13;
+        justify-self: center;
+        order: 1; } }

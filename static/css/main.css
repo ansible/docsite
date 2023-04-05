@@ -1,0 +1,363 @@
+.btn {
+  background-color: #ffffff;
+  color: #000000;
+  border: 0px;
+  cursor: pointer;
+  font-size: medium;
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  text-decoration: underline; }
+  .btn:hover {
+    background-color: #ffffff;
+    color: #000000 !important; }
+
+.cards .row {
+  background: #ffffff; }
+
+.cards .card-body {
+  z-index: 2; }
+  .cards .card-body a {
+    color: #000000; }
+    .cards .card-body a:hover {
+      text-decoration: underline;
+      color: #004080; }
+
+.cards .card-quick-link {
+  font-size: large;
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
+  text-align: center; }
+
+.cards .card-text {
+  font-size: large;
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
+  text-align: justify; }
+
+.clipboard {
+  font-size: large;
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
+  text-align: left; }
+  .clipboard pre {
+    background-color: #ffffff;
+    color: #000000;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    width: 50%;
+    text-align: left;
+    display: inline-block; }
+  .clipboard code {
+    background: none; }
+  .clipboard .btn {
+    background-color: #ffffff;
+    border: 0px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer; }
+    .clipboard .btn:hover {
+      background-color: #ffffff; }
+  .clipboard .fa-clipboard {
+    color: #000000;
+    background-color: #ffffff; }
+
+.docbar {
+  background: #102441;
+  width: 100%; }
+  .docbar .nav-item {
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 0%;
+    padding-bottom: 0%; }
+  .docbar .nav-link {
+    text-align: center; }
+
+nav {
+  background: #000000; }
+  nav .navbar-toggler {
+    color: #ffffff;
+    outline: none; }
+  nav .navbar-toggler .icon-bar {
+    display: block;
+    width: 1.375rem;
+    height: 0.125rem;
+    border-radius: 1px;
+    background-color: #ffffff;
+    transition: all 300ms ease-in-out;
+    transform: rotate(0);
+    opacity: 1;
+    margin-top: 0.3125rem; }
+  nav .navbar-toggler .icon-bar.top {
+    margin-top: 0.625rem;
+    transform: rotate(45deg); }
+  nav .navbar-toggler .icon-bar.center {
+    opacity: 0; }
+  nav .navbar-toggler .icon-bar.bottom {
+    margin-top: -0.5rem;
+    transform: rotate(-45deg); }
+  nav .navbar-toggler.collapsed .icon-bar {
+    transform: rotate(0);
+    opacity: 1;
+    margin-top: 0.5rem; }
+  nav .navbar-brand {
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding-right: 4px; }
+    nav .navbar-brand:hover {
+      color: #5cbec1; }
+  nav .nav-item {
+    padding: 1px 4px; }
+  nav .nav-link {
+    color: #ffffff;
+    font-size: 1rem; }
+    nav .nav-link:hover {
+      color: #5cbec1; }
+  @media screen and (max-width: 990px) {
+    nav .navbar-nav .nav-link {
+      padding-right: 0.75rem;
+      padding-left: 0.75rem; } }
+.grid-wrapper,
+.component-wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 2em 3em;
+  clear: both; }
+
+.width-1-12 {
+  grid-column: span 1; }
+
+.width-2-12 {
+  grid-column: span 2; }
+
+.width-3-12 {
+  grid-column: span 3; }
+
+.width-4-12 {
+  grid-column: span 4; }
+
+.width-5-12 {
+  grid-column: span 5; }
+
+.width-6-12 {
+  grid-column: span 6; }
+
+.width-7-12 {
+  grid-column: span 7; }
+
+.width-8-12 {
+  grid-column: span 8; }
+
+.width-9-12 {
+  grid-column: span 9; }
+
+.width-10-12 {
+  grid-column: span 10; }
+
+.width-11-12 {
+  grid-column: span 11; }
+
+.width-12-12 {
+  grid-column: span 12; }
+
+@media (max-width: 48em) {
+  .width-1-12-m {
+    grid-column: span 1; } }
+
+@media (max-width: 48em) {
+  .width-2-12-m {
+    grid-column: span 2; } }
+
+@media (max-width: 48em) {
+  .width-3-12-m {
+    grid-column: span 3; } }
+
+@media (max-width: 48em) {
+  .width-4-12-m {
+    grid-column: span 4; } }
+
+@media (max-width: 48em) {
+  .width-5-12-m {
+    grid-column: span 5; } }
+
+@media (max-width: 48em) {
+  .width-6-12-m {
+    grid-column: span 6; } }
+
+@media (max-width: 48em) {
+  .width-7-12-m {
+    grid-column: span 7; } }
+
+@media (max-width: 48em) {
+  .width-8-12-m {
+    grid-column: span 8; } }
+
+@media (max-width: 48em) {
+  .width-9-12-m {
+    grid-column: span 9; } }
+
+@media (max-width: 48em) {
+  .width-10-12-m {
+    grid-column: span 10; } }
+
+@media (max-width: 48em) {
+  .width-11-12-m {
+    grid-column: span 11; } }
+
+@media (max-width: 48em) {
+  .width-12-12-m {
+    grid-column: span 12; } }
+
+.toggle {
+  background: #ffffff;
+  color: #102441;
+  text-align: left;
+  font-size: 0.8rem;
+  margin-top: 50%; }
+  @media screen and (max-width: 768px) {
+    .toggle {
+      margin-top: 0%; } }
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px; }
+  @media screen and (max-width: 768px) {
+    .switch {
+      height: 24px;
+      width: 53px; } }
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0; }
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #CCCCCC;
+  -webkit-transition: 0.4s;
+  transition: 0.4s; }
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #ffffff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s; }
+  @media screen and (max-width: 768px) {
+    .slider:before {
+      height: 16px;
+      width: 16px; } }
+input:checked + .slider {
+  background-color: #5cbec1; }
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #5cbec1; }
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px); }
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px; }
+
+.slider.round:before {
+  border-radius: 50%; }
+
+body {
+  background: #ffffff;
+  color: #000000;
+  font-weight: normal;
+  font-family: RedHatText, "Red Hat Text", Overpass, "Helvetica Neue", Arial, sans-serif;
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden; }
+
+h1 {
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
+  font-size: 2.5rem;
+  text-transform: none; }
+
+h2 {
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
+  font-size: 2.25rem;
+  text-transform: none; }
+
+h3 {
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
+  text-transform: none; }
+
+h4 {
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+  text-transform: none; }
+
+h5 {
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
+  text-transform: none; }
+
+h6 {
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif; }
+
+.full-width-bg {
+  margin: 0 -13rem;
+  padding: 0 13rem; }
+  @media screen and (max-width: 1170px) {
+    .full-width-bg {
+      margin: 0 -6rem;
+      padding: 0 6rem; } }
+  @media screen and (max-width: 768px) {
+    .full-width-bg {
+      margin: 0 -2rem;
+      padding: 0 2rem; } }
+.component {
+  padding-top: 4rem;
+  padding-bottom: 6rem; }
+  .component-slim {
+    padding-top: 2rem;
+    padding-bottom: 2rem; }
+
+.page-title {
+  text-align: left;
+  margin-top: 1.2rem; }
+
+p.intropara {
+  font-size: 1.45rem;
+  line-height: 1.9rem;
+  margin: 0 0 1.9rem;
+  font-weight: normal;
+  text-align: left; }
+
+p.feedback {
+  font-size: 1rem;
+  line-height: 1.9rem;
+  margin: 0 0 1.9rem;
+  font-weight: normal;
+  text-align: left; }
+
+img.page-logo {
+  display: flex;
+  width: 200px; }
+  @media screen and (max-width: 990px) {
+    img.page-logo {
+      display: none; } }
+img.rh-logo {
+  display: flex;
+  width: 200px; }
+  @media screen and (max-width: 990px) {
+    img.rh-logo {
+      display: none; } }
