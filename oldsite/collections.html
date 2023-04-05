@@ -5,11 +5,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Red Hat Ansible Automation Controller Docs</title>
-    <meta
-      name="description"
-      content="Red Hat Ansible Automation Controller Docs"
-    />
+    <title>Ansible Collections</title>
+    <meta name="description" content="Ansible Collections Documentation" />
     <meta name="author" content="Ansible, Inc." />
     <link
       href="https://static.redhat.com/libs/redhat/redhat-font/2.0.0/webfonts/red-hat-font.css"
@@ -18,6 +15,10 @@
     <link
       rel="stylesheet"
       href="https://www.ansible.com/hubfs/css/styles.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="static/css/toggle.css"
     />
 
     <!-- <script>
@@ -291,23 +292,65 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col text-center">
-            <img
-              src="https://static.redhat.com/libs/redhat/brand-assets/2/corp/logo--200.png"
+            <svg
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              width="98.5px"
+              height="98.5px"
+              viewBox="0 0 98.5 98.5"
+              style="overflow: visible; enable-background: new 0 0 98.5 98.5"
+              xml:space="preserve"
               class="mb-3"
-              alt="Red Hat corporate logo"
-            />
-            <h1 class="mb-2">Red Hat Ansible Automation Platform</h1>
-            <p class="subhead">
-              Access Red Hat subscription-based documentation for the enterprise automation platform.
-            </p>
-            <p>
-              Looking for an older version?
-              <a
-                href="automation-tower-prior-versions.html"
-                class="btn btn-outline-black"
-                >Visit the archive</a
+            >
+              <style type="text/css">
+                .ansLogo_st0 {
+                  fill: #5bbdbf;
+                }
+                .ansLogo_st1 {
+                  fill: #ffffff;
+                }
+              </style>
+              <defs></defs>
+              <g
+                id="Ansible-Mark-RGB_Pool_1_"
+                transform="translate(-46.207 -46.127)"
               >
+                <path
+                  id="Path_13_1_"
+                  class="ansLogo_st0"
+                  d="M144.7,95.4c0,27.2-22,49.2-49.2,49.2s-49.2-22-49.2-49.2s22-49.2,49.2-49.2l0,0
+                    C122.6,46.1,144.7,68.2,144.7,95.4"
+                />
+                <path
+                  id="Path_14_1_"
+                  class="ansLogo_st1"
+                  d="M96.3,76.9l12.7,31.4L89.8,93.2L96.3,76.9z M118.9,115.6L99.3,68.4c-0.5-1.3-1.7-2.1-3-2.1
+                    c-1.4,0-2.6,0.8-3.1,2.1l-21.5,51.7H79l8.5-21.3l25.4,20.5c0.7,0.7,1.7,1.2,2.7,1.2c1.9,0,3.6-1.5,3.6-3.4c0,0,0-0.1,0-0.1
+                    C119.2,116.5,119.1,116.1,118.9,115.6"
+                />
+              </g>
+            </svg>
+            <h1 class="mb-2">Ansible Collections Documentation</h1>
+            <p class="subhead">
+              Ansible collections support a wide range of vendors, device types,
+              and actions, so you can manage servers, cloud, network, and
+              security devices with a single automation tool.
             </p>
+            <span class="toggle">
+                <p>
+                    <strong>Try the new docsite</strong><br/>
+                    The Ansible community team is busy improving our documentation and want to hear from you!<br/>
+                    Join us in the <a href="https://matrix.to/#/#docs:ansible.com" target="_blank">docs channel on Matrix</a> or open a <a href="https://github.com/ansible/docsite/issues" target="_blank">GitHub issue</a> and give us your feedback.<br/>
+                    Use the slider to visit the new Ansible community docsite.<br/><br/>
+                    <label class="switch">
+                        <input type="checkbox" id="page-toggle" data-target="ecosystem.html">
+                        <span class="slider round"></span>
+                    </label>
+                </p>
+            </span>
           </div>
         </div>
       </div>
@@ -320,43 +363,41 @@
         <div class="row">
           <div class="col-md-6 col-lg-4">
             <a
-              href="https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/"
+              href="http://docs.ansible.com/ansible/latest/collections/index.html"
             >
               <div class="card border">
                 <div class="card-body">
-                  <h4 class="card-title">
-                    Red Hat Ansible Automation Platform
-                  </h4>
+                  <h4 class="card-title">Ansible Collections Index</h4>
                   <p class="card-text">
-                    Red Hat provides documentation for Automation Platform
-                    including installation, Automation Hub, Services Catalog,
-                    and Insights.
+                    Collections are the workhorse of any playbook. You can find
+                    the complete set of Ansible collections for sysadmins,
+                    network, cloud, and security teams.
                   </p>
                 </div>
                 <div class="card-footer">
                   <a
-                    href="https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/"
+                    href="http://docs.ansible.com/ansible/latest/collections/index.html"
                     class="btn btn-outline-black"
-                    >Go to access.redhat.com</a
+                    >Visit the documentation</a
                   >
                 </div>
               </div>
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
-            <a
-              href="https://docs.ansible.com/automation-controller/latest/html/quickstart/index.html"
-            >
+            <a href="http://docs.ansible.com/ansible/latest/network/">
               <div class="card border">
                 <div class="card-body">
-                  <h4 class="card-title">Automation Controller Quickstart</h4>
+                  <h4 class="card-title">Ansible Network Collections</h4>
                   <p class="card-text">
-                    Get Automation Controller up and running.
+                    Ansible Network collections can configure your network
+                    stack, test and validate existing network state, and
+                    discover and correct network configuration drift.
                   </p>
                 </div>
                 <div class="card-footer">
                   <a
-                    href="https://docs.ansible.com/automation-controller/latest/html/quickstart/index.html"
+                    href="http://docs.ansible.com/ansible/latest/network/"
                     class="btn btn-outline-black"
                     >Visit the documentation</a
                   >
@@ -366,192 +407,21 @@
           </div>
           <div class="col-md-6 col-lg-4">
             <a
-              href="https://docs.ansible.com/automation-controller/latest/html/release-notes/index.html"
+              href="http://docs.ansible.com/ansible/latest/scenario_guides/virt_guides.html"
             >
               <div class="card border">
                 <div class="card-body">
                   <h4 class="card-title">
-                    Automation Controller Release Notes
+                    Ansible Virtualization and Containerization
                   </h4>
                   <p class="card-text">
-                    View the changes made since the last release of Automation
-                    Controller.
+                    Manage virtualization such as VMware and Kubernetes with
+                    Ansible collections.
                   </p>
                 </div>
                 <div class="card-footer">
                   <a
-                    href="https://docs.ansible.com/automation-controller/latest/html/release-notes/index.html"
-                    class="btn btn-outline-black"
-                    >Visit the documentation</a
-                  >
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a
-              href="https://docs.ansible.com/automation-controller/latest/html/upgrade-migration-guide/index.html"
-            >
-              <div class="card border">
-                <div class="card-body">
-                  <h4 class="card-title">
-                    Ansible Automation Platform Upgrade and Migration
-                  </h4>
-                  <p class="card-text">
-                    Find out how to upgrade Ansible Automation Platform to the
-                    latest version.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <a
-                    href="https://docs.ansible.com/automation-controller/latest/html/upgrade-migration-guide/index.html"
-                    class="btn btn-outline-black"
-                    >Visit the documentation</a
-                  >
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a
-              href="https://docs.ansible.com/automation-controller/latest/html/userguide/index.html"
-            >
-              <div class="card border">
-                <div class="card-body">
-                  <h4 class="card-title">Automation Controller User Guide</h4>
-                  <p class="card-text">
-                    Find the complete guide to using Ansible Automation
-                    Controller functionality.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <a
-                    href="https://docs.ansible.com/automation-controller/latest/html/userguide/index.html"
-                    class="btn btn-outline-black"
-                    >Visit the documentation</a
-                  >
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a
-              href="https://docs.ansible.com/automation-controller/latest/html/administration/index.html"
-            >
-              <div class="card border">
-                <div class="card-body">
-                  <h4 class="card-title">
-                    Automation Controller Administration
-                  </h4>
-                  <p class="card-text">
-                    Learn how to perform administration operations on Ansible
-                    Automation Controller with scripts, management jobs, and
-                    more.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <a
-                    href="https://docs.ansible.com/automation-controller/latest/html/administration/index.html"
-                    class="btn btn-outline-black"
-                    >Visit the documentation</a
-                  >
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a
-              href="https://docs.ansible.com/automation-controller/latest/html/controllerapi/index.html"
-            >
-              <div class="card border">
-                <div class="card-body">
-                  <h4 class="card-title">Automation Controller API</h4>
-                  <p class="card-text">
-                    Learn and explore the Automation Controller API.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <a
-                    href="https://docs.ansible.com/automation-controller/latest/html/controllerapi/index.html"
-                    class="btn btn-outline-black"
-                    >Visit the documentation</a
-                  >
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a
-              href="https://docs.ansible.com/automation-controller/latest/html/controllercli/index.html"
-            >
-              <div class="card border">
-                <div class="card-body">
-                  <h4 class="card-title">Automation Controller CLI</h4>
-                  <p class="card-text">
-                    Learn how to use the command-line client for AWX and Ansible
-                    Automation Controller.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <a
-                    href="https://docs.ansible.com/automation-controller/latest/html/controllercli/index.html"
-                    class="btn btn-outline-black"
-                    >Visit the documentation</a
-                  >
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a href="automation-tower-japanese-translations.html">
-              <div class="card border">
-                <div class="card-body">
-                  <h4 class="card-title">
-                    Automation Controller Japanese Translations
-                  </h4>
-                  <p class="card-text">日本語ドキュメント</p>
-                </div>
-                <div class="card-footer">
-                  <a
-                    href="automation-tower-japanese-translations.html"
-                    class="btn btn-outline-black"
-                    >Learn more</a
-                  >
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a href="automation-tower-chinese-translations.html">
-              <div class="card border">
-                <div class="card-body">
-                  <h4 class="card-title">
-                    Automation Controller Simplified Chinese Translations
-                  </h4>
-                  <p class="card-text">中文文档</p>
-                </div>
-                <div class="card-footer">
-                  <a
-                    href="automation-tower-chinese-translations.html"
-                    class="btn btn-outline-black"
-                    >Learn more</a
-                  >
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a href="automation-tower-korean-translations.html">
-              <div class="card border">
-                <div class="card-body">
-                  <h4 class="card-title">
-                    Automation Controller Korean Translations
-                  </h4>
-                  <p class="card-text">한국어 문서</p>
-                </div>
-                <div class="card-footer">
-                  <a
-                    href="automation-tower-korean-translations.html"
+                    href="http://docs.ansible.com/ansible/latest/scenario_guides/virt_guides.html"
                     class="btn btn-outline-black"
                     >Learn more</a
                   >
@@ -640,6 +510,8 @@
       </div>
     </section>
     <!-- END RESOURCES SECTION - SEE '.resources' CSS RULE TO TOGGLE OFF -->
+
+    <script src="static/js/toggle.js"></script>
 
     <!-- BEGIN FOOTER -->
     <section class="footer py-0">

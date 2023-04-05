@@ -16,6 +16,10 @@
       rel="stylesheet"
       href="https://www.ansible.com/hubfs/css/styles.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="static/css/toggle.css"
+    />
 
     <!-- <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -336,6 +340,18 @@
                 >Visit the archive</a
               >
             </p>
+            <span class="toggle">
+              <p>
+                <strong>Try the new docsite</strong><br/>
+                The Ansible community team is busy improving our documentation and want to hear from you!<br/>
+                Join us in the <a href="https://matrix.to/#/#docs:ansible.com" target="_blank">docs channel on Matrix</a> or open a <a href="https://github.com/ansible/docsite/issues" target="_blank">GitHub issue</a> and give us your feedback.<br/>
+                Use the slider to visit the new Ansible community docsite.<br/><br/>
+                <label class="switch">
+                  <input type="checkbox" id="page-toggle" data-target="community.html">
+                  <span class="slider round"></span>
+                </label>
+              </p>
+            </span>
           </div>
         </div>
       </div>
@@ -596,6 +612,8 @@
       </div>
     </section>
     <!-- END RESOURCES SECTION - SEE '.resources' CSS RULE TO TOGGLE OFF -->
+
+    <script src="static/js/toggle.js"></script>
 
     <!-- BEGIN FOOTER -->
     <section class="footer py-0">
