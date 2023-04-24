@@ -31,7 +31,7 @@ Milestone: Scale
 
 ## Novice
 
-Get started with Ansible box content.
+The novice journey is the basis for the "Get started with Ansible" section on the docsite index page.
 
 ```yaml
 Milestone: Need to learn the basics
