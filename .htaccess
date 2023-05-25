@@ -24,6 +24,9 @@ RedirectMatch permanent "^/ansible/(developing_[^/]+)\.html" "/ansible/latest/de
 RedirectMatch permanent "^/ansible/developing.html" "/ansible/dev_guide/index.html"
 RedirectMatch permanent "^/ansible/dev_guide(\/)?" "/ansible/latest/dev_guide/index.html"
 
+# Redirect from PR #79562
+RedirectMatch permanent "^/ansible/(devel|latest)/dev_guide/testing_compile.html" "/ansible/$1/dev_guide/testing/sanity/compile.html"
+
 # Commenting out the regex below; it redirected Ansible 3.0.0 docs (URLs like /ansible/3/*)
 
 # RedirectMatch permanent "^/ansible/(?!latest|devel|\d\.+)(.+)?.html" "/ansible/latest/$1.html"
