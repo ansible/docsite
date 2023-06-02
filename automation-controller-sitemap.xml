@@ -16,10 +16,10 @@
     <loc>https://docs.ansible.com/automation-controller/latest/html/controllerapi/</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/quickstart/</loc>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/controllercli/</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/controllercli/</loc>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/quickstart/</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/release-notes/</loc>
@@ -28,22 +28,25 @@
     <loc>https://docs.ansible.com/automation-controller/latest/html/towerapi/</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/upgrade-migration-guide/</loc>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/towercli/</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/towercli/</loc>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/upgrade-migration-guide/</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/pdf/AnsibleAutomationPlatform4UpgradeandMigrationGuide.pdf</loc>
-  </url>
-  <url>
     <loc>https://docs.ansible.com/automation-controller/latest/pdf/AnsibleAutomationPlatformQuickSetupGuide.pdf</loc>
   </url>
   <url>
+    <loc>https://docs.ansible.com/automation-controller/latest/pdf/AnsibleAutomationPlatform4UpgradeandMigrationGuide.pdf</loc>
+  </url>
+  <url>
     <loc>https://docs.ansible.com/automation-controller/latest/pdf/AutomationControllerAPIGuide.pdf</loc>
+  </url>
+  <url>
+    <loc>https://docs.ansible.com/automation-controller/latest/pdf/AutomationControllerAdministrationGuide.pdf</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/pdf/AutomationControllerReleaseNotes.pdf</loc>
@@ -56,9 +59,6 @@
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/administration/custom_inventory_script.html</loc>
-  </url>
-  <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/pdf/AutomationControllerAdministrationGuide.pdf</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/administration/scm-inv-source.html</loc>
@@ -76,10 +76,10 @@
     <loc>https://docs.ansible.com/automation-controller/latest/html/administration/containers_instance_groups.html</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/administration/topology_viewer.html</loc>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/administration/instances.html</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/administration/instances.html</loc>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/administration/topology_viewer.html</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/administration/logfiles.html</loc>
@@ -97,10 +97,10 @@
     <loc>https://docs.ansible.com/automation-controller/latest/html/administration/secret_handling.html</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/administration/security_best_practices.html</loc>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/administration/tower-manage.html</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/administration/tower-manage.html</loc>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/administration/security_best_practices.html</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/administration/configure_tower_in_tower.html</loc>
@@ -115,19 +115,22 @@
     <loc>https://docs.ansible.com/automation-controller/latest/html/administration/social_auth.html</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/administration/ent_auth.html</loc>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/administration/authentication_timeout.html</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/administration/ldap_auth.html</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/administration/session_limits.html</loc>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/administration/ent_auth.html</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/administration/kerberos_auth.html</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/administration/backup_restore.html</loc>
+  </url>
+  <url>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/administration/session_limits.html</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/administration/custom_rebranding.html</loc>
@@ -145,19 +148,16 @@
     <loc>https://docs.ansible.com/automation-controller/latest/html/administration/postface.html</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/administration/authentication_timeout.html</loc>
-  </url>
-  <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/administration/genindex.html</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/controllerapi/tools.html</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/controllerapi/conventions.html</loc>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/controllerapi/browseable.html</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/controllerapi/browseable.html</loc>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/controllerapi/conventions.html</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/controllerapi/sorting.html</loc>
@@ -184,13 +184,34 @@
     <loc>https://docs.ansible.com/automation-controller/latest/html/controllerapi/genindex.html</loc>
   </url>
   <url>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/controllercli/usage.html</loc>
+  </url>
+  <url>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/controllerapi/api_ref.html</loc>
+  </url>
+  <url>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/controllercli/authentication.html</loc>
+  </url>
+  <url>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/controllercli/genindex.html</loc>
+  </url>
+  <url>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/controllercli/output.html</loc>
+  </url>
+  <url>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/controllercli/examples.html</loc>
+  </url>
+  <url>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/controllercli/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/controllercli/search.html</loc>
+  </url>
+  <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/quickstart/quick_start.html</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/quickstart/login_superuser.html</loc>
-  </url>
-  <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/controllerapi/api_ref.html</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/quickstart/import_license.html</loc>
@@ -226,34 +247,16 @@
     <loc>https://docs.ansible.com/automation-controller/latest/html/quickstart/genindex.html</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/controllercli/usage.html</loc>
-  </url>
-  <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/controllercli/authentication.html</loc>
-  </url>
-  <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/controllercli/examples.html</loc>
-  </url>
-  <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/controllercli/output.html</loc>
-  </url>
-  <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/controllercli/reference.html</loc>
-  </url>
-  <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/controllercli/genindex.html</loc>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/release-notes/relnotes.html</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/release-notes/known_issues.html</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/release-notes/genindex.html</loc>
-  </url>
-  <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/release-notes/relnotes.html</loc>
-  </url>
-  <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/release-notes/supported_locales.html</loc>
+  </url>
+  <url>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/release-notes/genindex.html</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/towerapi/tools.html</loc>
@@ -286,34 +289,22 @@
     <loc>https://docs.ansible.com/automation-controller/latest/html/towerapi/authentication.html</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/towerapi/genindex.html</loc>
-  </url>
-  <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/upgrade-migration-guide/release_notes.html</loc>
-  </url>
-  <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/upgrade-migration-guide/upgrade_considerations.html</loc>
-  </url>
-  <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/towerapi/api_ref.html</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/upgrade-migration-guide/upgrade_to_ees.html</loc>
-  </url>
-  <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/upgrade-migration-guide/genindex.html</loc>
-  </url>
-  <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/towercli/usage.html</loc>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/towerapi/genindex.html</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/towercli/authentication.html</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/towercli/examples.html</loc>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/towercli/usage.html</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/towercli/output.html</loc>
+  </url>
+  <url>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/towercli/examples.html</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/towercli/reference.html</loc>
@@ -325,31 +316,37 @@
     <loc>https://docs.ansible.com/automation-controller/latest/html/towercli/search.html</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/overview.html</loc>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/upgrade-migration-guide/release_notes.html</loc>
+  </url>
+  <url>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/upgrade-migration-guide/upgrade_considerations.html</loc>
+  </url>
+  <url>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/upgrade-migration-guide/upgrade_to_ees.html</loc>
+  </url>
+  <url>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/upgrade-migration-guide/genindex.html</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/logging_in.html</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/license-support.html</loc>
-  </url>
-  <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/import_license.html</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/search_sort.html</loc>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/overview.html</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/main_menu.html</loc>
   </url>
   <url>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/license-support.html</loc>
+  </url>
+  <url>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/search_sort.html</loc>
+  </url>
+  <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/organizations.html</loc>
-  </url>
-  <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/users.html</loc>
-  </url>
-  <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/teams.html</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/credentials.html</loc>
@@ -358,10 +355,16 @@
     <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/credential_types.html</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/credential_plugins.html</loc>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/users.html</loc>
+  </url>
+  <url>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/teams.html</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/applications_auth.html</loc>
+  </url>
+  <url>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/credential_plugins.html</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/execution_environments.html</loc>
@@ -376,19 +379,22 @@
     <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/project-sign.html</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/inventories.html</loc>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/inventory_plugins_templates.html</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/inventory_plugins_templates.html</loc>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/inventories.html</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/job_templates.html</loc>
   </url>
   <url>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/job_slices.html</loc>
+  </url>
+  <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/workflows.html</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/job_slices.html</loc>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/workflow_templates.html</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/instance_groups.html</loc>
@@ -397,13 +403,10 @@
     <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/jobs.html</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/workflow_templates.html</loc>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/webhooks.html</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/notifications.html</loc>
-  </url>
-  <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/webhooks.html</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/notification_parameters_supported.html</loc>
@@ -412,10 +415,10 @@
     <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/scheduling.html</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/insights.html</loc>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/best_practices.html</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/best_practices.html</loc>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/insights.html</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/security.html</loc>
@@ -424,13 +427,13 @@
     <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/glossary.html</loc>
   </url>
   <url>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/genindex.html</loc>
+  </url>
+  <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/administration/index.html</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/administration/_downloads/7a0708e6c2113e9601bf252270fa6c50/containergroup-sa.yml</loc>
-  </url>
-  <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/genindex.html</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/controllerapi/index.html</loc>
@@ -448,10 +451,10 @@
     <loc>https://docs.ansible.com/automation-controller/latest/html/towerapi/index.html</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/upgrade-migration-guide/index.html</loc>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/towercli/index.html</loc>
   </url>
   <url>
-    <loc>https://docs.ansible.com/automation-controller/latest/html/towercli/index.html</loc>
+    <loc>https://docs.ansible.com/automation-controller/latest/html/upgrade-migration-guide/index.html</loc>
   </url>
   <url>
     <loc>https://docs.ansible.com/automation-controller/latest/html/userguide/index.html</loc>
