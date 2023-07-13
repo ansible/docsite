@@ -156,75 +156,59 @@
       <div class="width-3-12 width-12-12-m">
         <img class="page-logo" src="static/images/community_logo.svg">
       </div>
-      <div class="width-8-12 width-12-12-m">
+      <div class="width-9-12 width-12-12-m">
         <div class="page-title">
           <h2>Ansible Ecosystem</h2>
           <p>Projects in the Ansible ecosystem let you expand automation to a virtually unlimited set of use cases.</p>
           <p class="feedback"><i class="fas fa-comments"></i> Got thoughts or feedback on the new documentation landing pages? We want to hear from you! <br /> Join us in the <a href="https://matrix.to/#/#docs:ansible.com" target="_blank">docs channel</a> on <a href="https://docs.ansible.com/ansible/latest/community/communication.html#ansible-community-on-matrix" target="_blank">Matrix</a> or open a <a href="https://github.com/ansible/docsite/issues" target="_blank">GitHub issue</a> in the docsite repository.</p>
         </div>
       </div>
-      <!-- Start old docsite toggle. -->
-      <div class="width-1-12 width-12-12-m">
-        <div class="toggle">
-          <p>Restore the old layout&nbsp;
-            <label class="switch">
-              <input type="checkbox" id="page-toggle">
-              <span class="slider round"></span>
-            </label>
-          </p>
-        </div>
-      </div>
-      <!-- End old docsite toggle. -->
+      <!-- Start ecosystem projects -->
       <div class="width-6-12 width-12-12-m">
         <h5>Ansible collections</h5>
         <p>Ansible collections offer distributions of playbooks, roles, modules, and plugins.</p>
         <div class="btn-group-vertical" role="group" aria-label="Button group that links to Ansible community documentation.">
+          <a class="btn" href="https://docs.ansible.com/ansible/latest/collections/index.html" role="button">Collection index</a>
           <a class="btn" href="https://docs.ansible.com/ansible/latest/collections_guide/index.html" role="button">Find out how to use collections</a>
           <a class="btn" href="https://docs.ansible.com/ansible/devel/community/contributions_collections.html#collections-contributions" role="button">Learn how to contribute to collections</a>
+          <a class="btn" href="https://docs.ansible.com/ansible/latest/collections/all_plugins.html" role="button">Index of all modules and plugins</a>
         </div>
       </div>
-      <!-- Start projects -->
-      <!-- AWX -->
+      <div class="width-6-12 width-12-12-m">
+        <h5>Ansible Language Server</h5>
+        <p>Ansible Language Server implements language server protocol (LSP) to highlight and check Ansible syntax.</p>
+        <a class="btn" href="https://ansible.readthedocs.io/projects/language-server/" role="button">Ansible Language Server documentation</a>
+      </div>
       <div class="width-6-12 width-12-12-m">
         <h5>Ansible AWX</h5>
         <p>AWX provides a web-based user interface, REST API, and task engine built on top of Ansible.</p>
-        <a class="btn" href="https://github.com/ansible/awx" role="button">
-          Ansible AWX documentation
-        </a>
+        <a class="btn" href="https://github.com/ansible/awx" role="button">Ansible AWX documentation</a>
       </div>
-      <!-- AWX Operator -->
       <div class="width-6-12 width-12-12-m">
         <h5>AWX Operator</h5>
         <p>Ansible AWX Operator offers built-in intelligence and operational best practices for deploying on Kubernetes environments.</p>
-        <a class="btn" href="https://github.com/ansible/awx-operator" role="button">
-          AWX Operator documentation
-        </a>
+        <a class="btn" href="https://github.com/ansible/awx-operator" role="button">AWX Operator documentation</a>
       </div>
-      <!-- Builder -->
       <div class="width-6-12 width-12-12-m">
         <h5>Ansible Builder</h5>
         <p>Ansible Builder lets you create Execution Environments, which are container images that act as Ansible control nodes.</p>
-        <a class="btn" href="https://ansible-builder.readthedocs.io/en/latest/" role="button">
-          Ansible Builder documentation
-        </a>
+        <a class="btn" href="https://ansible.readthedocs.io/projects/builder/" role="button">Ansible Builder documentation</a>
       </div>
-      <!-- Compat -->
       <div class="width-6-12 width-12-12-m">
         <h5>Ansible Compat</h5>
         <p>Compat is a Python package that assists with compatibility between different Ansible releases, starting at version 2.9.</p>
-        <a class="btn" href="https://ansible-compat.readthedocs.io/" role="button">
-          Ansible Compat documentation
-        </a>
+        <a class="btn" href="https://ansible.readthedocs.io/projects/compat/" role="button">Ansible Compat documentation</a>
       </div>
-      <!-- Core -->
       <div class="width-6-12 width-12-12-m">
         <h5>Ansible Core</h5>
         <p>Ansible Core is the language and runtime that powers automation.</p>
-        <a class="btn" href="https://docs.ansible.com/ansible-core/devel/index.html" role="button">
-          Ansible Core documentation
-        </a>
+        <a class="btn" href="https://docs.ansible.com/ansible-core/devel/index.html" role="button">Ansible Core documentation</a>
       </div>
-      <!-- Edge -->
+      <div class="width-6-12 width-12-12-m">
+        <h5>Event-Driven Ansible Server</h5>
+        <p>Event-Driven Ansible Server offers scalable and flexible automation that can subscribe to a wide variety of event sources.</p>
+        <a class="btn" href="https://github.com/ansible/eda-server" role="button">Event-Driven Ansible Server documentation</a>
+      </div>
       <div class="width-6-12 width-12-12-m">
         <h5>Edge Automation</h5>
         <p>Edge provides tooling and collections to run automation jobs on device endpoints at the very edge of your infrastructure.</p>
@@ -235,126 +219,77 @@
           <a class="btn" href="https://github.com/ansible-collections/edge.microshift/" role="button">MicroShift Collection</a>
         </div>
       </div>
-      <!-- EDA -->
-      <div class="width-6-12 width-12-12-m">
-        <h5>Event-Driven Ansible Server</h5>
-        <p>Event-Driven Ansible Server offers scalable and flexible automation that can subscribe to a wide variety of event sources.</p>
-        <a class="btn" href="https://github.com/ansible/eda-server" role="button">
-          Event-Driven Ansible Server documentation
-        </a>
-      </div>
-      <!-- Galaxy -->
       <div class="width-6-12 width-12-12-m">
         <h5>Galaxy</h5>
         <p>Galaxy provides a hub for discovering and sharing Ansible community content.</p>
-        <a class="btn" href="https://galaxy.ansible.com/docs/" role="button">
-          Galaxy documentation
-        </a>
+        <a class="btn" href="https://galaxy.ansible.com/docs/" role="button">Galaxy documentation</a>
       </div>
-      <!-- Galaxy_NG -->
       <div class="width-6-12 width-12-12-m">
         <h5>Galaxy NG</h5>
         <p>Galaxy NG jumpstarts automation projects with Ansible community content.</p>
-        <a class="btn" href="https://galaxyng.netlify.app/" role="button">
-          Galaxy NG documentation
-        </a>
+        <a class="btn" href="https://ansible.readthedocs.io/projects/galaxy-ng/" role="button">Galaxy NG documentation</a>
       </div>
-      <!-- Language Server -->
-      <div class="width-6-12 width-12-12-m">
-        <h5>Ansible Language Server</h5>
-        <p>Ansible Language Server implements language server protocol (LSP) to highlight and check Ansible syntax.</p>
-        <a class="btn" href="https://als.readthedocs.io/" role="button">
-          Ansible Language Server documentation
-        </a>
-      </div>
-      <!-- Lint -->
       <div class="width-6-12 width-12-12-m">
         <h5>Ansible Lint</h5>
         <p>Lint improves code quality through proven best practices, patterns, and behaviors so that your Ansible content results in reliable and consistent automation.</p>
-        <a class="btn" href="https://ansible-lint.readthedocs.io/" role="button">
-          Ansible Lint documentation
-        </a>
+        <a class="btn" href="https://ansible.readthedocs.io/projects/lint/" role="button">Ansible Lint documentation</a>
       </div>
-      <!-- Molecule -->
       <div class="width-6-12 width-12-12-m">
         <h5>Molecule</h5>
         <p>Molecule helps you develop and test Ansible roles.</p>
-        <a class="btn" href="https://molecule.readthedocs.io/" role="button">
-          Molecule documentation
-        </a>
+        <a class="btn" href="https://ansible.readthedocs.io/projects/molecule/" role="button">Molecule documentation</a>
       </div>
-      <!-- Navigator -->
       <div class="width-6-12 width-12-12-m">
         <h5>Ansible Navigator</h5>
         <p>Ansible Navigator is a command-line tool for creating, reviewing, and troubleshooting Ansible content.</p>
-        <a class="btn" href="https://ansible-navigator.readthedocs.io/" role="button">
-          Ansible Navigator documentation
-        </a>
+        <a class="btn" href="https://ansible.readthedocs.io/projects/navigator/" role="button">Ansible Navigator documentation</a>
       </div>
-      <!-- Pinakes -->
       <div class="width-6-12 width-12-12-m">
         <h5>Pinakes</h5>
         <p>Pinakes lets you make Ansible job templates and workflows available to business users with an added layer of governance.</p>
-        <a class="btn" href="https://github.com/ansible/pinakes" role="button">
-          Pinakes documentation
-        </a>
+        <a class="btn" href="https://github.com/ansible/pinakes" role="button">Pinakes documentation</a>
       </div>
-      <!-- Pylibssh -->
       <div class="width-6-12 width-12-12-m">
         <h5>Ansible Pylibssh</h5>
         <p>Ansible Pylibssh provides Python bindings for Ansible with the libssh project.</p>
-        <a class="btn" href="https://ansible-pylibssh.readthedocs.io/en/latest/" role="button">
-          Ansible Pylibssh documentation
-        </a>
+        <a class="btn" href="https://ansible-pylibssh.readthedocs.io/en/latest/" role="button">Ansible Pylibssh documentation</a>
       </div>
-      <!-- Receptor -->
       <div class="width-6-12 width-12-12-m">
         <h5>Receptor</h5>
         <p>Receptor is an overlay network that distributes workloads across a large and dispersed collection of nodes.</p>
-        <a class="btn" href="https://receptor.readthedocs.io/en/latest/index.html" role="button">
-          Receptor documentation
-        </a>
+        <a class="btn" href="https://receptor.readthedocs.io/en/latest/index.html" role="button">Receptor documentation</a>
       </div>
-      <!-- Rulebook -->
       <div class="width-6-12 width-12-12-m">
         <h5>Ansible Rulebook</h5>
         <p>Ansible Rulebook is a command-line tool that listens to events so your automation can react when software or system states change.</p>
-        <a class="btn" href="https://ansible-rulebook.readthedocs.io/en/latest/" role="button">
-          Ansible Rulebook documentation
-        </a>
+        <a class="btn" href="https://ansible.readthedocs.io/projects/rulebook/" role="button">Ansible Rulebook documentation</a>
       </div>
-      <!-- Runner -->
       <div class="width-6-12 width-12-12-m">
         <h5>Ansible Runner</h5>
         <p>Ansible Runner provides a stable and consistent interface abstraction to Ansible.</p>
-        <a class="btn" href="https://ansible-runner.readthedocs.io/en/stable/" role="button">
-          Ansible Runner documentation
-        </a>
+        <a class="btn" href="https://ansible.readthedocs.io/projects/runner/" role="button">Ansible Runner documentation</a>
       </div>
-      <!-- Sign -->
-      <div class="width-6-12 width-12-12-m">
-        <h5>Ansible Sign</h5>
-        <p>Ansible Sign is a utility for signing and verifying Ansible content.</p>
-        <a class="btn" href="https://ansible-sign.readthedocs.io/en/latest/" role="button">
-          Ansible Sign documentation
-        </a>
-      </div>
-      <!-- SDK -->
       <div class="width-6-12 width-12-12-m">
         <h5>Ansible SDK</h5>
         <p>Ansible SDK is a toolkit that lets you harness the power and simplicity of Ansible automation directly from your applications.</p>
-        <a class="btn" href="https://ansible-sdk.readthedocs.io/en/latest/" role="button">
-          Ansible SDK documentation
-        </a>
+        <a class="btn" href="https://ansible.readthedocs.io/projects/sdk/" role="button">Ansible SDK documentation</a>
       </div>
-      <!-- VSCode -->
+      <div class="width-6-12 width-12-12-m">
+        <h5>Ansible Sign</h5>
+        <p>Ansible Sign is a utility for signing and verifying Ansible content.</p>
+        <a class="btn" href="https://ansible.readthedocs.io/projects/sign/" role="button">Ansible Sign documentation</a>
+      </div>
+      <div class="width-6-12 width-12-12-m">
+        <h5>Ansible Test</h5>
+        <p>Ansible Test is a command-line tool for performing sanity, unit, and integration testing with Ansible Core and collections.</p>
+        <a class="btn" href="https://docs.ansible.com/ansible-core/devel/dev_guide/testing_running_locally.html" role="button">Ansible Test documentation</a>
+      </div>
       <div class="width-6-12 width-12-12-m">
         <h5>Ansible VS Code Extension</h5>
         <p>The VS Code extention adds Ansible language support to Visual Studio Code and OpenVSX compatible editors.</p>
-        <a class="btn" href="https://marketplace.visualstudio.com/items?itemName=redhat.ansible" role="button">
-          Ansible VS Code Extension documentation
-        </a>
+        <a class="btn" href="https://marketplace.visualstudio.com/items?itemName=redhat.ansible" role="button">Ansible VS Code Extension documentation</a>
       </div>
+      <!-- End ecosystem projects -->
     </div>
   </div>
 </div>
@@ -372,9 +307,6 @@
   </span>
 </div>
     <script src="static/js/iframeResizer.min.js" type="javascript"></script>
-<script src="static/js/clipboard.min.js" type="text/javascript"></script>
-<script src="static/js/clipboard.js" type="text/javascript"></script>
-<script src="static/js/toggle.js" type="text/javascript"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
 <script src="https://www.ansible.com/hubfs/js/scripts.min.js"></script>
 <script src="//www.redhat.com/dtm.js"></script>
