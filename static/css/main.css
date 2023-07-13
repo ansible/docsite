@@ -12,57 +12,6 @@
     background-color: #ffffff;
     color: #000000 !important; }
 
-.cards .row {
-  background: #ffffff; }
-
-.cards .card-body {
-  z-index: 2; }
-  .cards .card-body a {
-    color: #000000; }
-    .cards .card-body a:hover {
-      text-decoration: underline;
-      color: #004080; }
-
-.cards .card-quick-link {
-  font-size: large;
-  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
-  text-align: center; }
-
-.cards .card-text {
-  font-size: large;
-  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
-  text-align: justify; }
-
-.clipboard {
-  font-size: large;
-  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
-  text-align: left; }
-  .clipboard pre {
-    background-color: #ffffff;
-    color: #000000;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    position: relative;
-    width: 50%;
-    text-align: left;
-    display: inline-block; }
-  .clipboard code {
-    background: none; }
-  .clipboard .btn {
-    background-color: #ffffff;
-    border: 0px;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    cursor: pointer; }
-    .clipboard .btn:hover {
-      background-color: #ffffff; }
-  .clipboard .fa-clipboard {
-    color: #000000;
-    background-color: #ffffff; }
-
 .docbar {
   background: #102441;
   width: 100%; }
@@ -118,6 +67,23 @@ nav {
     nav .navbar-nav .nav-link {
       padding-right: 0.75rem;
       padding-left: 0.75rem; } }
+.page-title {
+  font-weight: normal;
+  text-align: left;
+  margin-top: 1.2rem;
+  line-height: 1.9rem; }
+  .page-title p {
+    font-size: 1.45rem;
+    margin: 0 0 1.9rem; }
+  .page-title .feedback {
+    font-size: 1rem; }
+
+.page-logo {
+  display: flex;
+  width: 200px; }
+  @media screen and (max-width: 990px) {
+    .page-logo {
+      display: none; } }
 .grid-wrapper,
 .component-wrapper {
   display: grid;
@@ -223,67 +189,6 @@ nav {
   .quicklinks a {
     font-size: 1rem; }
 
-.toggle {
-  background: #ffffff;
-  color: #102441;
-  text-align: center; }
-  .toggle p {
-    font-size: 0.8rem;
-    text-transform: uppercase; }
-
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 46px;
-  height: 20px; }
-
-/* Hide default HTML checkbox */
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0; }
-
-/* The slider */
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #CCCCCC;
-  -webkit-transition: 0.4s;
-  transition: 0.4s; }
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 12px;
-  width: 12px;
-  left: 4px;
-  bottom: 4px;
-  background-color: #ffffff;
-  -webkit-transition: 0.4s;
-  transition: 0.4s; }
-
-input:checked + .slider {
-  background-color: #5cbec1; }
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #5cbec1; }
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px); }
-
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px; }
-
-.slider.round:before {
-  border-radius: 50%; }
-
 body {
   background: #ffffff;
   color: #000000;
@@ -337,34 +242,3 @@ h6 {
   .component-slim {
     padding-top: 2rem;
     padding-bottom: 2rem; }
-
-.page-title {
-  text-align: left;
-  margin-top: 1.2rem; }
-
-p.intropara {
-  font-size: 1.45rem;
-  line-height: 1.9rem;
-  margin: 0 0 1.9rem;
-  font-weight: normal;
-  text-align: left; }
-
-p.feedback {
-  font-size: 1rem;
-  line-height: 1.9rem;
-  margin: 0 0 1.9rem;
-  font-weight: normal;
-  text-align: left; }
-
-img.page-logo {
-  display: flex;
-  width: 200px; }
-  @media screen and (max-width: 990px) {
-    img.page-logo {
-      display: none; } }
-img.rh-logo {
-  display: flex;
-  width: 200px; }
-  @media screen and (max-width: 990px) {
-    img.rh-logo {
-      display: none; } }

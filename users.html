@@ -153,9 +153,6 @@
 <div class="container">
   <div class="full-width-bg component">
     <div class="grid-wrapper">
-      <!--<div class="width-3-12 width-12-12-m">
-        <img class="page-logo" src="static/images/community_logo.svg">
-      </div>-->
       <div class="width-9-12 width-12-12-m">
         <div class="page-title">
           <h2>Users</h2>
@@ -185,9 +182,9 @@
         </div>
       </div>
       <!-- End quicklinks. -->
+      <!-- Start user journey. -->
       <div class="width-6-12 width-12-12-m">
         <h3>Create automation</h3>
-        <!--<p>Write playbooks and develop content that automates complex tasks.</p>-->
         <div class="btn-group-vertical" role="group" aria-label="Button group that links to Ansible community documentation.">
           <a class="btn" href="https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_intro.html#playbook-syntax" role="button">Start writing Ansible playbooks</a>
           <a class="btn" href="https://docs.ansible.com/ansible/latest/module_plugin_guide/modules_intro.html" role="button">Learn about Ansible modules</a>
@@ -195,7 +192,6 @@
       </div>
       <div class="width-6-12 width-12-12-m">
         <h3>Build inventories</h3>
-        <!--<p>Build inventories that list and describe your infrastructure.</p>-->
         <div class="btn-group-vertical" role="group" aria-label="Button group that links to Ansible community documentation.">
           <a class="btn" href="https://docs.ansible.com/ansible/latest/inventory_guide/intro_inventory.html" role="button">Build inventory files to manage multiple hosts</a>
           <a class="btn" href="https://docs.ansible.com/ansible/latest/inventory_guide/intro_dynamic_inventory.html" role="button">Use dynamic inventories</a>
@@ -203,24 +199,21 @@
       </div>
       <div class="width-6-12 width-12-12-m">
         <h3>Organize automation projects</h3>
-        <!--<p>Organize your automation project as it grows.</p>-->
         <div class="btn-group-vertical" role="group" aria-label="Button group that links to Ansible community documentation.">
           <a class="btn" href="https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_reuse_roles.html" role="button">Use roles to structure the automation project</a>
         </div>
       </div>
       <div class="width-6-12 width-12-12-m">
         <h3>Use Ansible tooling</h3>
-        <!--<p>Validate and improve your project for consistent, trusted automation.</p>-->
         <div class="btn-group-vertical" role="group" aria-label="Button group that links to Ansible community documentation.">
-          <a class="btn" href="https://ansible-lint.readthedocs.io/" role="button">Use Ansible Lint to validate playbooks</a>
-          <a class="btn" href="https://molecule.readthedocs.io/" role="button">Install Molecule to develop and test Ansible roles</a>
-          <a class="btn" href="https://ansible-navigator.readthedocs.io/" role="button">Create and test playbooks with Ansible Navigator</a>
+          <a class="btn" href="https://ansible.readthedocs.io/projects/lint/" role="button">Use Ansible Lint to validate playbooks</a>
+          <a class="btn" href="https://ansible.readthedocs.io/projects/molecule/" role="button">Install Molecule to develop and test Ansible roles</a>
+          <a class="btn" href="https://ansible.readthedocs.io/projects/navigator/" role="button">Create and test playbooks with Ansible Navigator</a>
           <a class="btn" href="https://marketplace.visualstudio.com/items?itemName=redhat.ansible" role="button">Use Ansible with Visual Studio Code and OpenVSX compatible editors</a>
         </div>
       </div>
       <div class="width-6-12 width-12-12-m">
         <h3>Find automation content</h3>
-        <!--<p>Discover and use existing automation content.</p>-->
         <div class="btn-group-vertical" role="group" aria-label="Button group that links to Ansible community documentation.">
           <a class="btn" href="https://docs.ansible.com/ansible/latest/galaxy/user_guide.html#finding-collections-on-galaxy" role="button">Start exploring Ansible Galaxy</a>
           <a class="btn" href="https://docs.ansible.com/ansible/latest/galaxy/user_guide.html#installing-roles-from-galaxy" role="button">Install and use roles</a>
@@ -229,29 +222,27 @@
       </div>
       <div class="width-6-12 width-12-12-m">
         <h3>Share automation content</h3>
-        <!--<p>Share your automation content with others.</p>-->
         <div class="btn-group-vertical" role="group" aria-label="Button group that links to Ansible community documentation.">
-          <a class="btn" href="https://galaxyng.netlify.app/community/userguide/#importing-roles" role="button">Submit roles to an existing collection</a>
+          <a class="btn" href="https://ansible.readthedocs.io/projects/galaxy-ng/en/latest/community/userguide/#importing-roles" role="button">Submit roles to an existing collection</a>
           <a class="btn" href="https://docs.ansible.com/ansible/latest/dev_guide/developing_collections.html#developing-collections" role="button">Create a new collection</a>
-          <a class="btn" href="https://galaxyng.netlify.app/community/userguide/#uploading-collections" role="button">Upload a collection to Ansible Galaxy</a>
+          <a class="btn" href="https://ansible.readthedocs.io/projects/galaxy-ng/en/latest/community/userguide/#uploading-collections" role="button">Upload a collection to Ansible Galaxy</a>
         </div>
       </div>
       <div class="width-6-12 width-12-12-m">
         <h3>Schedule and run automation jobs</h3>
-        <!--<p>Use AWX for more convenient automation.</p>-->
         <div class="btn-group-vertical" role="group" aria-label="Button group that links to Ansible community documentation.">
           <a class="btn" href="https://github.com/ansible/awx/blob/devel/docs/tasks.md#awx-jobs" role="button">Execute automation jobs on demand</a>
           <a class="btn" href="https://github.com/ansible/awx/blob/devel/docs/schedules.md#scheduled-jobs" role="button">Schedule automation jobs</a>
         </div>
       </div>
       <div class="width-6-12 width-12-12-m">
-        <h3>Embed automation in systems</h3>
-        <!--<p>Invoke automation jobs from other systems.</p>-->
+        <h3>Use Ansible execution environments</h3>
         <div class="btn-group-vertical" role="group" aria-label="Button group that links to Ansible community documentation.">
-          <a class="btn" href="https://ansible-builder.readthedocs.io/en/latest/index.html" role="button">Build execution environment with specific dependencies</a>
-          <a class="btn" href="https://ansible-runner.readthedocs.io/en/latest/execution_environments/" role="button">Use execution environments with AWX jobs</a>
+          <a class="btn" href="https://ansible.readthedocs.io/projects/builder/en/latest/" role="button">Build execution environments</a>
+          <a class="btn" href="https://ansible.readthedocs.io/projects/runner/en/latest/execution_environments/" role="button">Use execution environments with AWX jobs</a>
         </div>
       </div>
+      <!-- End user journey. -->
     </div>
   </div>
 </div>
@@ -269,9 +260,6 @@
   </span>
 </div>
     <script src="static/js/iframeResizer.min.js" type="javascript"></script>
-<script src="static/js/clipboard.min.js" type="text/javascript"></script>
-<script src="static/js/clipboard.js" type="text/javascript"></script>
-<script src="static/js/toggle.js" type="text/javascript"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
 <script src="https://www.ansible.com/hubfs/js/scripts.min.js"></script>
 <script src="//www.redhat.com/dtm.js"></script>
