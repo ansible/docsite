@@ -1,0 +1,61 @@
+# Quicklinks for Ansible community maintainers
+quicklinks:
+  maintainer_news:
+    label: News for maintainers
+    link: "https://github.com/ansible-collections/news-for-maintainers/issues"
+  community_topics:
+    label: Community topics
+    link: "https://github.com/ansible-community/community-topics/issues"
+  package_inclusion:
+    label: Package inclusion requests
+    link: "https://docs.ansible.com/ansible/devel/community/steering/community_steering_committee.html#collection-inclusion-requests-workflow"
+# Milestones in the Ansible community maintainer journey
+milestones:
+  learn:
+    heading: Learn about community maintainer responsibilities
+    actions:
+      guidelines:
+        label: Review community maintainer responsibilities
+        link: "https://docs.ansible.com/ansible/latest/community/maintainers_guidelines.html"
+      backports:
+        label: Backport merged pull requests to stable branches
+        link: "https://docs.ansible.com/ansible/latest/community/maintainers_workflow.html#backporting"
+      release:
+        label: Regularly release stable versions
+        link: "https://docs.ansible.com/ansible/latest/community/collection_contributors/collection_releasing.html#releasing"
+      documentation:
+        label: Look after collection documentation
+        link: "https://docs.ansible.com/ansible/latest/community/maintainers_guidelines.html#maintaining-good-collection-documentation"
+  build_community:
+    heading: Expand community around a collection
+    actions:
+      grow_community:
+        label: Explore ways to grow community
+        link: "https://docs.ansible.com/ansible/latest/community/maintainers_guidelines.html#expanding-the-collection-community"
+      documentation:
+        label: Maintain good contributor documentation
+        link: "https://docs.ansible.com/ansible/latest/community/maintainers_guidelines.html#maintaining-good-collection-documentation"
+      contributor_paths:
+        label: Understand Ansible contributor paths
+        link: "https://docs.ansible.com/ansible/latest/community/contributor_path.html"
+  collection_inclusion:
+    heading: Get collections included in the Ansible package
+    actions:
+      process:
+        label: Understand the inclusion process
+        link: "https://docs.ansible.com/ansible/devel/community/steering/community_steering_committee.html#collection-inclusion-requests-workflow"
+      review:
+        label: Review other inclusion requests
+        link: "https://github.com/ansible-collections/ansible-inclusion/blob/main/README.md#review-process"
+      submit:
+        label: Submit your collection for inclusion
+        link: "https://github.com/ansible-collections/ansible-inclusion/blob/main/README.md#submission-process"
+  participate:
+    heading: Participate in cross-project governance
+    actions:
+      community_topics:
+        label: Discuss and vote on community topics
+        link: "https://github.com/ansible-community/community-topics/issues"
+      join:
+        label: Join the Ansible community steering committee
+        link: "https://docs.ansible.com/ansible/latest/community/contributor_path.html#become-a-steering-committee-member"

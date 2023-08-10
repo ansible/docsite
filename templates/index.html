@@ -1,0 +1,80 @@
+{% extends "_base.html" %} {% block body %}
+<div class="container">
+  <div class="full-width-bg component">
+    <div class="grid-wrapper">
+      <div class="width-9-12 width-12-12-m">
+        <div class="page-title">
+          <h2>{{ pages.index.title }}</h2>
+          <p>{{ pages.index.intro }}</p>
+          <p class="feedback">{{ pages.feedback }}</p>
+        </div>
+      </div>
+      <!-- Start quicklinks -->
+      <div class="width-3-12 width-12-12-m">
+        <div class="quicklinks">
+          <h2>{{ pages.quicklinks.title }}</h2>
+          <ul class="fa-ul">
+            {%- for key, item in index.quicklinks.items() %}
+            <li>
+              <span class="fa-li"><i class="fas fa-book"></i></span>
+              <a href="{{ item.link }}" target="_blank">{{ item.label }}</a>
+            </li>
+            {%- endfor %}
+          </ul>
+          <hr />
+        </div>
+      </div>
+      <!-- End quicklinks -->
+      <!-- Start novice / getting started section -->
+      <div class="width-6-12 width-12-12-m">
+        <h4>{{ index.persona.novice }} <i class="fas fa-rocket"></i></h4>
+        <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
+          {%- for key, item in index.novice.actions.items() %}
+          <a class="btn" href="{{ item.link }}" role="button">{{ item.label }}</a>
+          {%- endfor %}
+        </div>
+      </div>
+      <!-- End novice / getting started section -->
+      <!-- Start Ansible users section -->
+      <div class="width-6-12 width-12-12-m">
+        <h4>{{ index.persona.users }} <i class="fas fa-cogs"></i></h4>
+        <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
+          {%- for key, item in index.users.actions.items() %}
+          <a class="btn" href="{{ item.link }}" role="button">{{ item.label }}</a>
+          {%- endfor %}
+        </div>
+        <p>
+          <a class="btn" href="{{ links.users }}" role="button"><i class="fas fa-angle-double-right"></i>&nbsp;{{ index.continue.users }}</a>
+        </p>
+      </div>
+      <!-- End Ansible users section -->
+      <!-- Start Ansible developers section -->
+      <div class="width-6-12 width-12-12-m">
+        <h4>{{ index.persona.developers }} <i class="fas fa-code"></i></h4>
+        <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
+          {%- for key, item in index.developers.actions.items() %}
+          <a class="btn" href="{{ item.link }}" role="button">{{ item.label }}</a>
+          {%- endfor %}
+        </div>
+        <p>
+          <a class="btn" href="{{ links.developers }}" role="button"><i class="fas fa-angle-double-right"></i>&nbsp;{{ index.continue.developers }}</a>
+        </p>
+      </div>
+      <!-- End Ansible developers section -->
+      <!-- Start Ansible community maintainers section -->
+      <div class="width-6-12 width-12-12-m">
+        <h4>{{ index.persona.maintainers }} <i class="fas fa-project-diagram"></i></h4>
+        <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
+          {%- for key, item in index.maintainers.actions.items() %}
+          <a class="btn" href="{{ item.link }}" role="button">{{ item.label }}</a>
+          {%- endfor %}
+        </div>
+        <p>
+          <a class="btn" href="{{ links.maintainers }}" role="button"><i class="fas fa-angle-double-right"></i>&nbsp;{{ index.continue.maintainers }}</a>
+        </p>
+      </div>
+      <!-- End Ansible community maintainers section -->
+    </div>
+  </div>
+</div>
+{% endblock %}

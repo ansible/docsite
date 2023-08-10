@@ -1,0 +1,21 @@
+# Translated guide names for Ansible Core
+# Start Japanese guides
+core_ja:
+  v_2_15:
+    heading: ansible-core ドキュメント 2.15
+    link: "https://docs.ansible.com/ansible-core/2.15_ja/index.html"
+  v_2_14:
+    heading: ansible-core ドキュメント 2.14
+    link: "https://docs.ansible.com/ansible-core/2.14_ja/index.html"
+  v_2_13:
+    heading: ansible-core ドキュメント 2.13
+    link: "https://docs.ansible.com/ansible-core/2.13_ja/index.html"
+  v_2_12:
+    heading: ansible-core ドキュメント 2.12
+    link: "https://docs.ansible.com/ansible-core/2.12_ja/index.html"
+  v_2_11:
+    heading: ansible-core ドキュメント 2.11
+    link: "https://docs.ansible.com/ansible-core/2.11_ja/index.html"
+  v_2_9:
+    heading: Ansible ドキュメント 2.9
+    link: "https://docs.ansible.com/ansible/2.9_ja/index.html"

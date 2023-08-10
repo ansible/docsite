@@ -1,0 +1,70 @@
+# Quicklinks for Ansible developers
+quicklinks:
+  developing_modules:
+    label: Developing modules
+    link: "https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html"
+  python_three:
+    label: Ansible and Python 3
+    link: "https://docs.ansible.com/ansible/latest/dev_guide/developing_python_3.html"
+  python_api:
+    label: Python API
+    link: "https://docs.ansible.com/ansible/latest/dev_guide/developing_api.html"
+# Milestones in the Ansible developer journey
+milestones:
+  start:
+    heading: Start writing code
+    actions:
+      setup:
+        label: Set up your development environment
+        link: "https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html#environment-setup"
+      learn:
+        label: Learn how Ansible works
+        link: "https://docs.ansible.com/ansible/latest/dev_guide/overview_architecture.html"
+      code:
+        label: Write custom modules or plugins
+        link: "https://docs.ansible.com/ansible/latest/dev_guide/developing_locally.html"
+  contribute:
+    heading: Contribute code to a collection
+    actions:
+      first_contribution:
+        label: Make your first contribution
+        link: "https://docs.ansible.com/ansible/latest/community/contributor_path.html#making-your-first-contribution"
+      collection_contrib_guide:
+        label: Explore the Collection contributor guide
+        link: "https://docs.ansible.com/ansible/latest/community/contributions_collections.html"
+      checklist:
+        label: Contribute your module to an existing collection
+        link: "https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_checklist.html"
+      lifecycle:
+        label: Review the lifecycle of an Ansible module or plugin
+        link: "https://docs.ansible.com/ansible/latest/dev_guide/module_lifecycle.html"
+  test:
+    heading: Test plugins and modules
+    actions:
+      learn:
+        label: Understand testing in Ansible
+        link: "https://docs.ansible.com/ansible/latest/dev_guide/testing.html#why-test-your-ansible-contributions"
+      run:
+        label: Run sanity tests
+        link: "https://docs.ansible.com/ansible/latest/dev_guide/testing_sanity.html"
+      integration:
+        label: Write integration tests
+        link: "https://docs.ansible.com/ansible/latest/dev_guide/testing_integration.html#testing-integration"
+      unit:
+        label: Write unit tests
+        link: "https://docs.ansible.com/ansible/latest/dev_guide/testing_units.html#testing-units"
+  create_collection:
+    heading: Create new collections
+    actions:
+      skeleton:
+        label: Set things up with the collection skeleton
+        link: "https://docs.ansible.com/ansible/latest/dev_guide/developing_collections_creating.html#creating-collections-skeleton"
+      test:
+        label: Test your collection for code quality
+        link: "https://docs.ansible.com/ansible/latest/dev_guide/developing_collections_testing.html"
+      distribute:
+        label: Publish your collection on a distribution server
+        link: "https://docs.ansible.com/ansible/devel/dev_guide/developing_collections_distributing.html#initial-configuration-of-your-distribution-server-or-servers"
+      request_inclusion:
+        label: Request a collection be added to the Ansible package
+        link: "https://github.com/ansible-collections/ansible-inclusion"

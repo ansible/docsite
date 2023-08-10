@@ -1,0 +1,71 @@
+# Quicklinks on the homepage
+quicklinks:
+  package_docs_home:
+    label: Ansible package docs home
+    link: "https://docs.ansible.com/ansible/latest/index.html"
+  collection_index:
+    label: Collection index
+    link: "https://docs.ansible.com/ansible/latest/collections/index.html"
+  module_index:
+    label: Modules and plugins index
+    link: "https://docs.ansible.com/ansible/latest/collections/all_plugins.html"
+# Section headings for Ansible community personas
+persona:
+  novice: Get started with Ansible
+  users: Users
+  developers: Developers
+  maintainers: Maintainers
+# Labels to continue persona journeys
+continue:
+  users: Continue the Ansible user journey
+  developers: Continue the Ansible developer journey
+  maintainers: Continue the Ansible community maintainer journey
+# Getting started milestones for Ansible community journeys
+# Novice
+novice:
+  actions:
+    learn:
+      label: Understand the fundamentals of Ansible automation
+      link: "https://docs.ansible.com/ansible/latest/index.html"
+    install:
+      label: Install the Ansible package
+      link: "https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-and-upgrading-ansible"
+    start:
+      label: Run your first ad hoc command in a few easy steps
+      link: "https://docs.ansible.com/ansible/latest/getting_started/index.html"
+# Users
+users:
+  actions:
+    start:
+      label: Start writing Ansible playbooks
+      link: "https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_intro.html#playbook-syntax"
+    learn_modules:
+      label: Learn about Ansible modules
+      link: "https://docs.ansible.com/ansible/latest/module_plugin_guide/modules_intro.html"
+    build_inventory:
+      label: Build inventory files to manage multiple hosts
+      link: "https://docs.ansible.com/ansible/latest/inventory_guide/intro_inventory.html"
+# Developers
+developers:
+  actions:
+    setup:
+      label: Set up your development environment
+      link: "https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html#environment-setup"
+    learn:
+      label: Learn how Ansible works
+      link: "https://docs.ansible.com/ansible/latest/dev_guide/overview_architecture.html"
+    code:
+      label: Write custom modules or plugins
+      link: "https://docs.ansible.com/ansible/latest/dev_guide/developing_locally.html"
+# Maintainers
+maintainers:
+  actions:
+    guidelines:
+      label: Review community maintainer responsibilities
+      link: "https://docs.ansible.com/ansible/latest/community/maintainers_guidelines.html"
+    paths:
+      label: Understand Ansible contributor paths
+      link: "https://docs.ansible.com/ansible/latest/community/contributor_path.html"
+    grow:
+      label: Explore ways to grow community
+      link: "https://docs.ansible.com/ansible/latest/community/maintainers_guidelines.html#expanding-the-collection-community"

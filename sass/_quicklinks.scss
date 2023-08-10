@@ -1,0 +1,18 @@
+.quicklinks {
+  margin-top: 2rem;
+  h2 {
+    font-family: $redhat-display;
+    font-size: 1.4rem;
+    text-transform: none;
+  }
+  .fa-ul {
+    text-align: left;
+  }
+  .fa-li {
+    font-size: 1rem;
+    width: 10px;
+  }
+  a {
+    font-size: 1rem;
+  }
+}

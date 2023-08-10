@@ -1,0 +1,73 @@
+# Content for platform.html
+platform:
+  name: Ansible Automation Platform
+  description: Red Hat provides documentation for Automation Platform including installation, Automation Hub, Services Catalog, and Insights.
+  docs:
+    link: "https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/"
+    button: Go to access.redhat.com
+quickstart:
+  name: Automation Controller Quickstart
+  description: Get Automation Controller up and running.
+  docs:
+    link: "https://docs.ansible.com/automation-controller/latest/html/quickstart/index.html"
+    button: Visit the quickstart
+relnotes:
+  name: Release notes
+  description: View the changes made since the last release of Ansible Automation Controller.
+  docs:
+    link: "https://docs.ansible.com/automation-controller/latest/html/release-notes/index.html"
+    button: Visit the release notes
+upgrade:
+  name: Upgrade and migration
+  description: Find out how to upgrade Ansible Automation Platform to the latest version.
+  docs:
+    link: "https://docs.ansible.com/automation-controller/latest/html/upgrade-migration-guide/index.html"
+    button: Visit the upgrade and migration guide
+user_guide:
+  name: User guide
+  description: Find the complete guide to using Ansible Automation Controller functionality.
+  docs:
+    link: "https://docs.ansible.com/automation-controller/latest/html/userguide/index.html"
+    button: Visit the user guide
+administration:
+  name: Administration
+  description: Learn how to perform administration operations on Ansible Automation Controller with scripts, management jobs, and more.
+  docs:
+    link: "https://docs.ansible.com/automation-controller/latest/html/administration/index.html"
+    button: Visit the administration guide
+api:
+  name: Automation Controller API
+  description: Learn and explore the Automation Controller API.
+  docs:
+    link: "https://docs.ansible.com/automation-controller/latest/html/controllerapi/index.html"
+    button: Visit the API guide
+cli:
+  name: Automation Controller CLI
+  description: Learn how to use the command-line client for AWX and Ansible Automation Controller.
+  docs:
+    link: "https://docs.ansible.com/automation-controller/latest/html/controllercli/index.html"
+    button: Visit the CLI guide
+ko_translations:
+  name: 한국어 문서 (Korean)
+  description: Access Korean translations for Automation Controller documentation.
+  docs:
+    link: automation-tower-korean-translations.html
+    button: Learn more
+ja_translations:
+  name: 日本語ドキュメント (Japanese)
+  description: Access Japanese translations for Automation Controller documentation.
+  docs:
+    link: automation-tower-japanese-translations.html
+    button: Learn more
+zh_translations:
+  name: 中文文档 (Simplified Chinese)
+  description: Access simplified Chinese translations for Automation Controller documentation.
+  docs:
+    link: automation-tower-chinese-translations.html
+    button: Learn more
+archive:
+  name: Automation Controller documentation archive
+  description: Archive page for the Automation Controller documentation that provides older versions of content.
+  docs:
+    link: automation-tower-prior-versions.html
+    button: Visit the archive

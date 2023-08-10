@@ -1,0 +1,58 @@
+# Ansible community docs archive
+archive:
+  v_2_7:
+    heading: Ansible community documentation for version 2.7
+    link: "https://docs.ansible.com/archive/ansible/2.7/"
+  v_2_6:
+    heading: Ansible community documentation for version 2.6
+    link: "https://docs.ansible.com/archive/ansible/2.6/"
+  v_2_5:
+    heading: Ansible community documentation for version 2.5
+    link: "https://docs.ansible.com/archive/ansible/2.5/"
+  v_2_4:
+    heading: Ansible community documentation for version 2.4
+    link: "https://docs.ansible.com/archive/ansible/2.4/"
+  v_2_3:
+    heading: Ansible community documentation for version 2.3
+    link: "https://docs.ansible.com/archive/ansible/2.3/"
+# Ansible community member journey milestones
+milestones:
+  collaborate:
+    title: Collaborate with us
+    actions:
+      conduct:
+        label: Read the code of conduct
+        link: "https://docs.ansible.com/ansible/latest/community/code_of_conduct.html"
+      help:
+        label: Explore ways to contribute
+        link: "https://docs.ansible.com/ansible/latest/community/how_can_I_help.html"
+      find_projects:
+        label: Find an Ansible project
+        link: ecosystem.html
+  communicate:
+    title: Join the conversation
+    actions:
+      matrix:
+        label: Say hello and introduce yourself in the social channel
+        link: "https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-matrix"
+      public_meetings:
+        label: Find public community meetings on Matrix/IRC
+        link: "https://docs.ansible.com/ansible/latest/community/communication.html#meetings-on-chat"
+      communication_guide:
+        label: Check out the guide to community communication
+        link: "https://docs.ansible.com/ansible/devel/community/communication.html"
+  participate:
+    title: Participate in community discussions
+    actions:
+      community_topics:
+        label: Share your ideas and vote in the Community topics
+        link: "https://github.com/ansible-community/community-topics/issues"
+      working_groups:
+        label: Take part in a working group
+        link: "https://docs.ansible.com/ansible/latest/community/communication.html#working-groups"
+  follow:
+    title: Follow Ansible community news and announcements
+    actions:
+      subscribe:
+        label: Subscribe to the Bullhorn
+        link: "https://bit.ly/subscribe-bullhorn"

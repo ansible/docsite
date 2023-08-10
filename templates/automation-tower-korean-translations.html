@@ -1,0 +1,34 @@
+{% extends "_base.html" %}
+{% block body %}
+<div class="container">
+  <div class="full-width-bg component">
+    <div class="grid-wrapper">
+      <div class="width-3-12 width-12-12-m">
+        <img class="page-logo" src="https://static.redhat.com/libs/redhat/brand-assets/2/corp/logo--hat-only.svg">
+      </div>
+      <div class="width-9-12 width-12-12-m">
+        <div class="page-title">
+          <h2>{{ pages.controller.tower_ko.title }}</h2>
+          <p>{{ pages.controller.tower_ko.intro }}</p>
+          <p class="feedback">{{ pages.feedback }}</p>
+        </div>
+      </div>
+      <!-- Start Controller Korean translations. -->
+      {% for key, item in controller_i18n_links.tower_ko.items() -%}
+      <div class="width-6-12 width-12-12-m">
+        <h5>{{ item.heading }}</h5>
+        <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
+          <a class="btn" href="{{ item.quickstart }}" role="button">{{ controller_translations.tower_ko.quickstart }}</a>
+          <a class="btn" href="{{ item.release_notes }}" role="button">{{ controller_translations.tower_ko.release_notes }}</a>
+          <a class="btn" href="{{ item.api }}" role="button">{{ controller_translations.tower_ko.api }}</a>
+          <a class="btn" href="{{ item.administration }}" role="button">{{ controller_translations.tower_ko.administration }}</a>
+          <a class="btn" href="{{ item.userguide }}" role="button">{{ controller_translations.tower_ko.userguide }}</a>
+          <a class="btn" href="{{ item.upgrade }}" role="button">{{ controller_translations.tower_ko.upgrade }}</a>
+        </div>
+      </div>
+      {% endfor -%}
+      <!-- End Controller Korean translations. -->
+    </div>
+  </div>
+</div>
+{% endblock %}
