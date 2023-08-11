@@ -1,21 +1,10 @@
 # Landing pages for docs.ansible.com
 
-To update or add content, open the relevant ``data/*.yaml`` file with any text editor.
+This repository contains source templates and a Python utility to generate HTML pages and associated assets for ``docs.ansible.com``.
 
-To build the docsite locally, do the following:
+Join the Ansible community and help us build a better user experience for the docsite.
 
-1. Install the requirements.
-    ```
-    python -m pip install -r requirements.in -c requirements.txt
-    ```
-2. Build the docsite.
-    ```
-    python build.py
-    ```
+We talk about Ansible documentation on Matrix at [#docs:ansible.im](https://matrix.to/#/#docs:ansible.im) and on Libera IRC at ``#ansible-docs``.
+You're welcome to join us, chat about the Ansible docs, and share your thoughts.
 
-You can find the generated HTML and other assets in the ``output`` folder.
-
-Want to make some changes?
-
-Fork this repo and show us what you've got.
-You can also head over to the [DaWGs](https://matrix.to/#/#docs:ansible.com) room and share your thoughts with the Ansible community on Matrix.
+The Ansible community docs group (the DaWGs) meets every Tuesday (see [the Ansible calendar](https://github.com/ansible/community/blob/main/meetings/README.md)) and welcomes additions to our [weekly agenda items](https://github.com/ansible/community/issues/678) - scroll down to find the upcoming agenda and add a comment to include your topic.
