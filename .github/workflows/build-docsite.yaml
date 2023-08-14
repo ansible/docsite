@@ -24,9 +24,7 @@ jobs:
       run: python build.py
     - name: Copy sitemaps, redirects, and robots.txt files
       run: |
-        cp *-sitemap.xml output
-        cp .htaccess output
-        cp robots.txt output
+        cp -v *-sitemap.xml .htaccess robots.txt output/
     - name: Deploy to the prod branch
       uses: JamesIves/github-pages-deploy-action@v4
       with:
