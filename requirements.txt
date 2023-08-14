@@ -16,10 +16,6 @@ libsass==0.22.0
     # via -r requirements.in
 markupsafe==2.1.3
     # via jinja2
-pathlib==1.0.1
-    # via
-    #   -c constraints.in
-    #   -r requirements.in
 pyyaml==6.0
     # via -r requirements.in
 staticjinja==4.1.3

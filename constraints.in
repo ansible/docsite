@@ -1,3 +1,2 @@
 # Known limitations for indirect/transitive dependencies.
 
-pathlib >= 1.0.1

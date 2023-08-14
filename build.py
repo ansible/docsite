@@ -1,37 +1,45 @@
 import shutil
-import sass
-import glob
-
+import sys
 from pathlib import Path
+
 from staticjinja import Site
-from yaml import load, Loader
+from yaml import Loader, load
 
-def data():
-    data_dict = {}
-    yaml = glob.glob("data/*.yaml")
+import sass
 
-    for file_path in yaml:
-        file_name = file_path.split("/")[-1].split(".")[0]
-        with open(file_path, "r") as file:
-            data_dict[file_name] = load(file, Loader=Loader)
 
-    return data_dict
+def load_page_data():
+    yaml = Path("./data").glob("*.yaml")
+    return {
+        file_path.stem: load(file_path.read_text(), Loader=Loader) for file_path in yaml
+    }
 
-buildpath = Path('output')
 
-if buildpath.exists() and buildpath.is_dir():
-    shutil.rmtree(buildpath)
+def clean_buildpath(output_dir):
+    shutil.rmtree(output_dir, ignore_errors=True)
 
-if __name__ == "__main__":
+
+def main():
+    try:
+        build_dir_str = sys.argv[1]
+    except IndexError:
+        build_dir_str = "output"
+
+    buildpath = Path(build_dir_str)
+    clean_buildpath(buildpath)
 
     site = Site.make_site()
-    site.outpath=buildpath
-    site.contexts=[(".*.html", data)]
+    site.outpath = buildpath
+    site.contexts = [(".*.html", load_page_data)]
     # disable automatic reloading
     site.render(use_reloader=False)
 
     # copy the static folder
-    shutil.copytree('static', buildpath / 'static')
+    shutil.copytree("static", buildpath / "static")
 
     # compile sass to css
-    sass.compile(dirname=('sass', buildpath / 'static/css'))
+    sass.compile(dirname=("sass", buildpath / "static/css"))
+
+
+if __name__ == "__main__":
+    main()
