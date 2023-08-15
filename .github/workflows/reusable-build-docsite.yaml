@@ -23,5 +23,6 @@ jobs:
       - name: Create a downloadable archive of docs build
         uses: actions/upload-artifact@v3
         with:
-          folder: output
-          branch: prod
+          name: docsite-html-assets
+          path: output/*
+          retention-days: 7
