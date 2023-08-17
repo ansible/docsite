@@ -6,8 +6,6 @@
 #
 docopt-ng==0.9.0
     # via staticjinja
-easywatch==0.0.5
-    # via staticjinja
 jinja2==3.1.2
     # via staticjinja
 libsass==0.22.0
@@ -16,7 +14,7 @@ markupsafe==2.1.3
     # via jinja2
 pyyaml==6.0
     # via -r requirements.in
-staticjinja==4.1.3
+staticjinja==5.0.0
     # via -r requirements.in
 watchdog==3.0.0
-    # via easywatch
+    # via staticjinja
