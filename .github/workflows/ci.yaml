@@ -1,0 +1,12 @@
+name: Ansible docsite CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - "main"
+  workflow_dispatch:
+
+jobs:
+  build-docsite:
+    uses: ./.github/workflows/reusable-build-docsite.yaml

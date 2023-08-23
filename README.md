@@ -1,7 +1,10 @@
-# This is the landing page for docs.ansible.com
+# Landing pages for docs.ansible.com
 
-It is completely static so there is no "make" build process.  Just open the index.html file in a browser and start editing :).
+This repository contains source templates and a Python utility to generate HTML pages and associated assets for ``docs.ansible.com``.
 
-The new site index presents a high level list of subpages that direct the readers to documentation. Automation for example, links to Ansible Tower and related documentation.
+Join the Ansible community and help us build a better user experience for the docsite.
 
-Once changes are saved, docsite needs to be rebuilt in Jenkins (Project Build_Docsite) for changes to populate online.
+We talk about Ansible documentation on Matrix at [#docs:ansible.im](https://matrix.to/#/#docs:ansible.im) and on Libera IRC at ``#ansible-docs``.
+You're welcome to join us, chat about the Ansible docs, and share your thoughts.
+
+The Ansible community docs group (the DaWGs) meets every Tuesday (see [the Ansible calendar](https://github.com/ansible/community/blob/main/meetings/README.md)) and welcomes additions to our [weekly agenda items](https://github.com/ansible/community/issues/678) - scroll down to find the upcoming agenda and add a comment to include your topic.

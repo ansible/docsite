@@ -1,0 +1,31 @@
+name: Build the Ansible docsite
+
+on:
+  workflow_call:
+
+env:
+  PIP_DISABLE_PIP_VERSION_CHECK: 1
+
+jobs:
+  build-docsite:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.11"
+      - name: Pip install nox
+        run: python -Im pip install nox
+      - name: Generate assets for the docs landing page
+        env:
+          PYTHONWARNINGS: >-  # pip vendors deprecated `setuptools`' `pkg_resources`
+            error,once:pkg_resources is deprecated as an API.:DeprecationWarning:pip._internal.metadata.importlib._envs
+        run: python -Im nox -s build
+      - name: Create a downloadable archive of docs build
+        uses: actions/upload-artifact@v3
+        with:
+          name: docsite-html-assets
+          path: output/**
+          retention-days: 7

@@ -1,0 +1,137 @@
+collections:
+  name: Ansible collections
+  description: Ansible collections offer distributions of playbooks, roles, modules, and plugins.
+  docs:
+    index:
+      link: "https://docs.ansible.com/ansible/latest/collections/index.html"
+      button: Collection index
+    user_guide:
+      link: "https://docs.ansible.com/ansible/latest/collections_guide/index.html"
+      button: Find out how to use collections
+    contributor_guide:
+      link: "https://docs.ansible.com/ansible/devel/community/contributions_collections.html#collections-contributions"
+      button: Learn how to contribute to collections
+    plugin_index:
+      link: "https://docs.ansible.com/ansible/latest/collections/all_plugins.html"
+      button: Index of all modules and plugins
+als:
+  name: Ansible Language Server
+  description: Ansible Language Server implements language server protocol (LSP) to highlight and check Ansible syntax.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/language-server/"
+awx:
+  name: Ansible AWX
+  description: AWX provides a web-based user interface, REST API, and task engine built on top of Ansible.
+  docs:
+    home: "https://github.com/ansible/awx"
+awx_operator:
+  name: AWX Operator
+  description: Ansible AWX Operator offers built-in intelligence and operational best practices for deploying on Kubernetes environments.
+  docs:
+    home: "https://github.com/ansible/awx-operator"
+builder:
+  name: Ansible Builder
+  description: Ansible Builder lets you create Execution Environments, which are container images that act as Ansible control nodes.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/builder/"
+compat:
+  name: Ansible Compat
+  description: Compat is a Python package that assists with compatibility between different Ansible releases, starting at version 2.9.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/compat/"
+core:
+  name: Ansible Core
+  description: Ansible Core is the language and runtime that powers automation.
+  docs:
+    home: "https://docs.ansible.com/ansible-core/devel/index.html"
+eda:
+  name: Event-Driven Ansible Server
+  description: Event-Driven Ansible Server offers scalable and flexible automation that can subscribe to a wide variety of event sources.
+  docs:
+    home: "https://github.com/ansible/eda-server"
+edge:
+  name: Edge Automation
+  description: Edge provides tooling and collections to run automation jobs on device endpoints at the very edge of your infrastructure.
+  docs:
+    osbuild:
+      link: "https://github.com/redhat-cop/infra.osbuild"
+      button: Osbuild Composer Collection
+    cip:
+      link: "https://github.com/ansible-collections/community.cip"
+      button: Common Industrial Protocol (CIP) Collection
+    fdo:
+      link: "https://github.com/ansible-collections/community.fdo"
+      button: FDO Collection
+    microshift:
+      link: "https://github.com/ansible-collections/edge.microshift/"
+      button: MicroShift Collection
+galaxy:
+  name: Galaxy
+  description: Galaxy provides a hub for discovering and sharing Ansible community content.
+  docs:
+    home: "https://galaxy.ansible.com/docs/"
+galaxy_ng:
+  name: Galaxy NG
+  description: Galaxy NG jumpstarts automation projects with Ansible community content.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/galaxy-ng/"
+lint:
+  name: Ansible Lint
+  description: Lint improves code quality through proven best practices, patterns, and behaviors so that your Ansible content results in reliable and consistent automation.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/lint/"
+molecule:
+  name: Molecule
+  description: Molecule helps you develop and test Ansible roles.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/molecule/"
+navigator:
+  name: Ansible Navigator
+  description: Ansible Navigator is a command-line tool for creating, reviewing, and troubleshooting Ansible content.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/navigator/"
+pinakes:
+  name: Pinakes
+  description: Pinakes lets you make Ansible job templates and workflows available to business users with an added layer of governance.
+  docs:
+    home: "https://github.com/ansible/pinakes"
+pylibssh:
+  name: Ansible Pylibssh
+  description: Ansible Pylibssh provides Python bindings for Ansible with the libssh project.
+  docs:
+    home: "https://ansible-pylibssh.readthedocs.io/en/latest/"
+receptor:
+  name: Receptor
+  description: Receptor is an overlay network that distributes workloads across a large and dispersed collection of nodes.
+  docs:
+    home: "https://receptor.readthedocs.io/en/latest/index.html"
+rulebook:
+  name: Ansible Rulebook
+  description: Ansible Rulebook is a command-line tool that listens to events so your automation can react when software or system states change.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/rulebook/"
+runner:
+  name: Ansible Runner
+  description: Ansible Runner provides a stable and consistent interface abstraction to Ansible.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/runner/"
+sdk:
+  name: Ansible SDK
+  description: Ansible SDK is a toolkit that lets you harness the power and simplicity of Ansible automation directly from your applications.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/sdk/"
+sign:
+  name: Ansible Sign
+  description: Ansible Sign is a utility for signing and verifying Ansible content.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/sign/"
+test:
+  name: Ansible Test
+  description: Ansible Test is a command-line tool for performing sanity, unit, and integration testing with Ansible Core and collections.
+  docs:
+    home: "https://docs.ansible.com/ansible-core/devel/dev_guide/testing_running_locally.html"
+vscode:
+  name: Ansible VS Code Extension
+  description: The VS Code extention adds Ansible language support to Visual Studio Code and OpenVSX compatible editors.
+  docs:
+    home: "https://marketplace.visualstudio.com/items?itemName=redhat.ansible"

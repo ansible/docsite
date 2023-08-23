@@ -1,0 +1,7 @@
+.page-logo {
+  display: flex;
+  width: 200px;
+  @media screen and (max-width: 990px) {
+    display: none;
+  }
+}

@@ -1,0 +1,97 @@
+# Quicklinks for Ansible users
+quicklinks:
+  yaml_syntax:
+    label: YAML syntax
+    link: "https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html"
+  playbook_variables:
+    label: Playbook variables
+    link: "https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_variables.html"
+  playbook_conditionals:
+    label: Playbook conditionals
+    link: "https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_conditionals.html"
+# Milestones in the Ansible user journey
+milestones:
+  automate:
+    title: Create automation
+    actions:
+      start:
+        label: Start writing Ansible playbooks
+        link: "https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_intro.html#playbook-syntax"
+      evaluate_plugins:
+        label: Learn about Ansible modules
+        link: "https://docs.ansible.com/ansible/latest/module_plugin_guide/modules_intro.html"
+  build_inventory:
+    title: Build inventories
+    actions:
+      multiple_hosts:
+        label: Build inventory files to manage multiple hosts
+        link: "https://docs.ansible.com/ansible/latest/inventory_guide/intro_inventory.html"
+      dynamic:
+        label: Use dynamic inventories
+        link: "https://docs.ansible.com/ansible/latest/inventory_guide/intro_dynamic_inventory.html"
+  organize:
+    title: Organize automation projects
+    actions:
+      roles:
+        label: Use roles to structure the automation project
+        link: "https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_reuse_roles.html"
+  ees:
+    title: Use Ansible execution environments
+    actions:
+      get_started_ees:
+        label: Get started with execution environments
+        link: "https://docs.ansible.com/ansible/devel/getting_started_ee/index.html"
+      build_ees:
+        label: Build execution environments
+        link: "https://ansible.readthedocs.io/projects/builder/en/latest/"
+  tooling:
+    title: Use Ansible tooling
+    actions:
+      navigator:
+        label: Create and test playbooks with Ansible Navigator
+        link: "https://ansible.readthedocs.io/projects/navigator/"
+      lint:
+        label: Use Ansible Lint to validate playbooks
+        link: "https://ansible.readthedocs.io/projects/lint/"
+      molecule:
+        label: Install Molecule to develop and test Ansible roles
+        link: "https://ansible.readthedocs.io/projects/molecule/"
+      vscode:
+        label: Use Ansible with Visual Studio Code and OpenVSX compatible editors
+        link: "https://marketplace.visualstudio.com/items?itemName=redhat.ansible"
+  find:
+    title: Find automation content
+    actions:
+      explore_galaxy:
+        label: Start exploring Ansible Galaxy
+        link: "https://docs.ansible.com/ansible/latest/galaxy/user_guide.html#finding-collections-on-galaxy"
+      install_roles:
+        label: Install and use roles
+        link: "https://docs.ansible.com/ansible/latest/galaxy/user_guide.html#installing-roles-from-galaxy"
+      install_collections:
+        label: Install and use collections
+        link: "https://docs.ansible.com/ansible/latest/galaxy/user_guide.html#installing-collections"
+  share:
+    title: Share automation content
+    actions:
+      submit_roles:
+        label: Submit roles to an existing collection
+        link: "https://ansible.readthedocs.io/projects/galaxy-ng/en/latest/community/userguide/#importing-roles"
+      create_collection:
+        label: Create a new collection
+        link: "https://docs.ansible.com/ansible/latest/dev_guide/developing_collections.html#developing-collections"
+      upload_collection:
+        label: Upload a collection to Ansible Galaxy
+        link: "https://ansible.readthedocs.io/projects/galaxy-ng/en/latest/community/userguide/#uploading-collections"
+  awx:
+    title: Schedule and run automation jobs
+    actions:
+      on_demand_jobs:
+        label: Execute automation jobs on demand
+        link: "https://github.com/ansible/awx/blob/devel/docs/tasks.md#awx-jobs"
+      schedule_jobs:
+        label: Schedule automation jobs
+        link: "https://github.com/ansible/awx/blob/devel/docs/schedules.md#scheduled-jobs"
+      use_ees:
+        label: Use execution environments with AWX jobs
+        link: "https://ansible.readthedocs.io/projects/runner/en/latest/execution_environments/"

@@ -1,0 +1,12 @@
+# Base page names for the docsite
+index: index.html
+collections: collections.html
+community: community.html
+community_archive: ansible-prior-versions.html
+core: core.html
+core_ja: core-translated-ja.html
+developers: developers.html
+ecosystem: ecosystem.html
+maintainers: maintainers.html
+platform: platform.html
+users: users.html
