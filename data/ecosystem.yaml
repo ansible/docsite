@@ -28,7 +28,7 @@ awx_operator:
   name: AWX Operator
   description: Ansible AWX Operator offers built-in intelligence and operational best practices for deploying on Kubernetes environments.
   docs:
-    home: "https://github.com/ansible/awx-operator"
+    home: "https://ansible.readthedocs.io/projects/awx-operator/"
 builder:
   name: Ansible Builder
   description: Ansible Builder lets you create Execution Environments, which are container images that act as Ansible control nodes.
