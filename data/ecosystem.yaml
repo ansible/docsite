@@ -90,11 +90,6 @@ navigator:
   description: Ansible Navigator is a command-line tool for creating, reviewing, and troubleshooting Ansible content.
   docs:
     home: "https://ansible.readthedocs.io/projects/navigator/"
-pinakes:
-  name: Pinakes
-  description: Pinakes lets you make Ansible job templates and workflows available to business users with an added layer of governance.
-  docs:
-    home: "https://github.com/ansible/pinakes"
 pylibssh:
   name: Ansible Pylibssh
   description: Ansible Pylibssh provides Python bindings for Ansible with the libssh project.
