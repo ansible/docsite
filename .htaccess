@@ -362,3 +362,12 @@ RedirectMatch permanent "^\/ansible-tower\/((2\.\d\.\d)|3\.[0-3]\.\d)\/html(_\w+
 # Redirect all ansible-lint pages to ReadTheDocs
 
 RedirectMatch permanent "^/ansible-lint/*" "https://ansible-lint.readthedocs.io"
+
+# Redirect getting started with execution environments to ecosystem docsite
+
+RedirectMatch permanent "^/ansible/(devel|latest)/getting_started_ee/index.html" "https://ansible.readthedocs.io/en/latest/getting_started_ee/index.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/getting_started_ee/introduction.html" "https://ansible.readthedocs.io/en/latest/getting_started_ee/introduction.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/getting_started_ee/setup_environment.html" "https://ansible.readthedocs.io/en/latest/getting_started_ee/setup_environment.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/getting_started_ee/build_execution_environment.html" "https://ansible.readthedocs.io/en/latest/getting_started_ee/build_execution_environment.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/getting_started_ee/run_execution_environment.html" "https://ansible.readthedocs.io/en/latest/getting_started_ee/run_execution_environment.html"
+RedirectMatch permanent "^/ansible/(devel|latest)/getting_started_ee/run_community_ee_image.html" "https://ansible.readthedocs.io/en/latest/getting_started_ee/run_community_ee_image.html"
