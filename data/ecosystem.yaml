@@ -23,7 +23,7 @@ awx:
   name: Ansible AWX
   description: AWX provides a web-based user interface, REST API, and task engine built on top of Ansible.
   docs:
-    home: "https://github.com/ansible/awx"
+    home: "https://ansible.readthedocs.io/projects/awx/"
 awx_operator:
   name: AWX Operator
   description: Ansible AWX Operator offers built-in intelligence and operational best practices for deploying on Kubernetes environments.
