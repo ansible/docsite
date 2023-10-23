@@ -365,7 +365,6 @@ RedirectMatch permanent "^/ansible-lint/*" "https://ansible-lint.readthedocs.io"
 
 # Redirect getting started with execution environments to ecosystem docsite
 
-RedirectMatch permanent "^/ansible/(devel|latest)/getting_started_ee/index.html" "https://ansible.readthedocs.io/en/latest/getting_started_ee/index.html"
 RedirectMatch permanent "^/ansible/(devel|latest)/getting_started_ee/introduction.html" "https://ansible.readthedocs.io/en/latest/getting_started_ee/introduction.html"
 RedirectMatch permanent "^/ansible/(devel|latest)/getting_started_ee/setup_environment.html" "https://ansible.readthedocs.io/en/latest/getting_started_ee/setup_environment.html"
 RedirectMatch permanent "^/ansible/(devel|latest)/getting_started_ee/build_execution_environment.html" "https://ansible.readthedocs.io/en/latest/getting_started_ee/build_execution_environment.html"
