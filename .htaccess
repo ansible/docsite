@@ -8,11 +8,6 @@ RewriteEngine On
 
 RedirectMatch permanent "^/((?!index|404|automation.*|ansible_community|collections|community|core.*|galaxy|lint|ecosystem|users|developers|maintainers|platform|ansible-prior*)[^/]+)\.html" "/ansible/$1.html"
 
-# Redirect the lint and galaxy pages to the ecosystem page
-
-RedirectMatch permanent "/galaxy.html" "/ecosystem.html"
-RedirectMatch permanent "/lint.html" "/ecosystem.html"
-
 # Redirect so docs.ansible.com/ansible-core/ and docs.ansible.com/ansible/ dont show an Index of page anymore
 
 RedirectMatch permanent "^/ansible-core(|/|/index.html)$" "/ansible-core/devel/"
@@ -370,3 +365,12 @@ RedirectMatch permanent "^/ansible/(devel|latest)/getting_started_ee/setup_envir
 RedirectMatch permanent "^/ansible/(devel|latest)/getting_started_ee/build_execution_environment.html" "https://ansible.readthedocs.io/en/latest/getting_started_ee/build_execution_environment.html"
 RedirectMatch permanent "^/ansible/(devel|latest)/getting_started_ee/run_execution_environment.html" "https://ansible.readthedocs.io/en/latest/getting_started_ee/run_execution_environment.html"
 RedirectMatch permanent "^/ansible/(devel|latest)/getting_started_ee/run_community_ee_image.html" "https://ansible.readthedocs.io/en/latest/getting_started_ee/run_community_ee_image.html"
+
+# Redirect ecosystem page to the readthedocs ecosystem
+
+RedirectMatch permanent "/ecosystem.html" "https://ansible.readthedocs.io/en/latest/ecosystem.html"
+
+# Redirect the lint and galaxy pages to the ecosystem page
+
+RedirectMatch permanent "/galaxy.html" "https://ansible.readthedocs.io/en/latest/ecosystem.html"
+RedirectMatch permanent "/lint.html" "https://ansible.readthedocs.io/en/latest/ecosystem.html"
