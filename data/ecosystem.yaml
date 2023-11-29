@@ -65,11 +65,6 @@ edge:
     microshift:
       link: "https://github.com/ansible-collections/edge.microshift/"
       button: MicroShift Collection
-galaxy:
-  name: Galaxy
-  description: Galaxy provides a hub for discovering and sharing Ansible community content.
-  docs:
-    home: "https://galaxy.ansible.com/docs/"
 galaxy_ng:
   name: Galaxy NG
   description: Galaxy NG jumpstarts automation projects with Ansible community content.
