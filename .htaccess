@@ -368,7 +368,7 @@ RedirectMatch permanent "^/ansible/(devel|latest)/getting_started_ee/run_communi
 
 # Redirect ecosystem page to the readthedocs ecosystem
 
-RedirectMatch permanent "/ecosystem.html" "https://ansible.readthedocs.io/en/latest/ecosystem.html"
+RedirectMatch temporary "/ecosystem.html" "https://ansible.readthedocs.io/en/latest/ecosystem.html"
 
 # Redirect the lint and galaxy pages to the ecosystem page
 
