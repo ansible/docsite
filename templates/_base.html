@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ base.site_title }}</title>
+    <title>{{ (page_title ~ " | " if page_title is defined else "") ~ base.site_title }}</title>
     <meta name="description" content="{{ base.site_description }}" />
     <meta name="author" content="{{ base.site_author }}" />
     <link rel="stylesheet"
