@@ -1,5 +1,5 @@
 nav {
-	background: $black;
+	background: $pool;
 	.navbar-toggler {
 		color: $white;
 		outline: none;
@@ -32,21 +32,21 @@ nav {
 		margin-top: 0.5rem;
 	}
 	.navbar-brand {
-		color: $white;
+		color: $black;
 		font-size: 1.2rem;
 		padding-right: 4px;
 		&:hover {
-		  color: $pool;
+		  color: $white;
 		}
 	}
 	.nav-item {
         padding: 1px 4px;
 	}
 	.nav-link {
-		color: $white;
+		color: $black;
 		font-size: 1rem;
 		&:hover {
-		  color: $pool;
+		  color: $white;
 		}
 	}
 	@media screen and (max-width: 990px) {
