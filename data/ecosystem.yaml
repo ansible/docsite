@@ -90,11 +90,6 @@ pylibssh:
   description: Ansible Pylibssh provides Python bindings for Ansible with the libssh project.
   docs:
     home: "https://ansible-pylibssh.readthedocs.io/en/latest/"
-receptor:
-  name: Receptor
-  description: Receptor is an overlay network that distributes workloads across a large and dispersed collection of nodes.
-  docs:
-    home: "https://receptor.readthedocs.io/en/latest/index.html"
 rulebook:
   name: Ansible Rulebook
   description: Ansible Rulebook is a command-line tool that listens to events so your automation can react when software or system states change.
