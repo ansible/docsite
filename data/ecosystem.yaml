@@ -86,8 +86,8 @@ navigator:
   docs:
     home: "https://ansible.readthedocs.io/projects/navigator/"
 pylibssh:
-  name: pylibssh
-  description: pylibssh provides Python bindings for Ansible with the libssh project.
+  name: ansible-pylibssh
+  description: ansible-pylibssh provides Python bindings for Ansible with the libssh project.
   docs:
     home: "https://ansible-pylibssh.readthedocs.io/en/latest/"
 receptor:
