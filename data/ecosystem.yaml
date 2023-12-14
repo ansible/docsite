@@ -41,9 +41,14 @@ compat:
     home: "https://ansible.readthedocs.io/projects/compat/"
 core:
   name: Ansible Core
-  description: Ansible Core is the language and runtime that powers automation.
+  description: Ansible Core is the language and runtime that powers automation. It also provides command-line tools such as Ansible Test.
   docs:
-    home: "https://docs.ansible.com/ansible-core/devel/index.html"
+    core:
+      link: "https://docs.ansible.com/ansible-core/devel/index.html"
+      button: Ansible Core documentation
+    test:
+      link: "https://docs.ansible.com/ansible-core/devel/dev_guide/testing_running_locally.html"
+      button: Ansible Test documentation
 eda:
   name: Event-Driven Ansible Server
   description: Event-Driven Ansible Server offers scalable and flexible automation that can subscribe to a wide variety of event sources.
@@ -115,11 +120,6 @@ sign:
   description: Ansible Sign is a utility for signing and verifying Ansible content.
   docs:
     home: "https://ansible.readthedocs.io/projects/sign/"
-test:
-  name: Ansible Test
-  description: Ansible Test is a command-line tool for performing sanity, unit, and integration testing with Ansible Core and collections.
-  docs:
-    home: "https://docs.ansible.com/ansible-core/devel/dev_guide/testing_running_locally.html"
 vscode:
   name: Ansible VS Code Extension
   description: The VS Code extention adds Ansible language support to Visual Studio Code and OpenVSX compatible editors.

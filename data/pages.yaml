@@ -24,6 +24,14 @@ core:
   core_ja:
     title: 日本語ドキュメント (Japanese)
     text: Access Japanese translations for Ansible Core documentation.
+  core:
+    name: Ansible Core
+    description: Ansible Core is the language and runtime that powers automation.
+    docs: "https://docs.ansible.com/ansible-core/devel/index.html"
+  test:
+    name: Ansible Test
+    description: Ansible Test is a command-line tool for performing sanity, unit, and integration testing with Ansible Core and collections.
+    docs: "https://docs.ansible.com/ansible-core/devel/dev_guide/testing_running_locally.html"
 ### ecosystem.html
 ecosystem:
   title: Ansible Ecosystem
