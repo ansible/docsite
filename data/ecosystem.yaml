@@ -49,6 +49,21 @@ core:
     test:
       link: "https://docs.ansible.com/ansible-core/devel/dev_guide/testing_running_locally.html"
       button: Ansible Test documentation
+creator:
+  name: Ansible Creator
+  description: Ansible Creator is a Command-Line Interface (CLI) tool designed for effortlessly scaffolding all your Ansible content.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/creator/"
+ade:
+  name: Ansible Development Environment
+  description: A pip-like install for Ansible collections.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/development-environment/"
+adt:
+  name: Ansible Development Tools
+  description: Ansible Development Tools (ADT) streamlines the setup and usage of several tools for creating Ansible content.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/dev-tools/"
 eda:
   name: Event-Driven Ansible Server
   description: Event-Driven Ansible Server offers scalable and flexible automation that can subscribe to a wide variety of event sources.
@@ -95,6 +110,11 @@ pylibssh:
   description: ansible-pylibssh provides Python bindings for Ansible with the libssh project.
   docs:
     home: "https://ansible-pylibssh.readthedocs.io/en/latest/"
+pytest:
+  name: Ansible Pytest
+  description: Enables the use of Ansible in tests as well as the use of pytest as a collection unit test runner, and exposes molecule scenarios using a pytest fixture.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/pytest-ansible/"
 rulebook:
   name: Ansible Rulebook
   description: Ansible Rulebook is a command-line tool that listens to events so your automation can react when software or system states change.
@@ -115,6 +135,11 @@ sign:
   description: Ansible Sign is a utility for signing and verifying Ansible content.
   docs:
     home: "https://ansible.readthedocs.io/projects/sign/"
+tox:
+  name: Tox Ansible
+  description: Tox Ansible is a utility designed to simplify the testing of Ansible content collections.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/tox-ansible/"
 vscode:
   name: Ansible VS Code Extension
   description: The VS Code extention adds Ansible language support to Visual Studio Code and OpenVSX compatible editors.
