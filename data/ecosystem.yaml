@@ -105,7 +105,7 @@ navigator:
   description: Ansible Navigator is a command-line tool for creating, reviewing, and troubleshooting Ansible content.
   docs:
     home: "https://ansible.readthedocs.io/projects/navigator/"
-pylibssh:
+ansible-pylibssh:
   name: ansible-pylibssh
   description: ansible-pylibssh provides Python bindings for Ansible with the libssh project.
   docs:
