@@ -3,17 +3,17 @@ platform:
   name: Red Hat Ansible Automation Platform
   description: Red Hat Ansible Automation Platform provides everything needed to create, execute, and manage automation in a single subscription. From execution environments to certified collections to automation analytics, discover the features and benefits of Ansible Automation Platform.
   docs:
-    link: "https://www.redhat.com/en/technologies/management/ansible"
-    button: View more about Red Hat Ansible Automation Platform
+    link: "https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform"
+    button: Visit the Red Hat Ansible Automation Platform documentation
 last_version:
-  name: Automation Controller version 4.4 documentation
-  description: View documentation for Automation Controller version 4.4, including a quickstart guide and detailed help for administrators, developers, and users. Refer to Red Hat Ansible Automation Platform documentation for later versions.
+  name: Automation Controller version 4.5 documentation
+  description: Documentation for Automation Controller version 4.5 includes a quickstart guide and detailed help for administrators, developers, and users.
   docs:
-    link: "https://docs.ansible.com/automation-controller/4.4/html/"
-    button: Visit the Automation Controller version 4.4 documentation
+    link: "https://docs.ansible.com/automation-controller/4.5/html/"
+    button: Visit the Automation Controller version 4.5 documentation
 archive:
   name: Automation Controller documentation archive
-  description: View documentation for Automation Controller version 4.4 and earlier.
+  description: Find all documentation for Automation Controller version 4.5 and earlier.
   docs:
     link: automation-tower-prior-versions.html
     button: Visit the Automation Controller documentation archive
