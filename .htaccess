@@ -13,6 +13,10 @@ RedirectMatch permanent "^/((?!index|404|automation.*|ansible_community|collecti
 RedirectMatch permanent "/galaxy.html" "/ecosystem.html"
 RedirectMatch permanent "/lint.html" "/ecosystem.html"
 
+# Redirect the automation page to the platform page
+
+RedirectMatch permanent "/automation.html" "/platform.html"
+
 # Redirect so docs.ansible.com/ansible-core/ and docs.ansible.com/ansible/ dont show an Index of page anymore
 
 RedirectMatch permanent "^/ansible-core(|/|/index.html)$" "/ansible-core/devel/"
