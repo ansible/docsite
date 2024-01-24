@@ -13,25 +13,7 @@ last_version:
     button: Visit the Automation Controller version 4.5 documentation
 archive:
   name: Automation Controller documentation archive
-  description: Find all documentation for Automation Controller version 4.5 and earlier.
+  description: Find all documentation for Automation Controller version 4.4 and earlier.
   docs:
     link: automation-tower-prior-versions.html
     button: Visit the Automation Controller documentation archive
-ko_translations:
-  name: 한국어 문서 (Korean)
-  description: Access Korean translations for Automation Controller documentation.
-  docs:
-    link: automation-tower-korean-translations.html
-    button: Visit the Korean translations
-ja_translations:
-  name: 日本語ドキュメント (Japanese)
-  description: Access Japanese translations for Automation Controller documentation.
-  docs:
-    link: automation-tower-japanese-translations.html
-    button: Visit the Japanese translations
-zh_translations:
-  name: 中文文档 (Simplified Chinese)
-  description: Access simplified Chinese translations for Automation Controller documentation.
-  docs:
-    link: automation-tower-chinese-translations.html
-    button: Visit the simplified Chinese translations
