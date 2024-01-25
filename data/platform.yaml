@@ -14,13 +14,13 @@ last_version:
 relnotes:  
   name: Release notes
   description: View the changes made since the last release of Ansible Automation Controller.
-    docs:
+  docs:
     link: "https://docs.ansible.com/automation-controller/latest/html/release-notes/index.html"
     button: Visit the release notes
 cli:  
   name: Automation Controller CLI
   description: Learn how to use the command-line client for AWX and Ansible Automation Controller.
-    docs:
+  docs:
     link: "https://docs.ansible.com/automation-controller/latest/html/controllercli/index.html"
     button: Visit the CLI guide    
 archive:
