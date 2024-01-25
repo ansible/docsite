@@ -11,11 +11,13 @@ last_version:
   docs:
     link: "https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/2.4#:~:text=Ansible%20Automation%20Platform-,Automation,-Controller"
     button: Visit the Automation Controller version 4.5 documentation
+relnotes:  
   name: Release notes
   description: View the changes made since the last release of Ansible Automation Controller.
     docs:
     link: "https://docs.ansible.com/automation-controller/latest/html/release-notes/index.html"
     button: Visit the release notes
+cli:  
   name: Automation Controller CLI
   description: Learn how to use the command-line client for AWX and Ansible Automation Controller.
     docs:
