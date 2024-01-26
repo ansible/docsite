@@ -1,7 +1,7 @@
 # Content for platform.html
 platform:
   name: Red Hat Ansible Automation Platform
-  description: Red Hat Ansible Automation Platform provides everything needed to create, execute, and manage automation in a single subscription. From execution environments to certified collections to automation analytics, discover the features and benefits of Ansible Automation Platform.
+  description: Red Hat Ansible Automation Platform provides everything needed to create, execute, and manage automation in a single subscription. From execution environments to certified collections to automation analytics, discover the features and benefits of Ansible Automation Platform. This now includes Ansible controller 4.5 documentation, except the CLI and Release notes listed below.
   docs:
     link: "https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform"
     button: Visit the Red Hat Ansible Automation Platform documentation
