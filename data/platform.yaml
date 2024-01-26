@@ -5,12 +5,6 @@ platform:
   docs:
     link: "https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform"
     button: Visit the Red Hat Ansible Automation Platform documentation
-last_version:
-  name: Automation Controller version 4.5 documentation
-  description: Documentation for Automation Controller version 4.5 includes a quickstart guide and detailed help for administrators, developers, and users.
-  docs:
-    link: "https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/2.4#:~:text=Ansible%20Automation%20Platform-,Automation,-Controller"
-    button: Visit the Automation Controller version 4.5 documentation
 relnotes:  
   name: Release notes
   description: View the changes made since the last release of Ansible Automation Controller.
