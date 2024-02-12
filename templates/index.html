@@ -44,7 +44,7 @@
           {%- endfor %}
         </div>
         <p>
-          <a class="btn" href="{{ links.users }}" role="button"><i class="fas fa-angle-double-right"></i>&nbsp;{{ index.continue.users }}</a>
+          <a class="btn" href="{{ base.base_url }}{{ links.users }}" role="button"><i class="fas fa-angle-double-right"></i>&nbsp;{{ index.continue.users }}</a>
         </p>
       </div>
       <!-- End Ansible users section -->
@@ -57,7 +57,7 @@
           {%- endfor %}
         </div>
         <p>
-          <a class="btn" href="{{ links.developers }}" role="button"><i class="fas fa-angle-double-right"></i>&nbsp;{{ index.continue.developers }}</a>
+          <a class="btn" href="{{ base.base_url }}{{ links.developers }}" role="button"><i class="fas fa-angle-double-right"></i>&nbsp;{{ index.continue.developers }}</a>
         </p>
       </div>
       <!-- End Ansible developers section -->
@@ -70,7 +70,7 @@
           {%- endfor %}
         </div>
         <p>
-          <a class="btn" href="{{ links.maintainers }}" role="button"><i class="fas fa-angle-double-right"></i>&nbsp;{{ index.continue.maintainers }}</a>
+          <a class="btn" href="{{ base.base_url }}{{ links.maintainers }}" role="button"><i class="fas fa-angle-double-right"></i>&nbsp;{{ index.continue.maintainers }}</a>
         </p>
       </div>
       <!-- End Ansible community maintainers section -->
