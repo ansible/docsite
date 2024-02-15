@@ -19,6 +19,16 @@ als:
   description: Ansible Language Server implements language server protocol (LSP) to highlight and check Ansible syntax.
   docs:
     home: "https://ansible.readthedocs.io/projects/language-server/"
+antsibull-changelog:
+  name: antsibull-changelog
+  description: Changelog generator for ansible-core, Ansible collections, and other projects.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/antsibull-changelog/"
+antsibull-docs:
+  name: antsibull-docs
+  description: Tools for building Ansible collection documentation.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/antsibull-docs/"
 awx:
   name: Ansible AWX
   description: AWX provides a web-based user interface, REST API, and task engine built on top of Ansible.
