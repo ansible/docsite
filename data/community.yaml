@@ -28,7 +28,7 @@ milestones:
         link: "https://docs.ansible.com/ansible/latest/community/how_can_I_help.html"
       find_projects:
         label: Find an Ansible project
-        link: ecosystem.html
+        link: "https://docs.ansible.com/ecosystem.html"
   communicate:
     title: Join the conversation
     actions:
