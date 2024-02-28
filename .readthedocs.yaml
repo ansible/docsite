@@ -15,4 +15,4 @@ build:
     pip install nox
   - >-
     "${READTHEDOCS_VIRTUALENV_PATH}"/bin/python -Im
-    nox -s build -- "${READTHEDOCS_OUTPUT}"/html
+    nox -s build -- "${READTHEDOCS_OUTPUT}"/html "${READTHEDOCS_CANONICAL_URL}"
