@@ -6,7 +6,7 @@ version: 2
 build:
   os: ubuntu-22.04
   tools:
-    python: >-
+    python: >- # Python versions should match the noxfile as well as the constraint files.
       3.11
   commands:
   - python -m venv "${READTHEDOCS_VIRTUALENV_PATH}"
@@ -15,4 +15,4 @@ build:
     pip install nox
   - >-
     "${READTHEDOCS_VIRTUALENV_PATH}"/bin/python -Im
-    nox -s build -- "${READTHEDOCS_OUTPUT}"/html
+    nox -s build -- "${READTHEDOCS_OUTPUT}"/html "${READTHEDOCS_CANONICAL_URL}"
