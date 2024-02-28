@@ -10,8 +10,12 @@ requirements_files = list(
 @nox.session(name="pip-compile", python=["3.11"])
 @nox.parametrize(["req"], requirements_files, requirements_files)
 def pip_compile(session: nox.Session, req: str):
-    # .pip-tools.toml was introduced in v7
-    session.install("pip-tools >= 7")
+    # fmt: off
+    session.install(
+      "-r", "pip-tools.in",
+      "-c", "pip-tools.txt",
+    )
+    # fmt: on
 
     # Use --upgrade by default unless a user passes -P.
     upgrade_related_cli_flags = "-P", "--upgrade-package", "--no-upgrade"
