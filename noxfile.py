@@ -10,6 +10,7 @@ requirements_files = list(
 @nox.session(name="pip-compile", python=["3.11"])
 @nox.parametrize(["req"], requirements_files, requirements_files)
 def pip_compile(session: nox.Session, req: str):
+    """Generate lock files from input files or upgrade packages in lock files."""
     # fmt: off
     session.install(
       "-r", "pip-tools.in",
@@ -38,6 +39,7 @@ def pip_compile(session: nox.Session, req: str):
     python=["3.11"]
 )  # The python version should match the readthedocs configuration.
 def build(session: nox.Session):
+    """Generate HTML files for the Ansible docsite."""
     # fmt: off
     session.install(
       "-r", "requirements.in",
