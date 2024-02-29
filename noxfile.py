@@ -3,7 +3,7 @@ from pathlib import Path
 import nox
 
 requirements_files = list(
-    {path.stem for path in Path.cwd().glob("*.in")}
+    {path.stem for path in Path.cwd().glob("**/*.in")}
 )
 
 
@@ -13,8 +13,8 @@ def pip_compile(session: nox.Session, req: str):
     """Generate lock files from input files or upgrade packages in lock files."""
     # fmt: off
     session.install(
-      "-r", "pip-tools.in",
-      "-c", "pip-tools.txt",
+      "-r", "requirements/pip-tools.in",
+      "-c", "requirements/pip-tools.txt",
     )
     # fmt: on
 
@@ -28,10 +28,10 @@ def pip_compile(session: nox.Session, req: str):
     session.run(
         "pip-compile",
         "--output-file",
-        f"{req}.txt",
+        f"requirements/{req}.txt",
         *session.posargs,
         *injected_extra_cli_args,
-        f"{req}.in",
+        f"requirements/{req}.in",
     )
 
 
@@ -40,8 +40,8 @@ def build(session: nox.Session):
     """Generate HTML files for the Ansible docsite."""
     # fmt: off
     session.install(
-      "-r", "requirements.in",
-      "-c", "requirements.txt",
+      "-r", "requirements/requirements.in",
+      "-c", "requirements/requirements.txt",
     )
     # fmt: on
     session.run("python", "-I", "build.py", *session.posargs)
