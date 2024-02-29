@@ -1,2 +1,2 @@
 
-pip-tools >= 7 # .pip-tools.toml was introduced in v7
+pip-tools >= 7 # .pip-tools.toml was introduced in v6.14
