@@ -1,15 +1,19 @@
 version: 2
 updates:
-  - package-ecosystem: "pip"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-    labels:
-      - "pip"
-      - "dependencies"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"
     labels:
       - "actions"
+  - package-ecosystem: "pip"
+    directory: "/"
+    groups:
+      dependencies:
+        patterns:
+          - "*"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "pip"
+      - "dependencies"
