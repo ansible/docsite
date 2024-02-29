@@ -3,7 +3,7 @@ from pathlib import Path
 import nox
 
 requirements_files = list(
-    {path.name.replace(".in", "") for path in Path(".").glob("*in")}
+    {path.stem for path in Path.cwd().glob("*.in")}
 )
 
 
