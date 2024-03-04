@@ -16,8 +16,8 @@ def pip_compile(session: nox.Session, req: str):
     """Generate lock files from input files or upgrade packages in lock files."""
     # fmt: off
     session.install(
-      "-r", "requirements/pip-tools.in",
-      "-c", "requirements/pip-tools.txt",
+      "-r", f"{requirements_directory}/pip-tools.in",
+      "-c", f"{requirements_directory}/pip-tools.txt",
     )
     # fmt: on
 
@@ -31,10 +31,10 @@ def pip_compile(session: nox.Session, req: str):
     session.run(
         "pip-compile",
         "--output-file",
-        f"requirements/{req}.txt",
+        f"{requirements_directory}/{req}.txt",
         *session.posargs,
         *injected_extra_cli_args,
-        f"requirements/{req}.in",
+        f"{requirements_directory}/{req}.in",
     )
 
 
@@ -43,8 +43,8 @@ def build(session: nox.Session):
     """Generate HTML files for the Ansible docsite."""
     # fmt: off
     session.install(
-      "-r", "requirements/requirements.in",
-      "-c", "requirements/requirements.txt",
+      "-r", f"{requirements_directory}/requirements.in",
+      "-c", f"{requirements_directory}/requirements.txt",
     )
     # fmt: on
     session.run("python", "-I", "build.py", *session.posargs)
