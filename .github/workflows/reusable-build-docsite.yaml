@@ -24,7 +24,7 @@ jobs:
             error,once:pkg_resources is deprecated as an API.:DeprecationWarning:pip._internal.metadata.importlib._envs
         run: python -Im nox -s build
       - name: Create a downloadable archive of docs build
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: docsite-html-assets
           path: output/**
