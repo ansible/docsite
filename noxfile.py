@@ -2,9 +2,12 @@ from pathlib import Path
 
 import nox
 
-requirements_files = list(
-    {path.stem for path in Path("requirements").glob("*.in")}
-)
+requirements_directory = (Path("requirements")).resolve()
+
+requirements_files = [
+    requirements_input_file_path.stem
+    for requirements_input_file_path in requirements_directory.glob("*.in")
+]
 
 
 @nox.session(name="pip-compile", python=["3.11"])
