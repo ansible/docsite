@@ -8,7 +8,7 @@ requirements_files = list(
 
 
 @nox.session(name="pip-compile", python=["3.11"])
-@nox.parametrize(["req"], requirements_files, requirements_files)
+@nox.parametrize(["req"], arg_values_list=requirements_files, ids=requirements_files)
 def pip_compile(session: nox.Session, req: str):
     """Generate lock files from input files or upgrade packages in lock files."""
     # fmt: off
