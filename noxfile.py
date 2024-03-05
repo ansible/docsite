@@ -16,8 +16,8 @@ def pip_compile(session: nox.Session, req: str):
     """Generate lock files from input files or upgrade packages in lock files."""
     # fmt: off
     session.install(
-      "-r", f"{requirements_directory}/pip-tools.in",
-      "-c", f"{requirements_directory}/pip-tools.txt",
+      "-r", requirements_directory / "pip-tools.in",
+      "-c", requirements_directory / "pip-tools.txt",
     )
     # fmt: on
 
