@@ -31,10 +31,10 @@ def pip_compile(session: nox.Session, req: str):
     session.run(
         "pip-compile",
         "--output-file",
-        f"{requirements_directory}/{req}.txt",
+        requirements_directory / f"{req}.txt",
         *session.posargs,
         *injected_extra_cli_args,
-        f"{requirements_directory}/{req}.in",
+        requirements_directory / f"{req}.in",
     )
 
 
@@ -43,8 +43,8 @@ def build(session: nox.Session):
     """Generate HTML files for the Ansible docsite."""
     # fmt: off
     session.install(
-      "-r", f"{requirements_directory}/requirements.in",
-      "-c", f"{requirements_directory}/requirements.txt",
+      "-r", requirements_directory / "requirements.in",
+      "-c", requirements_directory / "requirements.txt",
     )
     # fmt: on
     session.run("python", "-I", "build.py", *session.posargs)
