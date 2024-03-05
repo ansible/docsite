@@ -22,7 +22,7 @@ def pip_compile(session: nox.Session, req: str):
     # fmt: on
 
     # Use --upgrade by default unless a user passes -P.
-    upgrade_related_cli_flags = "-P", "--upgrade-package", "--no-upgrade"
+    upgrade_related_cli_flags = ("-P", "--upgrade-package", "--no-upgrade")
     has_upgrade_related_cli_flags = any(
         arg.startswith(upgrade_related_cli_flags) for arg in session.posargs
     )
