@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 import nox
@@ -14,10 +15,11 @@ requirements_files = [
 @nox.parametrize(["req"], arg_values_list=requirements_files, ids=requirements_files)
 def pip_compile(session: nox.Session, req: str):
     """Generate lock files from input files or upgrade packages in lock files."""
+    requirements_directory_str = str(requirements_directory)
     # fmt: off
     session.install(
-      "-r", requirements_directory / "pip-tools.in",
-      "-c", requirements_directory / "pip-tools.txt",
+      "-r", os.path.join(requirements_directory_str, "pip-tools.in"),
+      "-c", os.path.join(requirements_directory_str, "pip-tools.txt"),
     )
     # fmt: on
 
@@ -31,20 +33,21 @@ def pip_compile(session: nox.Session, req: str):
     session.run(
         "pip-compile",
         "--output-file",
-        requirements_directory / f"{req}.txt",
+        os.path.join(requirements_directory_str, f"{req}.txt"),
         *session.posargs,
         *injected_extra_cli_args,
-        requirements_directory / f"{req}.in",
+        os.path.join(requirements_directory_str, f"{req}.in"),
     )
 
 
 @nox.session(python=["3.11"])  # The python version should match the readthedocs configuration.
 def build(session: nox.Session):
     """Generate HTML files for the Ansible docsite."""
+    requirements_directory_str = str(requirements_directory)
     # fmt: off
     session.install(
-      "-r", requirements_directory / "requirements.in",
-      "-c", requirements_directory / "requirements.txt",
+      "-r", os.path.join(requirements_directory_str, "requirements.in"),
+      "-c", os.path.join(requirements_directory_str, "requirements.txt"),
     )
     # fmt: on
     session.run("python", "-I", "build.py", *session.posargs)
