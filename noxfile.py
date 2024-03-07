@@ -44,8 +44,8 @@ def build(session: nox.Session):
     """Generate HTML files for the Ansible docsite."""
     # fmt: off
     session.install(
-      "-r", os.path.join(requirements_directory_str, "requirements.in"),
-      "-c", os.path.join(requirements_directory_str, "requirements.txt"),
+      "-r", str(requirements_directory / "requirements.in"),
+      "-c", str(requirements_directory / "requirements.txt"),
     )
     # fmt: on
     session.run("python", "-I", "build.py", *session.posargs)
