@@ -42,7 +42,6 @@ def pip_compile(session: nox.Session, req: str):
 @nox.session(python=["3.11"])  # The python version should match the readthedocs configuration.
 def build(session: nox.Session):
     """Generate HTML files for the Ansible docsite."""
-    requirements_directory_str = str(requirements_directory)
     # fmt: off
     session.install(
       "-r", os.path.join(requirements_directory_str, "requirements.in"),
