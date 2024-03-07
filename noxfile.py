@@ -15,11 +15,10 @@ requirements_files = [
 @nox.parametrize(["req"], arg_values_list=requirements_files, ids=requirements_files)
 def pip_compile(session: nox.Session, req: str):
     """Generate lock files from input files or upgrade packages in lock files."""
-    requirements_directory_str = str(requirements_directory)
     # fmt: off
     session.install(
-      "-r", os.path.join(requirements_directory_str, "pip-tools.in"),
-      "-c", os.path.join(requirements_directory_str, "pip-tools.txt"),
+      "-r", str(requirements_directory / "pip-tools.in"),
+      "-c", str(requirements_directory / "pip-tools.txt"),
     )
     # fmt: on
 
