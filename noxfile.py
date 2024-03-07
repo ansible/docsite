@@ -1,4 +1,3 @@
-import os
 from pathlib import Path
 
 import nox
@@ -32,10 +31,10 @@ def pip_compile(session: nox.Session, req: str):
     session.run(
         "pip-compile",
         "--output-file",
-        os.path.join(requirements_directory_str, f"{req}.txt"),
+        str(requirements_directory / f"{req}.txt"),
         *session.posargs,
         *injected_extra_cli_args,
-        os.path.join(requirements_directory_str, f"{req}.in"),
+        str(requirements_directory / f"{req}.in"),
     )
 
 
