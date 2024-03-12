@@ -19,6 +19,11 @@ als:
   description: Ansible Language Server implements language server protocol (LSP) to highlight and check Ansible syntax.
   docs:
     home: "https://ansible.readthedocs.io/projects/language-server/"
+antsichaut:
+  name: Antsichaut
+  description: Automate the filling of a changelog.yaml used by antsibull-changelog.
+  docs:
+    home: "https://github.com/ansible-community/antsichaut"
 awx:
   name: Ansible AWX
   description: AWX provides a web-based user interface, REST API, and task engine built on top of Ansible.
