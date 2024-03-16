@@ -14,6 +14,11 @@ collections:
     plugin_index:
       link: "https://docs.ansible.com/ansible/latest/collections/all_plugins.html"
       button: Index of all modules and plugins
+aar_doc:
+  name: aar-doc - Automated Ansible Role Documentation
+  description: Generate documentation automatically from an Ansible role's metadata.
+  docs:
+    home: "https://github.com/telekom-mms/Automated-Ansible-Role-Documentation"
 als:
   name: Ansible Language Server
   description: Ansible Language Server implements language server protocol (LSP) to highlight and check Ansible syntax.
