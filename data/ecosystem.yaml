@@ -14,11 +14,6 @@ collections:
     plugin_index:
       link: "https://docs.ansible.com/ansible/latest/collections/all_plugins.html"
       button: Index of all modules and plugins
-als:
-  name: Ansible Language Server
-  description: Ansible Language Server implements language server protocol (LSP) to highlight and check Ansible syntax.
-  docs:
-    home: "https://ansible.readthedocs.io/projects/language-server/"
 awx:
   name: Ansible AWX
   description: AWX provides a web-based user interface, REST API, and task engine built on top of Ansible.
