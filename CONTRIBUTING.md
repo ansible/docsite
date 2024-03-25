@@ -16,7 +16,7 @@ To update or add content, open the relevant ``data/*.yaml`` file with any text e
 To build the docsite locally and verify your changes, do the following:
 
 ```sh
-python -m pip install -r requirements.in -c requirements.txt
+python -m pip install -r requirements/requirements.in -c requirements/requirements.txt
 python build.py
 ```
 
