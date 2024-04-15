@@ -28,13 +28,16 @@ def pip_compile(session: nox.Session, req: str):
     )
     injected_extra_cli_args = () if has_upgrade_related_cli_flags else ("--upgrade",)
 
+    output_file = Path(f"requirements/{req}.txt")
+    input_file = Path(f"requirements/{req}.in")
+
     session.run(
         "pip-compile",
         "--output-file",
-        str(requirements_directory / f"{req}.txt"),
+        str(output_file),
         *session.posargs,
         *injected_extra_cli_args,
-        str(requirements_directory / f"{req}.in"),
+        str(input_file),
     )
 
 
