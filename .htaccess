@@ -19,12 +19,12 @@ RedirectMatch permanent "/automation.html" "/platform.html"
 
 # Redirect the controller-automation pages to their respective index pages
 
-RedirectMatch permanent "automation-controller/(4.5|latest)/html/administration/(.*)$" "automation-controller/latest/html/administration/index.html"
-RedirectMatch permanent "automation-controller/(4.5|latest)/html/controllerapi/(.*)$" "automation-controller/latest/html/controllerapi/index.html"
-RedirectMatch permanent "automation-controller/(4.5|latest)/html/quickstart/(.*)$" "automation-controller/latest/html/quickstart/index.html"
-RedirectMatch permanent "automation-controller/(4.5|latest)/html/towerapi/(.*)$" "automation-controller/latest/html/controllerapi/index.html"
-RedirectMatch permanent "automation-controller/(4.5|latest)/html/upgrade-migration-guide/(.*)$" "automation-controller/latest/html/upgrade-migration-guide/index.html"
-RedirectMatch permanent "automation-controller/(4.5|latest)/html/userguide/(.*)$" "automation-controller/latest/html/userguide/index.html"
+RedirectMatch permanent "automation-controller/(4.5|latest)/html/administration/(?!index\.html)(.*)$" "automation-controller/latest/html/administration/index.html"
+RedirectMatch permanent "automation-controller/(4.5|latest)/html/controllerapi/(?!index\.html)(.*)$" "automation-controller/latest/html/controllerapi/index.html"
+RedirectMatch permanent "automation-controller/(4.5|latest)/html/quickstart/(?!index\.html)(.*)$" "automation-controller/latest/html/quickstart/index.html"
+RedirectMatch permanent "automation-controller/(4.5|latest)/html/towerapi/(?!index\.html)(.*)$" "automation-controller/latest/html/controllerapi/index.html"
+RedirectMatch permanent "automation-controller/(4.5|latest)/html/upgrade-migration-guide/(?!index\.html)(.*)$" "automation-controller/latest/html/upgrade-migration-guide/index.html"
+RedirectMatch permanent "automation-controller/(4.5|latest)/html/userguide/(?!index\.html)(.*)$" "automation-controller/latest/html/userguide/index.html"
 
 # Redirect so docs.ansible.com/ansible-core/ and docs.ansible.com/ansible/ dont show an Index of page anymore
 
