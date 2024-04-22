@@ -19,8 +19,7 @@ RedirectMatch permanent "/automation.html" "/platform.html"
 
 # Redirect the controller-automation pages to their respective index pages
 
-RedirectMatch permanent "automation-controller/4.5/html/administration/(.*)$" "automation-controller/latest/html/administration/index.html"
-RedirectMatch permanent "automation-controller/latest/html/administration/(.*)$" "automation-controller/latest/html/administration/index.html"
+RedirectMatch permanent "automation-controller/(4.5|latest)/html/administration/(.*)$" "automation-controller/latest/html/administration/index.html"
 RedirectMatch permanent "automation-controller/(4.5|latest)/html/controllerapi/(.*)$" "automation-controller/latest/html/controllerapi/index.html"
 RedirectMatch permanent "automation-controller/(4.5|latest)/html/quickstart/(.*)$" "automation-controller/latest/html/quickstart/index.html"
 RedirectMatch permanent "automation-controller/(4.5|latest)/html/towerapi/(.*)$" "automation-controller/latest/html/controllerapi/index.html"
