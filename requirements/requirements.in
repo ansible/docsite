@@ -1,5 +1,7 @@
 #-c constraints.in # <-- contains known limitations
 
 staticjinja >= 5.0.0  # generates html from templates
+jinja2 >= 3.1.4  # need more recent version than staticjinja, 
+               # but might be able to remove after their next release.
 pyyaml  # loads page data from yaml files
 libsass  # compiles sass files to css
