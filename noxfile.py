@@ -2,7 +2,7 @@ from pathlib import Path
 
 import nox
 
-requirements_directory = Path("requirements").resolve()
+requirements_directory = Path("requirements")
 
 requirements_files = [
     requirements_input_file_path.stem
