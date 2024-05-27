@@ -35,7 +35,7 @@ core:
 ### ecosystem.html
 ecosystem:
   title: Ansible Ecosystem
-  intro: Projects in the Ansible ecosystem let you expand automation to a virtually unlimited set of use cases.
+  intro: The Ansible ecosystem contains a wide range of projects managed by Red Hat and a vibrant community of awesome contributors.
 ### community.html and ansible-prior-versions.html
 community:
   title: Join the Ansible community
