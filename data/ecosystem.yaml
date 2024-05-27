@@ -1,0 +1,10 @@
+ecosystem:
+  name: Ansible ecosystem
+  description: Expand your automation to a virtually unlimited set of use cases with projects managed by Red Hat.
+  docs:
+    home: https://www.ansible.com/ecosystem/
+awesome:
+  name: Awesome Ansible
+  description: A collaborative curated list of awesome Ansible resources, tools, roles, tutorials and other related stuff.
+  docs:
+    home: https://github.com/ansible-community/awesome-ansible
