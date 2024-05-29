@@ -1,6 +1,6 @@
 ecosystem:
   name: Ansible ecosystem
-  description: Expand your automation to a virtually unlimited set of use cases with open source projects managed by Red Hat. The projects welcome community contributions!
+  description: Expand your automation to a virtually unlimited set of use cases with open source projects managed by Red Hat and powered by community contributions.
   docs:
     home: https://www.ansible.com/ecosystem/
 awesome:
