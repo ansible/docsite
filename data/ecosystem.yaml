@@ -7,4 +7,4 @@ awesome:
   name: Awesome Ansible
   description: A collaborative curated list of awesome Ansible resources, tools, roles, tutorials and other related content.
   docs:
-    home: https://github.com/ansible-community/awesome-ansible
+    home: https://github.com/ansible-community/awesome-ansible/blob/main/README.md
