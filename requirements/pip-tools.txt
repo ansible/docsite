@@ -4,23 +4,23 @@
 #
 #    pip-compile --allow-unsafe --output-file=requirements/pip-tools.txt --strip-extras requirements/pip-tools.in
 #
-build==1.0.3
+build==1.2.1
     # via pip-tools
 click==8.1.7
     # via pip-tools
-packaging==23.2
+packaging==24.0
     # via build
 pip-tools==7.4.1
     # via -r requirements/pip-tools.in
-pyproject-hooks==1.0.0
+pyproject-hooks==1.1.0
     # via
     #   build
     #   pip-tools
-wheel==0.42.0
+wheel==0.43.0
     # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
 pip==24.0
     # via pip-tools
-setuptools==69.1.1
+setuptools==70.0.0
     # via pip-tools
