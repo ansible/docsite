@@ -2,10 +2,10 @@
 quicklinks:
   maintainer_news:
     label: News for maintainers
-    link: "https://github.com/ansible-collections/news-for-maintainers/issues"
+    link: "https://forum.ansible.com/tag/news-for-maintainers"
   community_topics:
     label: Community topics
-    link: "https://github.com/ansible-community/community-topics/issues"
+    link: "https://forum.ansible.com/tag/community-wg"
   package_inclusion:
     label: Package inclusion requests
     link: "https://docs.ansible.com/ansible/devel/community/steering/community_steering_committee.html#collection-inclusion-requests-workflow"
@@ -55,7 +55,7 @@ milestones:
     actions:
       community_topics:
         label: Discuss and vote on community topics
-        link: "https://github.com/ansible-community/community-topics/issues"
+        link: "https://forum.ansible.com/tag/community-wg"
       join:
         label: Join the Ansible community steering committee
         link: "https://docs.ansible.com/ansible/latest/community/contributor_path.html#become-a-steering-committee-member"
