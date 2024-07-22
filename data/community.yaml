@@ -29,6 +29,9 @@ milestones:
       find_projects:
         label: Find an Ansible project
         link: "https://docs.ansible.com/ecosystem.html"
+      contributor_path:
+        label: Review the contributor path
+        link:  "https://docs.ansible.com/ansible/devel/community/contributor_path.html"
   communicate:
     title: Join the conversation
     actions:
