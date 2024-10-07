@@ -1,0 +1,14 @@
+.ansible-banner {
+  background: $pool;
+  width: 100%;
+  .ansible-banner-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: $white;
+    padding-top: 1.2rem;
+    a {
+      color: $cyan;
+    }
+  }
+}
