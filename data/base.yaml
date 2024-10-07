@@ -1,4 +1,4 @@
 site_title: Ansible Documentation
 site_description: Ansible Documentation
 site_author: Ansible Community
-base_url: https://docs.ansible.com/
+base_url: ./
