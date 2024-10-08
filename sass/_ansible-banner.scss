@@ -1,12 +1,13 @@
 .ansible-banner {
-  background: $pool;
-  width: 100%;
+  background: $light-pool;
+  margin-top: 1.2rem;
   .ansible-banner-text {
     display: flex;
     justify-content: center;
     text-align: center;
-    color: $white;
+    color: $black;
     padding-top: 1.2rem;
+    line-height: 2.2rem;
     a {
       color: $cyan;
     }
