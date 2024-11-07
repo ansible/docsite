@@ -49,6 +49,10 @@ RewriteEngine On
 # Tells the server that all paths in rewrite rules are relative to the root directory
 RewriteBase /
 
+# Negative lookahead that directs pages to the ansible subdirectory
+# except for the pages specified in parenthesis
+RedirectMatch permanent "^/((?!index|404|automation.*|ansible_community|collections|community|core.*|galaxy|lint|ecosystem|users|developers|maintainers|platform|ansible-prior*)[^/]+)\.html" "/ansible/$1.html"
+
 
 
 ############################################################
