@@ -8,6 +8,39 @@ RewriteEngine On
 
 RedirectMatch permanent "^/((?!index|404|automation.*|ansible_community|collections|community|core.*|galaxy|lint|ecosystem|users|developers|maintainers|platform|ansible-prior*)[^/]+)\.html" "/ansible/$1.html"
 
+#####################################################################
+# This section replaces rules defined for older versions that
+# redirect plugin and module pages to collections. This section
+# also consolidates specific redirects that were defined in multiple
+# .htaccess configuration files.
+#####################################################################
+
+# Redirect plugin and module pages for devel and latest
+RedirectMatch permanent "^/ansible/(devel|latest)/(plugins|modules)/(.+)\.html$" "https://docs.ansible.com/collections.html"
+
+# Redirect plugin and module pages for versions 2.3 to 2.6 and 2.10
+RedirectMatch permanent "^/ansible/(2\.(10|[3-6]))/(plugins|modules)/(.+)\.html$" "https://docs.ansible.com/collections.html"
+
+# Vault redirects (2.3, 2.4, 2.5, 2.6)
+RedirectMatch permanent "^/ansible/(2\.(5|6))/user_guide/playbooks_vault.html" "/ansible/latest/vault_guide/index.html"
+RedirectMatch "^/ansible/(2\.[3-4])/playbooks_vault.html" "/ansible/latest/user_guide/vault.html"
+
+# 2.3 and 2.4 specific redirects
+RedirectMatch permanent "^/ansible/(2\.([3-4]))/playbooks_roles.html" "/ansible/latest/user_guide/playbooks_reuse.html"
+RedirectMatch permanent "^/ansible/(2\.([3-4]))/playbooks_directives.html" "/ansible/latest/reference_appendices/playbooks_keywords.html"
+RedirectMatch permanent "^/ansible/(2\.([3-4]))/dev_guide/developing_test_pr.html" "/ansible/latest/dev_guide/testing.html"
+
+# 2.6 specific redirects
+RedirectMatch permanent "^/ansible/2.6/user_guide/quickstart.html" "/ansible/latest/getting_started/index.html"
+RedirectMatch permanent "^/ansible/2.6/vmware/index.html" "/ansible/latest/collections/community/vmware/docsite/scenario_guide.html"
+
+# EOL Archive Redirects for all the rest
+RedirectMatch permanent "^/ansible/(2\.(10|[3-6]))/(.+)\.html$" "/ansible/latest/$1.html"
+
+#####################################################################
+# Other redirects
+#####################################################################
+
 # Redirect the lint and galaxy pages to the ecosystem page
 
 RedirectMatch permanent "/galaxy.html" "/ecosystem.html"
