@@ -47,6 +47,11 @@ community:
 community_docs:
   title: Ansible community documentation
   journeys: Hi! The Ansible community team has reorganized navigation around user journeys. This page is now deprecated. Visit the index page to discover the new layout. Please also consider updating the link if you have this page in your bookmarks.
+### collections.html
+collections:
+  title: Ansible collections
+  intro: Collections are a distribution format for Ansible content that can include playbooks, roles, modules, and plugins.
+  redirect: The page you are looking for is no longer available because it is no longer available or has moved. Visit one of the following links to find the documentation you are looking for. Please also consider updating your bookmarks.
 ### platform.html
 platform:
   title: Red Hat Ansible Automation Platform
