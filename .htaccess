@@ -22,7 +22,7 @@ RedirectMatch permanent "^/ansible/(devel|latest)/(plugins|modules)/(.+)\.html$"
 RedirectMatch permanent "^/ansible/(2\.[3-4])/plugins/(.+)\.html$" "https://docs.ansible.com/collections.html"
 
 # Redirect module pages for versions 2.3 and 2.4
-RedirectMatch permanent "^/ansible/(2\.[3-4])/([^_]+)_module\.html$" "https://docs.ansible.com/collections.html"
+RedirectMatch permanent "^/ansible/(2\.[3-4])/([^\.]+)_module\.html$" "https://docs.ansible.com/collections.html"
 
 # Redirect plugin and module pages for versions 2.5 and 2.6
 RedirectMatch permanent "^/ansible/(2\.[5-6])/(plugins|modules)/(.+)\.html$" "https://docs.ansible.com/collections.html"
