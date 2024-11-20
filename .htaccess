@@ -35,7 +35,7 @@ RedirectMatch permanent "^/ansible/2.6/user_guide/quickstart.html" "/ansible/lat
 RedirectMatch permanent "^/ansible/2.6/vmware/index.html" "/ansible/latest/collections/community/vmware/index.html"
 
 # EOL Archive Redirects for all the rest
-RedirectMatch permanent "^/ansible/(2\.(10|[3-6]))/(.+)\.html$" "/ansible/latest/$1.html"
+RedirectMatch permanent "^/ansible/(2\.(10|[3-6]))/(.+)\.html$" "/ansible/latest/$3.html"
 
 #####################################################################
 # Other redirects
