@@ -25,8 +25,8 @@ RedirectMatch permanent "^/ansible/(2\.[3-4])/plugins/(.+)\.html$" "/collections
 # Redirect module pages for versions 2.3 and 2.4
 RedirectMatch permanent "^/ansible/(2\.[3-4])/([^\.]+)_module\.html$" "/collections.html"
 
-# Redirect plugin and module pages for versions 2.5 and 2.6
-RedirectMatch permanent "^/ansible/(2\.[5-6])/(plugins|modules)/(.+)\.html$" "/collections.html"
+# Redirect plugin and module pages for versions 2.5 to 2.7
+RedirectMatch permanent "^/ansible/(2\.[5-7])/(plugins|modules)/(.+)\.html$" "/collections.html"
 
 # Vault redirects (2.3, 2.4, 2.5, 2.6)
 RedirectMatch permanent "^/ansible/(2\.(5|6))/user_guide/playbooks_vault.html" "/ansible/latest/vault_guide/index.html"
@@ -42,7 +42,7 @@ RedirectMatch permanent "^/ansible/2.6/user_guide/quickstart.html" "/ansible/lat
 RedirectMatch permanent "^/ansible/2.6/vmware/index.html" "/ansible/latest/collections/community/vmware/index.html"
 
 # EOL Archive Redirects for all the rest
-RedirectMatch permanent "^/ansible/(2\.(10|[3-6]))/(.+)\.html$" "/ansible/latest/$3.html"
+RedirectMatch permanent "^/ansible/(2\.(10|[3-7]))/(.+)\.html$" "/ansible/latest/$3.html"
 
 #####################################################################
 # Redirects for top-level project pages
