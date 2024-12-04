@@ -51,7 +51,6 @@ community_docs:
 collections:
   title: Ansible collections
   intro: Collections are a distribution format for Ansible content that can include playbooks, roles, modules, and plugins.
-  redirect: The page you are looking for is no longer available because the plugin or module has been added to a collection. As a result the documentation for that plugin or module has moved. Visit one of the following links to find the documentation you are looking for. Please also consider updating your bookmarks.
 ### platform.html
 platform:
   title: Red Hat Ansible Automation Platform
