@@ -1,0 +1,53 @@
+links:
+  collection_index:
+    label: Collection index
+    link: "https://docs.ansible.com/ansible/latest/collections/index.html"
+  module_index:
+    label: Modules and plugins index
+    link: "https://docs.ansible.com/ansible/latest/collections/all_plugins.html"
+  builtin_index:
+    label: Index of all modules and plugins contained in ansible-core
+    link: "https://docs.ansible.com/ansible/latest/collections/ansible/builtin/index.html"
+redirect: >-
+  Ansible plugins and modules are available from collections.
+  If you are looking for documentation related to a plugin or module, please try one of the following links.
+  If you were redirected to this page from an older version of the Ansible documentation, please also consider updating your bookmarks.
+galaxy:
+  title: Ansible Galaxy
+  intro: You can also find lots of collections
+  search:
+    label: by searching on Ansible Galaxy.
+    link: "https://galaxy.ansible.com/search"
+  keywords: >-
+    Use these popular search keywords to find tips and tools to automate everyday tasks, from provisioning infrastructure to deploying applications.
+  links:
+    system:
+      label: System
+      link: "https://galaxy.ansible.com/ui/search/?keywords=system"
+    development:
+      label: Development
+      link: "https://galaxy.ansible.com/ui/search/?keywords=development"
+    networking:
+      label: Networking
+      link: "https://galaxy.ansible.com/ui/search/?keywords=networking"
+    cloud:
+      label: Cloud
+      link: "https://galaxy.ansible.com/ui/search/?keywords=cloud"
+    database:
+      label: Database
+      link: "https://galaxy.ansible.com/ui/search/?keywords=database"
+    monitoring:
+      label: Monitoring
+      link: "https://galaxy.ansible.com/ui/search/?keywords=monitoring"
+    packaging:
+      label: Packaging
+      link: "https://galaxy.ansible.com/ui/search/?keywords=packaging"
+    apb:
+      label: Playbook bundles
+      link: "https://galaxy.ansible.com/ui/search/?keywords=apb"
+    security:
+      label: Security
+      link: "https://galaxy.ansible.com/ui/search/?keywords=security"
+    web:
+      label: Web
+      link: "https://galaxy.ansible.com/ui/search/?keywords=web"
