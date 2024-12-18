@@ -8,6 +8,12 @@ RewriteEngine On
 
 RedirectMatch permanent "^/((?!index|404|automation.*|ansible_community|collections|community|core.*|galaxy|lint|ecosystem|users|developers|maintainers|platform|ansible-prior*)[^/]+)\.html" "/ansible/$1.html"
 
+# Redirect module pages for devel and latest
+RedirectMatch permanent "^/ansible/(devel|latest)/modules/(.+)\.html$" "/collections.html"
+
+# Redirect plugin pages in a subdirectory for devel and latest
+RedirectMatch permanent "^/ansible/(devel|latest)/plugins/(.+?)/(.+)\.html$" "/collections.html"
+
 # Redirect the lint and galaxy pages to the ecosystem page
 
 RedirectMatch permanent "/galaxy.html" "/ecosystem.html"
