@@ -35,7 +35,7 @@ core:
 ### ecosystem.html
 ecosystem:
   title: Ansible Ecosystem
-  intro: The Ansible ecosystem contains a wide range of open source projects managed by Red Hat and a vibrant community of awesome contributors.
+  intro: The Ansible ecosystem contains a wide range of open source projects managed by Red Hat and a vibrant community of contributors.
 ### community.html and ansible-prior-versions.html
 community:
   title: Join the Ansible community
