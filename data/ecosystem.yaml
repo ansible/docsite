@@ -60,7 +60,7 @@ ade:
   name: Ansible Development Environment
   description: A pip-like install for Ansible collections.
   docs:
-    home: "https://ansible.readthedocs.io/projects/development-environment/"
+    home: "https://ansible.readthedocs.io/projects/dev-environment/"
 adt:
   name: Ansible Development Tools
   description: Ansible Development Tools (ADT) streamlines the setup and usage of several tools for creating Ansible content.
