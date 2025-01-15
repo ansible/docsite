@@ -21,7 +21,7 @@
         <h5>{{ item.name }}</h5>
         <p>{{ item.description }}</p>
         {%- if item.docs.home %}
-        <a class="btn" href="{{ item.docs.home }}" role="button">{{ item.name }}</a>
+        <a class="btn" href="{{ item.docs.home }}" role="button">{{ item.name }} documentation</a>
         {%- else %}
         <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
           {%- for key, item in item.docs.items() %}
