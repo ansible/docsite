@@ -1,12 +1,50 @@
 ErrorDocument 404 /404.html
+Options -MultiViews
 
 RewriteEngine On
 
-# Redirect old ansible documentation into new sub-directory
-
-# TEMP REMOVAL TO TEST RedirectMatch permanent "^/((?!index|404)[^/]+)\.html" "/ansible/$1.html"
+#####################################################################
+# Permanently redirect all page URLs to /ansible/[page].html
+# except for page names listed in parentheses
+#####################################################################
 
 RedirectMatch permanent "^/((?!index|404|automation.*|ansible_community|collections|community|core.*|galaxy|lint|ecosystem|users|developers|maintainers|platform|ansible-prior*)[^/]+)\.html" "/ansible/$1.html"
+
+#####################################################################
+# This section replaces rules defined for older versions that
+# redirect plugin and module pages to collections. This section
+# also consolidates specific redirects that were defined in multiple
+# .htaccess configuration files.
+#####################################################################
+
+# Redirect plugin pages for versions 2.3 and 2.4
+RedirectMatch permanent "^/ansible/(2\.[3-4])/plugins/(.+)\.html$" "/collections.html"
+
+# Redirect module pages for versions 2.3 and 2.4
+RedirectMatch permanent "^/ansible/(2\.[3-4])/([^\.]+)_module\.html$" "/collections.html"
+
+# Redirect plugin and module pages for versions 2.5 to 2.8
+RedirectMatch permanent "^/ansible/(2\.[5-8])/(plugins|modules)/(.+)\.html$" "/collections.html"
+
+# Vault redirects (2.3, 2.4, 2.5, 2.6)
+RedirectMatch permanent "^/ansible/(2\.(5|6))/user_guide/playbooks_vault.html" "/ansible/latest/vault_guide/index.html"
+RedirectMatch permanent "^/ansible/(2\.[3-4])/playbooks_vault.html" "/ansible/latest/vault_guide/index.html"
+
+# 2.3 and 2.4 specific redirects
+RedirectMatch permanent "^/ansible/(2\.[3-4])/playbooks_roles.html" "/ansible/latest/playbook_guide/playbooks_reuse.html"
+RedirectMatch permanent "^/ansible/(2\.[3-4])/playbooks_directives.html" "/ansible/latest/reference_appendices/playbooks_keywords.html"
+RedirectMatch permanent "^/ansible/(2\.[3-4])/dev_guide/developing_test_pr.html" "/ansible/latest/dev_guide/testing.html"
+
+# 2.6 specific redirects
+RedirectMatch permanent "^/ansible/2.6/user_guide/quickstart.html" "/ansible/latest/getting_started/index.html"
+RedirectMatch permanent "^/ansible/2.6/vmware/index.html" "/ansible/latest/collections/community/vmware/index.html"
+
+# 2.3 to 2.7 catch all redirects
+RedirectMatch permanent "^/ansible/(2\.[3-7])/(.+)\.html$" "/ansible/latest/$2.html"
+
+#####################################################################
+# Redirects for top-level project pages
+#####################################################################
 
 # Redirect the lint and galaxy pages to the ecosystem page
 
@@ -17,10 +55,18 @@ RedirectMatch permanent "/lint.html" "/ecosystem.html"
 
 RedirectMatch permanent "/automation.html" "/platform.html"
 
+# Redirect all ansible-lint pages to ReadTheDocs
+
+RedirectMatch permanent "^/ansible-lint/*" "https://ansible.readthedocs.io/projects/lint/"
+
 # Redirect so docs.ansible.com/ansible-core/ and docs.ansible.com/ansible/ dont show an Index of page anymore
 
 RedirectMatch permanent "^/ansible-core(|/|/index.html)$" "/ansible-core/devel/"
 RedirectMatch permanent "^/ansible(|/|/index.html)$" "/ansible/latest/"
+
+#####################################################################
+# Redirects for pages that have moved
+#####################################################################
 
 # Redirect developer docs to new dir
 
@@ -30,10 +76,6 @@ RedirectMatch permanent "^/ansible/dev_guide(\/)?" "/ansible/latest/dev_guide/in
 
 # Redirect from PR #79562
 RedirectMatch permanent "^/ansible/(devel|latest)/dev_guide/testing_compile.html" "/ansible/$1/dev_guide/testing/sanity/compile.html"
-
-# Commenting out the regex below; it redirected Ansible 3.0.0 docs (URLs like /ansible/3/*)
-
-# RedirectMatch permanent "^/ansible/(?!latest|devel|\d\.+)(.+)?.html" "/ansible/latest/$1.html"
 
 # Redirects for renamed module reference directory
 
@@ -362,8 +404,3 @@ RedirectMatch permanent "^/ansible/(devel|latest)/vmware/vmware_?(.+)?" "/ansibl
 # Redirect old support pages per request from product team
 
 RedirectMatch permanent "^\/ansible-tower\/((2\.\d\.\d)|3\.[0-3]\.\d)\/html(_\w+)?\/.*updates_support\.html$" "/ansible-tower/latest/html$3/installandreference/updates_support.html"
-
-# Redirect all ansible-lint pages to ReadTheDocs
-
-RedirectMatch permanent "^/ansible-lint/*" "https://ansible-lint.readthedocs.io"
-
