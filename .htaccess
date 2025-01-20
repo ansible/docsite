@@ -31,15 +31,15 @@ RedirectMatch permanent "^/ansible/(2\.(5|6))/user_guide/playbooks_vault.html" "
 RedirectMatch permanent "^/ansible/(2\.[3-4])/playbooks_vault.html" "/ansible/latest/vault_guide/index.html"
 
 # 2.3 and 2.4 specific redirects
-RedirectMatch permanent "^/ansible/(2\.([3-4]))/playbooks_roles.html" "/ansible/latest/playbook_guide/playbooks_reuse.html"
-RedirectMatch permanent "^/ansible/(2\.([3-4]))/playbooks_directives.html" "/ansible/latest/reference_appendices/playbooks_keywords.html"
-RedirectMatch permanent "^/ansible/(2\.([3-4]))/dev_guide/developing_test_pr.html" "/ansible/latest/dev_guide/testing.html"
+RedirectMatch permanent "^/ansible/(2\.[3-4])/playbooks_roles.html" "/ansible/latest/playbook_guide/playbooks_reuse.html"
+RedirectMatch permanent "^/ansible/(2\.[3-4])/playbooks_directives.html" "/ansible/latest/reference_appendices/playbooks_keywords.html"
+RedirectMatch permanent "^/ansible/(2\.[3-4])/dev_guide/developing_test_pr.html" "/ansible/latest/dev_guide/testing.html"
 
 # 2.6 specific redirects
 RedirectMatch permanent "^/ansible/2.6/user_guide/quickstart.html" "/ansible/latest/getting_started/index.html"
 RedirectMatch permanent "^/ansible/2.6/vmware/index.html" "/ansible/latest/collections/community/vmware/index.html"
 
-# EOL Archive Redirects for all the rest
+# 2.3 to 2.7 catch all redirects
 RedirectMatch permanent "^/ansible/(2\.(10|[3-8]))/(.+)\.html$" "/ansible/latest/$3.html"
 
 #####################################################################
