@@ -40,7 +40,7 @@ RedirectMatch permanent "^/ansible/2.6/user_guide/quickstart.html" "/ansible/lat
 RedirectMatch permanent "^/ansible/2.6/vmware/index.html" "/ansible/latest/collections/community/vmware/index.html"
 
 # 2.3 to 2.7 catch all redirects
-RedirectMatch permanent "^/ansible/(2\.(10|[3-8]))/(.+)\.html$" "/ansible/latest/$3.html"
+RedirectMatch permanent "^/ansible/(2\.[3-7])/(.+)\.html$" "/ansible/latest/$3.html"
 
 #####################################################################
 # Redirects for top-level project pages
