@@ -11,7 +11,7 @@ updates:
     labels:
       - "actions"
   - package-ecosystem: "pip"
-    directory: "/"
+    directory: "requirements/"
     groups:
       dependencies:
         patterns:
