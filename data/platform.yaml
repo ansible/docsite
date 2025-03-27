@@ -19,7 +19,7 @@ cli:
     button: Visit the CLI guide
 archive:
   name: Automation Controller documentation archive
-  description: Find all documentation for Automation Controller version 4.4 and earlier.
+  description: Find documentation for older versions of Automation Controller.
   docs:
     link: "https://docs.ansible.com/automation-tower-prior-versions.html"
     button: Visit the Automation Controller documentation archive
