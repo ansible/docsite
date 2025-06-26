@@ -8,7 +8,7 @@ RewriteEngine On
 # except for page names listed in parentheses
 #####################################################################
 
-RedirectMatch permanent "^/((?!index|404|automation.*|ansible_community|collections|community|core.*|galaxy|lint|ecosystem|users|developers|maintainers|platform|ansible-prior*)[^/]+)\.html" "/ansible/$1.html"
+RedirectMatch permanent "^/((?!index|index-archive|404|automation.*|ansible_community|collections|community|core.*|galaxy|lint|ecosystem|users|developers|maintainers|platform|ansible-prior*)[^/]+)\.html" "/ansible/$1.html"
 
 #####################################################################
 # This section replaces rules defined for older versions that
