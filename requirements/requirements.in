@@ -1,5 +1,0 @@
-#-c constraints.in # <-- contains known limitations
-
-staticjinja >= 5.0.0  # generates html from templates
-pyyaml  # loads page data from yaml files
-libsass  # compiles sass files to css
